@@ -7,7 +7,6 @@
     "axios": "^0.18.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "react-loader-spinner": "^2.3.0",
     "react-preloading-screen": "^1.0.2",
     "react-router-dom": "^5.0.0",
     "react-s-alert": "^1.4.1",

@@ -582,7 +582,7 @@ let resumeData = {
 	"formMsgLabel": "Message",
 	"formMsgPlaceholder": "Insérez votre message ici.",
 	"btnSend":"Envoyer",
-	"cvPDF_Msg": "Mon CV en version PDF",
+	"cvPDF_Msg": "CV en PDF",
 	"cvPDF_File": "/CV - Maxime Princelle.pdf",
 	"errorMsg": "Navré mais une erreur s'est produite lors de l'envoi de votre message.",
 	"spamMsg": "Navré mais le service de vérification vous à considéré comme Spam.",

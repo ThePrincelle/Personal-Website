@@ -581,7 +581,7 @@ let resumeData = {
 	"formMsgLabel": "Message",
 	"formMsgPlaceholder": "Insert your message here.",
 	"btnSend":"Send",
-	"cvPDF_Msg": "My resume in PDF version",
+	"cvPDF_Msg": "Resume in PDF",
 	"cvPDF_File": "/Resume - Maxime Princelle.pdf",
 	"errorMsg": "Sorry but an error occurred while sending your message.",
 	"spamMsg": "Sorry but the verification service considers you as spam.",
