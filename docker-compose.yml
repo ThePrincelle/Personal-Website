@@ -2,7 +2,7 @@ version: '3.5'
 
 services:
 
-  sample-app:
+  cv_princelle:
     container_name: cv_princelle
     build:
       context: .
