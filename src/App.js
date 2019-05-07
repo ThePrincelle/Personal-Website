@@ -11,6 +11,13 @@ import elements_en from './lang/en/elements';
 import CV from './CV';
 import Loading from './components/Loading';
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import ReactPiwik from 'react-piwik';
+
+import {
+	createBrowserHistory
+} from "history";
+
+const customHistory = createBrowserHistory();
 
 function fr() {
   return (<CV resumeData={resumeData_fr} elements={elements_fr}/>);
@@ -20,9 +27,18 @@ function en() {
   return (<CV resumeData={resumeData_en} elements={elements_en}/>);
 }
 
+const matomo = new ReactPiwik({
+	url: 'stats.princelle.org',
+	siteId: 2,
+	trackErrors: true
+});
+
+ReactPiwik.push(['enableHeartBeatTimer'])
+ReactPiwik.push(['trackPageView'])
+
 function App() {
   return (
-    <Router>
+    <Router history={matomo.connectToHistory(customHistory)}>
       <div>
         <Loading/>
 
