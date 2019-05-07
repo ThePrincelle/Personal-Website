@@ -1,13 +1,13 @@
-FROM node as builder
-RUN mkdir /cv_princelle
-WORKDIR /cv_princelle
-COPY cv_princelle .
+# Stage 1 - the build process
+FROM node as build-deps
+WORKDIR /usr/src/app
+COPY package.json yarn.lock ./
+RUN yarn
+COPY . ./
+RUN yarn build
 
-RUN npm install --quiet
-RUN npm run build
-
-# Copy built app into nginx container
-FROM nginx
-COPY --from=builder /cv_princelle/build /usr/share/nginx/html
-
+# Stage 2 - the production environment
+FROM nginx:1.12-alpine
+COPY --from=build-deps /usr/src/app/build /usr/share/nginx/html
 EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
