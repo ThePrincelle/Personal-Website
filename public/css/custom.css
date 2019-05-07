@@ -403,36 +403,6 @@
 	font-family: 'opensans-regular', sans-serif;
 }
 
-.form-container {
-	min-width: 90%;
-	padding-top: 1rem;
-	padding-left: 2rem;
-	flex-basis: 90%;
-	font-family: 'opensans-regular',
-		sans-serif;
-}
-
-@media (max-width: 950px) {
-	.form-container {
-		min-width: 90%;
-		padding-top: 1rem;
-		padding-left: 2rem;
-		flex-basis: 90%;
-		font-family: 'opensans-regular',
-		sans-serif;
-	}
-
-	.contact-info-container {
-		border-left: 0px;
-		width: 100%;
-	}
-
-	.contact-info {
-		min-width: 100%;
-		flex-basis: 100%;
-	}
-}
-
 @media (max-width: 770px) {
 	.form-container {
 		min-width: 90%;
@@ -465,6 +435,27 @@
 		flex-basis: 60%;
 		width: 60%;
 		padding-right: 1rem;
+	}
+}
+
+@media (max-width: 950px) {
+	.form-container {
+		min-width: 90%;
+		padding-top: 1rem;
+		padding-left: 2rem;
+		flex-basis: 90%;
+		font-family: 'opensans-regular',
+			sans-serif;
+	}
+
+	.contact-info-container {
+		border-left: 0px;
+		width: 100%;
+	}
+
+	.contact-info {
+		min-width: 100%;
+		flex-basis: 100%;
 	}
 }
 
