@@ -1,0 +1,18 @@
+version: '3.5'
+
+services:
+
+  cv_princelle:
+    container_name: cv_princelle
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/usr/src/app'
+      - '/usr/src/app/node_modules'
+    ports:
+      - '2345:3000'
+    environment:
+      - NODE_ENV=development
+    restart_policy:
+        condition: always
