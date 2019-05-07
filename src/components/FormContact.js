@@ -117,7 +117,7 @@ export default class FormContact extends Component {
 						<label style={{ color: "#FFF", fontSize: ".9rem" }} for="contact-message">{resumeData.formMsgLabel}</label>
 						<textarea style={{ width: "100%", marginBottom: "1.2rem" }} required name="message" placeholder={resumeData.formMsgPlaceholder} id="contact-message" onChange={e => this.setState({ message: e.target.value })} value={this.state.message}></textarea>
 
-						<input class="btn" style={{ width: "100%" }} onClick={e => this.handleFormSubmit(e)} type="submit" name="submit" value="Envoyer" />
+						<input class="btn" style={{ width: "100%" }} onClick={e => this.handleFormSubmit(e)} type="submit" name="submit" value={resumeData.btnSend} />
 					</form>
 				</div>
 

@@ -41,7 +41,7 @@ let resumeData = {
         }
       ],
 	"aboutme": [
-		"Je suis une personne principalement intéressée par le domaine des nouvelles technologies, plus spécifiquement pour la maison et l'aide à la personne.",
+		"Je suis une personne principalement intéressée par le domaine des nouvelles technologies, plus spécifiquement autour de l'habitat.",
 		"Sur mon temps personnel, j'ai mis au point un système complet de domotique et j'ai eu par ce biais l'occasion de me perfectionner sur différents systèmes.",
 		"Bien que passant la majorité de mon temps sur un ordinateur, je pratique également d'autres activités tels que le piano et le chant."
 	],
@@ -59,7 +59,7 @@ let resumeData = {
 		{
 			"name": "Travail en équipe",
 			"icon": "fas fa-users",
-			"text": "Le travail en équipe est pour moi, quelque chose de primordial. Car comme l'avait dit Steve Jobs : \"Les meilleures choses qui arrivent dans le monde de l’entreprise ne sont pas le résultat du travail d’ un seul homme. C’est le travail de toute une équipe.\". Et c'est là, tout l'intéret du travail en équipe."
+			"text": "Le travail en équipe est pour moi, quelque chose de primordial. Car comme l'avait dit Steve Jobs : \"Les meilleures choses qui arrivent dans le monde de l’entreprise ne sont pas le résultat du travail d’ un seul homme. C’est le travail de toute une équipe.\". Et c'est là, tout l'intérêt du travail en équipe."
 		},
 		{
 			"name": "Apprendre",
@@ -78,7 +78,7 @@ let resumeData = {
 			"locLink": "https://goo.gl/maps/QFgEU6aUsiZpVL6H9",
 			"date": "2010 - 2014",
 			"desc": [ 
-				"Durant ces quatres années, je me suis investi dans la vie associative et contribué à plusieurs évènements(Concert de fin d 'année, Journée Portes Ouvertes,...).",
+				"Durant ces quatre années, je me suis investi dans la vie associative et contribué à plusieurs évènements(Concert de fin d 'année, Journée Portes Ouvertes,...).",
 				"Dans le même temps, j'ai préparé au mieux mon entrée au lycée et j'ai obtenu mon brevet.",
 			],
 		"link": "http://www.education.gouv.fr/annuaire/67-bas-rhin/mutzig/college/college-louis-arbogast.html"
@@ -175,8 +175,8 @@ let resumeData = {
 			"link": "https://code.visualstudio.com/",
 			"type": "",
 			"text": [
-				"Cet éditeur de code à l'avantage d'être personalisable et très léger.",
-				"De plus il est compatbile avec la plupart des langages.",
+				"Cet éditeur de code à l'avantage d'être personnalisable et très léger.",
+				"De plus il est compatible avec la plupart des langages.",
 			]
 		},
 		{
@@ -403,7 +403,7 @@ let resumeData = {
     		],
     		"text": [
 				"Après avoir cherché pendant longtemps une solution de stockage en ligne, j'ai décidé de créer mon propre service cloud.",
-				"Basé sur le logiciel opensource NextCloud, j'ai modifié ce dernier afin d'ouvrir ce service à plusieurs personnes pour permettre l'édition de documents en temps réel."
+				"Basé sur le logiciel open source NextCloud, j'ai modifié ce dernier afin d'ouvrir ce service à plusieurs personnes pour permettre l'édition de documents en temps réel."
     		]
     	}, {
     		"name": "Home",
@@ -425,8 +425,9 @@ let resumeData = {
 				["AngularJS", "https://angular.io/"]
     		],
     		"text": [
-    			"Basé le logiciel opensource Jeedom, ce système me permet de créer une interface entre les appareils de mon domicile et les différents clients (mobiles, tablettes, assistants vocaux).",
-    			"Ce système, permet également les interactions et automatisations autour des appareils, que ce soit pour le chauffage, le multimédia, les luminaires,..."
+    			"Basé le logiciel open source Jeedom, ce système me permet de créer une interface entre les appareils de mon domicile et les différents clients (mobiles, tablettes, assistants vocaux).",
+				"Ce système, permet également les interactions et automatisations autour des appareils, que ce soit pour le chauffage, le multimédia, les luminaires,...",
+				"J'ai également développé un système d'interaction unique pour tout les types de clients connectés au système, que ce soit SMS ou via la voix avec Google Assistant."
     		]
     	}, {
     		"name": "Form Princelle",
