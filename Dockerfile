@@ -1,13 +1,13 @@
-FROM mhart/alpine-node:11 AS builder
-WORKDIR /app
-COPY . .
-RUN yarn global add react
-RUN yarn global add react-scripts
-RUN yarn run build
+FROM node as builder
+RUN mkdir /app/cv_princelle
+WORKDIR /app/cv_princelle
+COPY cv_princelle .
 
-FROM mhart/alpine-node
-RUN yarn global add serve
-RUN yarn add react
-WORKDIR /app
-COPY --from=builder /app/build .
-CMD ["serve", "-p", "2345", "-s", "build"]
+RUN npm install --quiet
+RUN npm run build
+
+# Copy built app into nginx container
+FROM nginx
+COPY --from=builder /app/cv_princelle/build /usr/share/nginx/html
+
+EXPOSE 80
