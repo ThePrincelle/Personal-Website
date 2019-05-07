@@ -1,17 +1,10 @@
-# base image
-FROM node
+FROM mhart/alpine-node:11 AS builder
+WORKDIR /app
+COPY . .
+RUN yarn run build
 
-# set working directory
-RUN mkdir /usr/src/app
-WORKDIR /usr/src/app
-
-# add `/usr/src/app/node_modules/.bin` to $PATH
-ENV PATH /usr/src/app/node_modules/.bin:$PATH
-
-# install and cache app dependencies
-COPY package.json /usr/src/app/package.json
-RUN npm install --silent
-RUN npm install react-scripts -g --silent
-
-# start app
-CMD ["npm", "run", "build"]
+FROM mhart/alpine-node
+RUN yarn global add serve
+WORKDIR /app
+COPY --from=builder /app/build .
+CMD ["serve", "-p", "2345", "-s", "."]
