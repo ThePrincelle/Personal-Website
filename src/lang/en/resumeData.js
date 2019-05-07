@@ -570,7 +570,7 @@ let resumeData = {
 	"phone": "+33 6 29 24 93 52",
 	"phoneLink": "tel:+33629249352",
 	"mail": "contact-maxime (at) princelle.org",
-	"contactOther": "Contact me.",
+	"contactOther": "Contact me",
 	"formTitle": "Send me a message.",
 	"formNameLabel": "Your name",
 	"formNamePlaceholder": "Place your name here.",
