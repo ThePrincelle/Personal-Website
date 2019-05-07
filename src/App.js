@@ -10,7 +10,7 @@ import elements_en from './lang/en/elements';
 
 import CV from './CV';
 import Loading from './components/Loading';
-import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom";
 import ReactPiwik from 'react-piwik';
 
 import {
@@ -41,12 +41,13 @@ function App() {
     <Router history={matomo.connectToHistory(customHistory)}>
       <div>
         <Loading/>
-
-        <Route path="/" exact component={fr} />
-		<Route path="/fr/" component={fr} />
-		<Route path="/en/" component={en} />
-		<Route render={() => <Redirect to="/" />} />
-		<Route path="/contact/" render={() => <Redirect to="https://contact.princelle.org" />} />
+		<Switch>
+			<Route path="/" exact component={fr} />
+			<Route path="/fr/" component={fr} />
+			<Route path="/en/" component={en} />
+			<Route path="/contact/" component={() => { window.location = 'https://contact.princelle.org'; return null; }} />
+			<Redirect to="/" />
+		</Switch>
       </div>
     </Router>
   );
