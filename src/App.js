@@ -46,6 +46,8 @@ function App() {
 			<Route path="/fr/" component={fr} />
 			<Route path="/en/" component={en} />
 			<Route path="/contact/" component={() => { window.location = 'https://contact.princelle.org'; return null; }} />
+			<Route path="/contact.php/" component={() => { window.location = 'https://contact.princelle.org'; return null; }} />
+			<Route path="/contact.html/" component={() => { window.location = 'https://contact.princelle.org'; return null; }} />
 			<Redirect to="/" />
 		</Switch>
       </div>
