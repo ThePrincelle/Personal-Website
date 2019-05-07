@@ -7,4 +7,4 @@ FROM mhart/alpine-node
 RUN yarn global add serve
 WORKDIR /app
 COPY --from=builder /app/build .
-CMD ["serve", "-p", "2345", "-s", "."]
+CMD ["serve", "-p", "2345", "-s", "build"]

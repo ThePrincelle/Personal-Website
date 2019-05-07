@@ -1,5 +1,6 @@
 {
   "name": "cv_princelle",
+  "homepage": "https://princelle.org",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
