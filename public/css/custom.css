@@ -405,10 +405,10 @@
 
 @media (max-width: 950px) {
 	.form-container {
-		min-width: 65%;
+		min-width: 90%;
 		padding-top: 1rem;
 		padding-left: 2rem;
-		flex-basis: 100%;
+		flex-basis: 90%;
 		font-family: 'opensans-regular',
 		sans-serif;
 	}
