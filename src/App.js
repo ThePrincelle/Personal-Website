@@ -10,7 +10,7 @@ import elements_en from './lang/en/elements';
 
 import CV from './CV';
 import Loading from './components/Loading';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 import ReactPiwik from 'react-piwik';
 
 import {
@@ -45,6 +45,8 @@ function App() {
         <Route path="/" exact component={fr} />
 		<Route path="/fr/" component={fr} />
 		<Route path="/en/" component={en} />
+		<Route render={() => <Redirect to="/" />} />
+		<Route path="/contact/" render={() => <Redirect to="https://contact.princelle.org" />} />
       </div>
     </Router>
   );
