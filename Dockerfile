@@ -2,6 +2,7 @@ FROM mhart/alpine-node:11 AS builder
 WORKDIR /app
 COPY . .
 RUN yarn global add react
+RUN yarn global add react-scripts
 RUN yarn run build
 
 FROM mhart/alpine-node
