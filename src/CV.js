@@ -85,7 +85,7 @@ class CV extends Component {
 					<div class={this.state.langMenu ? 'dropup-content langDisp' : 'dropup-content'} onMouseOver={() => this.handleFocusLang(true)} onMouseLeave={() => this.handleFocusLang(false)}>
 						{
 							resumeData.langs.map(lang => {
-								return (<a href={lang[0]}>{lang[1]}</a>)
+								return (<a key={lang[1]} href={lang[0]}>{lang[1]}</a>)
 							})
 						}
 				</div>

@@ -12,7 +12,7 @@ class Loading extends Component {
 			<Placeholder>
 				<div className="loader-content">
 					<h1 style={{ color: "#FFF", margin: "0px", padding: "0px", paddingBottom: "1rem" }}>Maxime Princelle</h1>
-						<div class="loading"></div>
+						<div className="loading"></div>
 				</div>
 			</Placeholder>
 		</Preloader>

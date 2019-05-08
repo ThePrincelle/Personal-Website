@@ -27,7 +27,7 @@ export default  class Resume extends Component {
                 <div className="langage-item portfolio-item" style={{padding: "15px"}}>
                   <div className="item-wrap">
                     
-                      <img onclick="" src={process.env.PUBLIC_URL + item.icon} alt="Portfolio Media" className="item-img"/>
+                      <img src={process.env.PUBLIC_URL + item.icon} alt="Portfolio Media" className="item-img"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
 							<h5>{item.name}</h5>

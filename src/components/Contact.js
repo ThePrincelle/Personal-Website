@@ -23,7 +23,7 @@ export default class Contact extends Component {
 					<a style={{color: "#D3D3D3"}} href={resumeData.adressGMAPS} target="_blank" rel="noopener noreferrer">{
 					resumeData.adress.map(item => {
 						return (
-							<p style={{marginTop: "0.5rem", marginBottom: "0.5rem", textAlign: "justify" }}>{item}</p>
+							<p key={item} style={{marginTop: "0.5rem", marginBottom: "0.5rem", textAlign: "justify" }}>{item}</p>
 							)
 						}
 					)

@@ -23,7 +23,7 @@ export default class Projects extends Component {
 								  {
 									  item.tags && (item.tags.map(tag => {
 										  if (tag[1] === "")
-											  return (<span class="tag"><span class="w3-tag w3-blue">{tag[0]}</span></span>)
+											  return (<span key={tag[0]} class="tag"><span class="w3-tag w3-blue">{tag[0]}</span></span>)
               
 										  return (<span class="tag"><a href={tag[1]} class="w3-tag w3-blue" target="_blank" rel="noopener noreferrer">{tag[0]}</a></span>)
 									  }))

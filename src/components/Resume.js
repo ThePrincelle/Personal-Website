@@ -19,7 +19,7 @@ export default  class Resume extends Component {
 					{
 						resumeData.eduDesc && resumeData.eduDesc.map(item => {
 							return (
-								<p style={{ marginTop: "0.2rem", marginBottom: "0.2rem", textAlign: "justify" }}>{item}</p>
+								<p key={item} style={{ marginTop: "0.2rem", marginBottom: "0.2rem", textAlign: "justify" }}>{item}</p>
 								)
 							}
 						)

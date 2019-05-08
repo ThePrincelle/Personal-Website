@@ -19,7 +19,7 @@ export default class About extends Component {
 					{
                     resumeData.aboutme && resumeData.aboutme.map(item =>{
 						return (
-							<p style={{ marginTop: "0.2rem", marginBottom: "0.2rem", textAlign: "justify", color: "#D3D3D3" }}>{item}</p>
+							<p key={item} style={{ marginTop: "0.2rem", marginBottom: "0.2rem", textAlign: "justify", color: "#D3D3D3" }}>{item}</p>
 							)
                     	}
                     )
