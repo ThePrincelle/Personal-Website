@@ -24,8 +24,8 @@ export default  class Resume extends Component {
           {
             resumeData.langages && resumeData.langages.map((item) => {
               return(
-                <div onclick="" className="langage-item portfolio-item" style={{padding: "15px"}}>
-                  <div onclick="" className="item-wrap">
+                <div onClick="" className="langage-item portfolio-item" style={{padding: "15px"}}>
+                  <div onClick="" className="item-wrap">
                     
                       <img onclick="" src={process.env.PUBLIC_URL + item.icon} alt="Portfolio Media" className="item-img"/>
                       <div className="overlay">
