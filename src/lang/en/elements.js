@@ -6,7 +6,7 @@ let elements = {
 		},
 		{
 			"id": "#about",
-			"name": "Who I am ?",
+			"name": "Who am I ?",
 		},
 		{
 			"id": "#resume",
