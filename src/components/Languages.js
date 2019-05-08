@@ -5,7 +5,7 @@ export default  class Resume extends Component {
 	  let elements = this.props.elements;
 
     return (
-      <section id="languages" class="resume">
+      <section id="languages" className="resume">
 
         <div className="row skill">
 
@@ -13,18 +13,18 @@ export default  class Resume extends Component {
                <h1><span>{elements.titles[5].name}</span></h1>
             </div>
 
-				<div class="nine columns">
+				<div className="nine columns">
 					
 				<p>
                {resumeData.langagesDesc}
 					</p>
 
-					<div class="langage-table">
+					<div className="langage-table">
 					
           {
-            resumeData.langages && resumeData.langages.map((item) => {
+            resumeData.langages && resumeData.langages.map((item, index) => {
               return(
-                <div className="langage-item portfolio-item" style={{padding: "15px"}}>
+                <div key={index} className="langage-item portfolio-item" style={{padding: "15px"}}>
                   <div className="item-wrap">
                     
                       <img src={process.env.PUBLIC_URL + item.icon} alt="Portfolio Media" className="item-img"/>

@@ -38,7 +38,7 @@ export default class Contact extends Component {
 				</div>
 					
 				<div className="contact-info">	
-					<a class="button_cv w3-large" href={process.env.PUBLIC_URL + resumeData.cvPDF_File} target="_blank" rel="noopener noreferrer">{resumeData.cvPDF_Msg}</a>
+					<a className="button_cv w3-large" href={process.env.PUBLIC_URL + resumeData.cvPDF_File} target="_blank" rel="noopener noreferrer">{resumeData.cvPDF_Msg}</a>
 				</div>
 				
 

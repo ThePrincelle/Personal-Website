@@ -80,9 +80,9 @@ class CV extends Component {
 			<Alert stack={{ limit: 3 }} />
 			
 			<div className="lang-button-container">
-				<div class="dropup">
-				<button class={this.state.langMenu ? 'dropbtn dropbtn-zoom' : 'dropbtn'} onClick={() => this.handleLangBtn()}>{resumeData.changeLang}</button>
-					<div class={this.state.langMenu ? 'dropup-content langDisp' : 'dropup-content'} onMouseOver={() => this.handleFocusLang(true)} onMouseLeave={() => this.handleFocusLang(false)}>
+				<div className="dropup">
+				<button className={this.state.langMenu ? 'dropbtn dropbtn-zoom' : 'dropbtn'} onClick={() => this.handleLangBtn()}>{resumeData.changeLang}</button>
+					<div className={this.state.langMenu ? 'dropup-content langDisp' : 'dropup-content'} onMouseOver={() => this.handleFocusLang(true)} onMouseLeave={() => this.handleFocusLang(false)}>
 						{
 							resumeData.langs.map(lang => {
 								return (<a key={lang[1]} href={lang[0]}>{lang[1]}</a>)

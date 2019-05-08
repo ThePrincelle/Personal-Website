@@ -5,7 +5,7 @@ export default  class Resume extends Component {
 	  let elements = this.props.elements;
 
     return (
-      <section id="work" class="resume" style={{paddingBottom: ".8rem"}}>
+      <section id="work" className="resume" style={{paddingBottom: ".8rem"}}>
 			
         <div className="row work">
             <div className="three columns header-col">
@@ -15,9 +15,9 @@ export default  class Resume extends Component {
             <div className="nine columns main-col">
               					<div style={{ paddingBottom: "3rem"}}>
 					{
-						resumeData.workDesc && resumeData.workDesc.map(item => {
+						resumeData.workDesc && resumeData.workDesc.map((item, index) => {
 							return (
-								<p style={{ marginTop: "0.2rem", marginBottom: "0.2rem", textAlign: "justify" }}>{item}</p>
+								<p key={index} style={{ marginTop: "0.2rem", marginBottom: "0.2rem", textAlign: "justify" }}>{item}</p>
 								)
 							}
 						)
@@ -25,9 +25,9 @@ export default  class Resume extends Component {
 						</div>
 					<hr></hr>
               {
-                resumeData.work && resumeData.work.map((item)=>{
+                resumeData.work && resumeData.work.map((item, index)=>{
                   return(
-                    <div style={{paddingBottom: "4rem"}} className="row item">
+                    <div key={index} style={{paddingBottom: "4rem"}} className="row item">
                        <div className="twelve columns">
                           <h3>{item.name}</h3>
                           <p className="info">
@@ -35,9 +35,9 @@ export default  class Resume extends Component {
 								  <span>&bull;</span> <em className="date">{item.date}</em>
 							  </p>
                           {
-							  item.desc && item.desc.map(item => {
+							  item.desc && item.desc.map((item, index) => {
 								  return (
-									  <p style={{ marginTop: "0.2rem", marginBottom: "0.2rem", textAlign: "justify" }}>{item}</p>
+									  <p key={index} style={{ marginTop: "0.2rem", marginBottom: "0.2rem", textAlign: "justify" }}>{item}</p>
 									  )
 									}
 									)

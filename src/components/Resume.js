@@ -5,7 +5,7 @@ export default  class Resume extends Component {
 	  let elements = this.props.elements;
 
     return (
-      <section id="resume" class="resume">
+      <section id="resume" className="resume">
 
          <div className="row education">
 
@@ -17,9 +17,9 @@ export default  class Resume extends Component {
 					
 					<div style={{ paddingBottom: "3rem"}}>
 					{
-						resumeData.eduDesc && resumeData.eduDesc.map(item => {
+						resumeData.eduDesc && resumeData.eduDesc.map((item, index) => {
 							return (
-								<p key={item} style={{ marginTop: "0.2rem", marginBottom: "0.2rem", textAlign: "justify" }}>{item}</p>
+								<p key={index} style={{ marginTop: "0.2rem", marginBottom: "0.2rem", textAlign: "justify" }}>{item}</p>
 								)
 							}
 						)
@@ -27,9 +27,9 @@ export default  class Resume extends Component {
 						</div>
 					<hr></hr>
               {
-                resumeData.education && resumeData.education.map((item)=>{
+                resumeData.education && resumeData.education.map((item, index)=>{
                   return(
-                    <div style={{paddingBottom: "4rem"}} className="row item">
+					  <div key={index} style={{paddingBottom: "4rem"}} className="row item">
                        <div className="twelve columns">
                           <h3>{item.name}</h3>
                           <p className="info">
@@ -37,9 +37,9 @@ export default  class Resume extends Component {
 								  <span>&bull;</span> <em className="date">{item.date}</em>
 							  </p>
                           {
-							  item.desc && item.desc.map(item => {
+							  item.desc && item.desc.map((item, index) => {
 								  return (
-									  <p style={{ marginTop: "0.2rem", marginBottom: "0.2rem", textAlign: "justify" }}>{item}</p>
+									  <p key={index} style={{ marginTop: "0.2rem", marginBottom: "0.2rem", textAlign: "justify" }}>{item}</p>
 									  )
 									}
 									)

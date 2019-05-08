@@ -17,9 +17,9 @@ export default class About extends Component {
 
                <h1 style={{ color: "#FFF", fontFamily: "'opensans-bold', sans-serif"}}>{elements.titles[1].name}</h1>	
 					{
-                    resumeData.aboutme && resumeData.aboutme.map(item =>{
+                    resumeData.aboutme && resumeData.aboutme.map((item, index) =>{
 						return (
-							<p key={item} style={{ marginTop: "0.2rem", marginBottom: "0.2rem", textAlign: "justify", color: "#D3D3D3" }}>{item}</p>
+							<p key={index} style={{ marginTop: "0.2rem", marginBottom: "0.2rem", textAlign: "justify", color: "#D3D3D3" }}>{item}</p>
 							)
                     	}
                     )
@@ -28,14 +28,14 @@ export default class About extends Component {
 				  <br/><br/>
 
 					{
-                    resumeData.moreme && resumeData.moreme.map(item =>{
+                    resumeData.moreme && resumeData.moreme.map((item, index) =>{
                       return(
-						  <>
-							  <span class={item.icon} style={{ color: "#FFF", fontSize: "1.5em", paddingBottom: ".8rem", paddingTop: "1.2rem" }}>
+						  <div key={index}>
+							  <span className={item.icon} style={{ color: "#FFF", fontSize: "1.5em", paddingBottom: ".8rem", paddingTop: "1.2rem" }}>
 								  <span style={{ paddingLeft: "1.5rem", fontFamily: "'opensans-bold', sans-serif", fontWeight: "normal" }}>{item.name}</span></span>
 								<p style={{textAlign: "justify", color: "#D3D3D3"}} >{item.text}</p>
-                              </>
-                            )
+							</div>
+						)
                           }
                     )
                   }

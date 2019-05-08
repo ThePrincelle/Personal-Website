@@ -94,8 +94,8 @@ export default class FormContact extends Component {
 		let resumeData = this.props.resumeData;
 
 		return (
-			<div class="form-container">
-				<div class="form">
+			<div className="form-container">
+				<div className="form">
 					<h3 style={{ color: "#FFF", paddingBottom: "1rem" }}>{resumeData.formTitle}</h3>
 
 					<form id="contact-form">
@@ -117,7 +117,7 @@ export default class FormContact extends Component {
 						<label style={{ color: "#FFF", fontSize: ".9rem" }} htmlFor="contact-message">{resumeData.formMsgLabel}</label>
 						<textarea style={{ width: "100%", marginBottom: "1.2rem" }} required name="message" placeholder={resumeData.formMsgPlaceholder} id="contact-message" onChange={e => this.setState({ message: e.target.value })} value={this.state.message}></textarea>
 
-						<input class="btn" style={{ width: "100%" }} onClick={e => this.handleFormSubmit(e)} type="submit" name="submit" value={resumeData.btnSend} />
+						<input className="btn" style={{ width: "100%" }} onClick={e => this.handleFormSubmit(e)} type="submit" name="submit" value={resumeData.btnSend} />
 					</form>
 				</div>
 

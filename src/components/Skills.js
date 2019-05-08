@@ -5,7 +5,7 @@ export default  class Resume extends Component {
 	  let elements = this.props.elements;
 
     return (
-      <section id="skills" class="resume">
+      <section id="skills" className="resume">
 
         <div className="row skills">
 
@@ -20,14 +20,14 @@ export default  class Resume extends Component {
 					</p>
 					
                 {
-                  resumeData.skills && resumeData.skills.map((item) => {
+                  resumeData.skills && resumeData.skills.map((item, index) => {
 					  return (
-						<div class="post-container">                
+						<div key={index} className="post-container">                
 							{
-								item.icon && (<div class="post-thumb"><img src={process.env.PUBLIC_URL + item.icon} alt="Skills Media"></img></div>)
+								item.icon && (<div className="post-thumb"><img src={process.env.PUBLIC_URL + item.icon} alt="Skills Media"></img></div>)
 							}	
-							<div class="post-content">
-								<h3 class="post-title">{item.name}</h3>
+							<div className="post-content">
+								<h3 className="post-title">{item.name}</h3>
 									{
 										item.type && (<p style={{ marginTop: "0.2rem", marginBottom: "0.2rem", textAlign: "justify" }}><b>{item.type}</b></p>)
 									}
@@ -35,9 +35,9 @@ export default  class Resume extends Component {
 										item.link && (<a href={item.link} target="_blank" rel="noopener noreferrer">{item.linkText}</a>)
 									}
 							  		{
-										item.text && item.text.map(item => {
+										item.text && item.text.map((item, index) => {
 											return (
-												<p style={{ marginTop: "0.2rem", marginBottom: "0.2rem", textAlign: "justify" }}>{item}</p>
+												<p key={index} style={{ marginTop: "0.2rem", marginBottom: "0.2rem", textAlign: "justify" }}>{item}</p>
 												)
 											}
 										)
