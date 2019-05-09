@@ -54,7 +54,7 @@ export default class FormContact extends Component {
 	saveResponse = (response) => {
 
 		var json = JSON.parse(response);
-		var res = json.reSender;
+		var res = json.result.reSender;
 
 		this.setState({
 			sentForm: true,
@@ -66,14 +66,13 @@ export default class FormContact extends Component {
 		this.setState({
 			sentForm: false,
 			senderRes: ""
-
 		})
 
 		if (responseSender === "") {
 			OCAlert.alertError(resumeData.errorMsg, {
 				timeOut: 3000
 			});
-			
+
 		} else {
 			if (responseSender === "SPAM") {
 				OCAlert.alertWarning(resumeData.spamMsg, {
