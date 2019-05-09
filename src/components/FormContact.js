@@ -43,7 +43,7 @@ export default class FormContact extends Component {
 		};
 			
 		fetch(mailAPI, fetchData).then(
-			response => this.handleResponse(resumeData, response)
+			response => this.handleResponse(resumeData, response.text())
 		);
 	};
 
