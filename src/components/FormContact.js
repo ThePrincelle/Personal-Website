@@ -16,7 +16,7 @@ export default class FormContact extends Component {
 		  subject: "",
 		  message: "",
 		  sentForm: false,
-		  senderRes: ""
+		  senderRes: []
 	  }
 	}
 
@@ -49,7 +49,6 @@ export default class FormContact extends Component {
 	};
 
 	saveResponse = (response) => {
-
 		this.setState({
 			sentForm: true,
 			senderRes: response['reSender']
