@@ -58,28 +58,28 @@ export default class FormContact extends Component {
 		})
 	}
 
-	handleResponse = (resumeData, responseSender) => {
+	async handleResponse(resumeData, responseSender) {
 		if (responseSender === "SPAM") {
-			OCAlert.alertWarning(resumeData.spamMsg, {
+			await OCAlert.alertWarning(resumeData.spamMsg, {
 				timeOut: 3000
 			});
 
 		} else if (responseSender === "ERROR") {
-			OCAlert.alertError(resumeData.errorMsg, {
+			await OCAlert.alertError(resumeData.errorMsg, {
 				timeOut: 3000
 			});
 
 		} else if (responseSender === "SUCCESS") {
-			OCAlert.alertSuccess(resumeData.successMsg, {
+			await OCAlert.alertSuccess(resumeData.successMsg, {
 				timeOut: 3000
 			});
 		} else {
-			OCAlert.alertError(resumeData.errorMsg, {
+			await OCAlert.alertError(resumeData.errorMsg, {
 				timeOut: 3000
 			});
 		}
 
-		this.cleanState()
+		await this.cleanState()
 	}
 
 	cleanState = () => {
