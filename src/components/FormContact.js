@@ -51,22 +51,25 @@ export default class FormContact extends Component {
 	saveResponse = (response) => {
 		this.setState({
 			sentForm: true,
-			senderRes: response['reSender'].toString()
+			senderRes: response
 		})
 	}
 
 	async handleResponse(resumeData, responseSender) {
-		if (responseSender === "SPAM") {
+		var response = JSON.parse(responseSender)
+		var resMail = response.result.reSender
+
+		if (resMail === "SPAM") {
 			await OCAlert.alertWarning(resumeData.spamMsg, {
 				timeOut: 3000
 			});
 
-		} else if (responseSender === "ERROR") {
+		} else if (resMail === "ERROR") {
 			await OCAlert.alertError(resumeData.errorMsg, {
 				timeOut: 3000
 			});
 
-		} else if (responseSender === "SUCCESS") {
+		} else if (resMail === "SUCCESS") {
 			await OCAlert.alertSuccess(resumeData.successMsg, {
 				timeOut: 3000
 			});
