@@ -22,17 +22,23 @@ export default class FormContact extends Component {
 	handleFormSubmit = e => {
 		e.preventDefault();
 
-		let mailAPI = 'https://contact.princelle.org/php/email.php'
-		const elements = this.state
+		let mailAPI = 'https://contact.princelle.org/php/email.php';
+
+		var data = {
+			name: this.state.name,
+			email: this.state.email,
+			subject: this.state.subject,
+			message: this.state.message
+		};
 
 		let fetchData = {
 			method: 'POST',
-			body: elements,
-			headers: new Headers()
+			body: data,
+			mode: "cors"
 		};
 			
 		fetch(mailAPI, fetchData).then(
-			response => console.log(response.text())
+			response => console.log(response),
 			//response => this.saveResponse(response)
 		);
 	};
