@@ -31,10 +31,15 @@ export default class FormContact extends Component {
 			message: this.state.message
 		};
 
+		var fd = new FormData();
+
+		for (var i in data) {
+			fd.append(i, data[i]);
+		}
+
 		let fetchData = {
 			method: 'POST',
-			body: data,
-			mode: "cors"
+			body: fd
 		};
 			
 		fetch(mailAPI, fetchData).then(
