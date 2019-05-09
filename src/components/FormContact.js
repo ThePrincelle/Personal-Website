@@ -40,7 +40,7 @@ export default class FormContact extends Component {
 		};
 			
 		fetch(mailAPI, fetchData)
-			.then(response => this.handleResponse(response.json()))
+			.then(function (response) { return response.json(); })
 			.then(function (data) {
 				var resMail = data.reSender
 
