@@ -66,22 +66,14 @@ export default class FormContact extends Component {
 		})
 
 		if (responseSender === "") {
-			return (
-				console.log(resumeData.errorMsg)
-			)
+			alert(resumeData.errorMsg)
 		} else {
 			if (responseSender === "SPAM") {
-				return (
-					console.log(resumeData.spamMsg)
-				)
+				alert(resumeData.spamMsg)
 			} else if (responseSender === "ERROR") {
-				return (
-					console.log(resumeData.errorMsg)
-				)
+				alert(resumeData.errorMsg)
 			} else if (responseSender === "SUCCESS") {
-				return (
-					console.log(resumeData.successMsg)
-				)
+				alert(resumeData.successMsg)
 			}
 		}
 	}
