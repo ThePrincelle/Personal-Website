@@ -19,7 +19,7 @@ export default class FormContact extends Component {
 	  }
 	}
 
-	handleFormSubmit = (e, resumeData) => {
+	handleFormSubmit = (e) => {
 		e.preventDefault();
 
 		let mailAPI = 'https://contact.princelle.org/php/email.php';
@@ -43,30 +43,30 @@ export default class FormContact extends Component {
 		};
 			
 		fetch(mailAPI, fetchData).then(
-			response => this.handleResponse(resumeData, response.json())
+			response => this.handleResponse(response.json())
 		);
 	};
 
-	handleResponse = (resumeData, responseSender) => {
+	handleResponse = (responseSender) => {
 
 		var resMail = responseSender['reSender']
 
 		if (resMail === "SPAM") {
-			OCAlert.alertWarning(resumeData.spamMsg, {
+			OCAlert.alertWarning(this.props.resumeData.spamMsg, {
 				timeOut: 3000
 			});
 
 		} else if (resMail === "ERROR") {
-			OCAlert.alertError(resumeData.errorMsg, {
+			OCAlert.alertError(this.props.resumeData.errorMsg, {
 				timeOut: 3000
 			});
 
 		} else if (resMail === "SUCCESS") {
-			OCAlert.alertSuccess(resumeData.successMsg, {
+			OCAlert.alertSuccess(this.props.resumeData.successMsg, {
 				timeOut: 3000
 			});
 		} else {
-			OCAlert.alertError(resumeData.errorMsg, {
+			OCAlert.alertError(this.props.resumeData.errorMsg, {
 				timeOut: 3000
 			});
 		}
@@ -114,7 +114,7 @@ export default class FormContact extends Component {
 						<label style={{ color: "#FFF", fontSize: ".9rem" }} htmlFor="contact-message">{resumeData.formMsgLabel}</label>
 						<textarea style={{ width: "100%", marginBottom: "1.2rem" }} required name="message" placeholder={resumeData.formMsgPlaceholder} id="contact-message" onChange={e => this.setState({ message: e.target.value })} value={this.state.message}></textarea>
 
-						<input className="btn" style={{ width: "100%" }} onClick={(e, resumeData) => this.handleFormSubmit(e)} type="submit" name="submit" value={resumeData.btnSend} />
+						<input className="btn" style={{ width: "100%" }} onClick={(e) => this.handleFormSubmit(e)} type="submit" name="submit" value={resumeData.btnSend} />
 					</form>
 				</div>
 			</div>
