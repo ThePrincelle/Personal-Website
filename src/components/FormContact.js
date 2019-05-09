@@ -66,12 +66,11 @@ export default class FormContact extends Component {
 
 	cleanState = () => {
 		this.setState({
-			sentForm: false,
-			senderRes: "",
 			name: "",
 			email: "",
 			subject: "",
-			message: ""
+			message: "",
+			senderRes: []
 		})
 	}
 	
