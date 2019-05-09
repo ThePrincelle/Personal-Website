@@ -47,31 +47,31 @@ export default class FormContact extends Component {
 		);
 	};
 
-	async handleResponse(resumeData, responseSender) {
+	handleResponse = (resumeData, responseSender) => {
 
 		var resMail = responseSender['reSender']
 
 		if (resMail === "SPAM") {
-			await OCAlert.alertWarning(resumeData.spamMsg, {
+			OCAlert.alertWarning(resumeData.spamMsg, {
 				timeOut: 3000
 			});
 
 		} else if (resMail === "ERROR") {
-			await OCAlert.alertError(resumeData.errorMsg, {
+			OCAlert.alertError(resumeData.errorMsg, {
 				timeOut: 3000
 			});
 
 		} else if (resMail === "SUCCESS") {
-			await OCAlert.alertSuccess(resumeData.successMsg, {
+			OCAlert.alertSuccess(resumeData.successMsg, {
 				timeOut: 3000
 			});
 		} else {
-			await OCAlert.alertError(resumeData.errorMsg, {
+			OCAlert.alertError(resumeData.errorMsg, {
 				timeOut: 3000
 			});
 		}
 
-		await this.cleanState()
+		this.cleanState()
 	}
 
 	cleanState = () => {
