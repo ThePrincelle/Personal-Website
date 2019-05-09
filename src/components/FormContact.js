@@ -15,8 +15,6 @@ export default class FormContact extends Component {
 		  email: "",
 		  subject: "",
 		  message: "",
-		  mailSent: false,
-		  error: null,
 		  sentForm: false,
 		  senderRes: ""
 	  }
@@ -61,11 +59,6 @@ export default class FormContact extends Component {
 	}
 
 	handleResponse = (resumeData, responseSender) => {
-		this.setState({
-			sentForm: false,
-			senderRes: ""
-		})
-
 		if (responseSender === "SPAM") {
 			OCAlert.alertWarning(resumeData.spamMsg, {
 				timeOut: 3000
@@ -85,6 +78,19 @@ export default class FormContact extends Component {
 				timeOut: 3000
 			});
 		}
+
+		this.cleanState()
+	}
+
+	cleanState = () => {
+		this.setState({
+			sentForm: false,
+			senderRes: "",
+			name: "",
+			email: "",
+			subject: "",
+			message: ""
+		})
 	}
 	
 	
