@@ -1,6 +1,9 @@
 import React, {
 	Component
 } from 'react';
+import {
+	OCAlert
+} from '@opuscapita/react-alerts';
 
 export default class FormContact extends Component {
 	
@@ -51,7 +54,7 @@ export default class FormContact extends Component {
 	saveResponse = (response) => {
 
 		var json = JSON.parse(response);
-		var res = json['reSender'];
+		var res = json.reSender;
 
 		this.setState({
 			sentForm: true,
@@ -63,17 +66,29 @@ export default class FormContact extends Component {
 		this.setState({
 			sentForm: false,
 			senderRes: ""
+
 		})
 
 		if (responseSender === "") {
-			alert(resumeData.errorMsg)
+			OCAlert.alertError(resumeData.errorMsg, {
+				timeOut: 3000
+			});
+			
 		} else {
 			if (responseSender === "SPAM") {
-				alert(resumeData.spamMsg)
+				OCAlert.alertWarning(resumeData.spamMsg, {
+					timeOut: 3000
+				});
+
 			} else if (responseSender === "ERROR") {
-				alert(resumeData.errorMsg)
+				OCAlert.alertError(resumeData.errorMsg, {
+					timeOut: 3000
+				});
+
 			} else if (responseSender === "SUCCESS") {
-				alert(resumeData.successMsg)
+				OCAlert.alertSuccess(resumeData.successMsg, {
+					timeOut: 3000
+				});
 			}
 		}
 	}
