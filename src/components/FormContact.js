@@ -38,6 +38,8 @@ export default class FormContact extends Component {
 			method: 'POST',
 			body: fd
 		};
+
+		let resumeData = this.props.resumeData;
 			
 		fetch(mailAPI, fetchData)
 			.then(function (response) { return response.json(); })
@@ -45,16 +47,16 @@ export default class FormContact extends Component {
 				var resMail = data.reSender
 
 				if (resMail === "SPAM") {
-					alert(this.props.resumeData.spamMsg)
+					alert(resumeData.spamMsg)
 
 				} else if (resMail === "ERROR") {
-					alert(this.props.resumeData.errorMsg)
+					alert(resumeData.errorMsg)
 
 				} else if (resMail === "SUCCESS") {
-					alert(this.props.resumeData.successMsg)
+					alert(resumeData.successMsg)
 
 				} else {
-					alert(this.props.resumeData.errorMsg)
+					alert(resumeData.errorMsg)
 				}
 				
 				this.cleanState()
