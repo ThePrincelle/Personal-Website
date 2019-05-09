@@ -48,13 +48,13 @@ export default class FormContact extends Component {
 
 		var resMail = responseSender['reSender']
 
-		if (resMail.include("SPAM")) {
+		if (resMail.toString().include("SPAM")) {
 			alert(this.props.resumeData.spamMsg)
 
-		} else if (resMail.include("ERROR")) {
+		} else if (resMail.toString().include("ERROR")) {
 			alert(this.props.resumeData.errorMsg)
 
-		} else if (resMail.include("SUCCESS")) {
+		} else if (resMail.toString().include("SUCCESS")) {
 			alert(this.props.resumeData.successMsg)
 
 		} else {
