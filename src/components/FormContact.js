@@ -22,7 +22,7 @@ export default class FormContact extends Component {
 	handleFormSubmit = e => {
 		e.preventDefault();
 
-		let mailAPI = 'https://princelle.org/php/email.php'
+		let mailAPI = 'https://contact.princelle.org/php/email.php'
 		const elements = this.state
 
 		let fetchData = {
@@ -32,15 +32,15 @@ export default class FormContact extends Component {
 		};
 			
 		fetch(mailAPI, fetchData).then(
-			response => console.log(response.text()),
-			response => this.saveResponse(response.text())
+			response => console.log(response.text())
+			//response => this.saveResponse(response)
 		);
 	};
 
 	saveResponse = (response) => {
 		this.setState({
 			sentForm: true,
-			senderRes: response.message
+			senderRes: response
 		})
 	}
 
