@@ -52,7 +52,7 @@ export default class FormContact extends Component {
 
 	saveResponse = (response) => {
 
-		var res = response.result.reSender;
+		var res = response.reSender;
 
 		this.setState({
 			sentForm: true,
