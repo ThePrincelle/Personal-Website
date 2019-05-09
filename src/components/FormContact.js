@@ -66,19 +66,17 @@ export default class FormContact extends Component {
 			senderRes: ""
 		})
 
-		console.log(responseSender)
-
-		if (responseSender.includes("SPAM")) {
+		if (responseSender === "SPAM") {
 			OCAlert.alertWarning(resumeData.spamMsg, {
 				timeOut: 3000
 			});
 
-		} else if (responseSender.includes("ERROR")) {
+		} else if (responseSender === "ERROR") {
 			OCAlert.alertError(resumeData.errorMsg, {
 				timeOut: 3000
 			});
 
-		} else if (responseSender.includes("SUCCESS")) {
+		} else if (responseSender === "SUCCESS") {
 			OCAlert.alertSuccess(resumeData.successMsg, {
 				timeOut: 3000
 			});
