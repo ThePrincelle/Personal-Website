@@ -1,6 +1,7 @@
 <?php
 	//PHP Email Sender
 	//Created by Maxime Princelle
+
 	header("Access-Control-Allow-Origin: *");
 	$rest_json = file_get_contents("php://input");
 	$_POST = json_decode($rest_json, true);
@@ -82,7 +83,6 @@
 
 		//Fonction envoi mail
 		function sendMail(){
-
 			http_response_code(200);
 
 			$g_namexp = $GLOBALS['namexp'];
@@ -132,12 +132,12 @@
 
 				$mail->send();
 				
-				echo(json_encode(array("sent" => true)));
+				echo json_encode(array("message" => "SUCCESS"));
 				exit();
 			}
 			catch (Exception $e)
 			{
-				echo(json_encode(["sent" => false, "message" => "ERROR"]));
+				echo json_encode(array("message" => "ERROR"));
 				exit();
 			}
 		}
@@ -150,7 +150,7 @@
 		}
 
 		function spam(){
-			echo(json_encode(["sent" => false, "message" => "SPAM"]));
+			echo json_encode(array("message" => "SPAM"));
 			exit();
 		}
 
@@ -159,5 +159,7 @@
 		} else {
 			spam();
 		}
+	} else {
+		echo json_encode(array("message" => "NO POST"));
 	}
 ?>

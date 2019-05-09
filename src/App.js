@@ -21,8 +21,8 @@ function en() {
 }
 
 function App() {
-  return (
-    <Router>
+	return (
+    	<Router>
       <div>
         <Loading/>
 		<Switch>
@@ -35,7 +35,7 @@ function App() {
 			<Redirect to="/" />
 		</Switch>
       </div>
-    </Router>
+	  </Router>
   );
 }
 

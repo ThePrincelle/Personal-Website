@@ -1,8 +1,6 @@
 import React, {
 	Component
 } from 'react';
-import axios from 'axios';
-import Alert from 'react-s-alert';
 
 export default class FormContact extends Component {
 	
@@ -16,76 +14,61 @@ export default class FormContact extends Component {
 		  message: "",
 		  mailSent: false,
 		  error: null,
-		  sentForm: false
+		  sentForm: false,
+		  senderRes: ""
 	  }
 	}
 
 	handleFormSubmit = e => {
 		e.preventDefault();
-		axios({
-				method: 'post',
-				url: (process.env.PUBLIC_URL + '/php/email.php'),
-				headers: {
-					'content-type': 'application/json',
-					'Allow-Control-Allow-Origin': '*'
-				},
-				data: this.state
-			})
-			.then(result => {
-				this.setState({
-					mailSent: result.data.sent,
-					name: "",
-					email: "",
-					subject: "",
-					message: "",
-					sentForm: true
-				})
-			})
-			.catch(error => {
-				this.setState({
-					error: error.message,
-					name: "",
-					email: "",
-					subject: "",
-					message: error.message,
-					sentForm: true
-				})
-			});
+
+		let mailAPI = 'https://princelle.org/php/email.php'
+		const elements = this.state
+
+		let fetchData = {
+			method: 'POST',
+			body: elements,
+			headers: new Headers()
+		};
+			
+		fetch(mailAPI, fetchData).then(
+			response => console.log(response.text()),
+			response => this.saveResponse(response.text())
+		);
 	};
 
-	handleResponse = (props) => {
+	saveResponse = (response) => {
 		this.setState({
-			sentForm: false
+			sentForm: true,
+			senderRes: response.message
+		})
+	}
+
+	handleResponse = (resumeData, responseSender) => {
+		this.setState({
+			sentForm: false,
+			senderRes: ""
 		})
 
-		if (!this.state.mailSent) {
-			if (this.state.error === "SPAM") {
+		if (responseSender === "") {
+			return (
+				console.log(resumeData.errorMsg)
+			)
+		} else {
+			if (responseSender === "SPAM") {
 				return (
-					Alert.warning(props.spamMsg, {
-						position: 'top-right',
-						effect: 'scale',
-						timeout: '3500'
-					})
+					console.log(resumeData.spamMsg)
 				)
-			} else {
+			} else if (responseSender === "ERROR") {
 				return (
-					Alert.error(props.errorMsg, {
-						position: 'top-right',
-						effect: 'scale',
-						timeout: '3500'
-					})
+					console.log(resumeData.errorMsg)
+				)
+			} else if (responseSender === "SUCCESS") {
+				return (
+					console.log(resumeData.successMsg)
 				)
 			}
-		} else {
-			return (
-				Alert.success(props.successMsg, {
-					position: 'top-right',
-					effect: 'scale',
-					timeout: '3500'
-				})
-			)
 		}
-		
 	}
 	
 	
@@ -122,7 +105,7 @@ export default class FormContact extends Component {
 				</div>
 
 				{
-					this.state.sentForm && (this.handleResponse(resumeData))
+					this.state.sentForm && (this.handleResponse(resumeData, this.state.senderRes))
 				}
 			</div>
 		)

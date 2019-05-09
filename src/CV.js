@@ -8,10 +8,6 @@ import Languages from './components/Languages';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Alert from 'react-s-alert';
-
-import 'react-s-alert/dist/s-alert-default.css';
-import 'react-s-alert/dist/s-alert-css-effects/slide.css';
 
 class CV extends Component {
 	
@@ -76,8 +72,6 @@ class CV extends Component {
         <Projects resumeData={resumeData} elements={elements}/>
         <Contact resumeData={resumeData} elements={elements}/>
         <Footer resumeData={resumeData} elements={elements}/>
-		
-			<Alert stack={{ limit: 3 }} />
 			
 			<div className="lang-button-container">
 				<div className="dropup">
