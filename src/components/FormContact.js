@@ -49,7 +49,7 @@ export default class FormContact extends Component {
 
 	async handleResponse(resumeData, responseSender) {
 
-		var resMail = responseSender.result.reSender
+		var resMail = responseSender['reSender']
 
 		if (resMail === "SPAM") {
 			await OCAlert.alertWarning(resumeData.spamMsg, {
