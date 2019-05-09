@@ -58,9 +58,9 @@ export default class FormContact extends Component {
 				} else {
 					alert(resumeData.errorMsg)
 				}
-				
-				this.cleanState()
 			});
+		
+		this.cleanState();
 	};
 
 	cleanState = () => {
