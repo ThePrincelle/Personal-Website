@@ -39,27 +39,26 @@ export default class FormContact extends Component {
 			body: fd
 		};
 			
-		fetch(mailAPI, fetchData).then(
-			response => this.handleResponse(response.json().then(function (data) {
-						var resMail = data.reSender
+		fetch(mailAPI, fetchData)
+			.then(response => this.handleResponse(response.json()))
+			.then(function (data) {
+				var resMail = data.reSender
 
-						if(resMail === "SPAM") {
-							alert(this.props.resumeData.spamMsg)
+				if (resMail === "SPAM") {
+					alert(this.props.resumeData.spamMsg)
 
-						} else if (resMail === "ERROR") {
-							alert(this.props.resumeData.errorMsg)
+				} else if (resMail === "ERROR") {
+					alert(this.props.resumeData.errorMsg)
 
-						} else if (resMail === "SUCCESS") {
-							alert(this.props.resumeData.successMsg)
+				} else if (resMail === "SUCCESS") {
+					alert(this.props.resumeData.successMsg)
 
-						} else {
-							alert(this.props.resumeData.errorMsg)
-						}
+				} else {
+					alert(this.props.resumeData.errorMsg)
+				}
 				
-						this.cleanState()
-					})
-			)
-		);
+				this.cleanState()
+			});
 	};
 
 	cleanState = () => {
