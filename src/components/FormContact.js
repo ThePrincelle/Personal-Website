@@ -68,6 +68,8 @@ export default class FormContact extends Component {
 			senderRes: ""
 		})
 
+		console.log(responseSender)
+
 		if (responseSender.includes("SPAM")) {
 			OCAlert.alertWarning(resumeData.spamMsg, {
 				timeOut: 3000
