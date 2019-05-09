@@ -46,13 +46,11 @@ export default class FormContact extends Component {
 		};
 			
 		fetch(mailAPI, fetchData).then(
-			response => console.log(response.json()),
 			response => this.saveResponse(response.json())
 		);
 	};
 
 	saveResponse = (response) => {
-
 		var json = JSON.parse(response);
 		var res = json.result.reSender;
 
