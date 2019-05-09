@@ -43,13 +43,13 @@ export default class FormContact extends Component {
 		};
 			
 		fetch(mailAPI, fetchData).then(
-			response => this.handleResponse(resumeData, response.json().toString())
+			response => this.handleResponse(resumeData, response.json())
 		);
 	};
 
 	async handleResponse(resumeData, responseSender) {
-		var response = JSON.parse(responseSender)
-		var resMail = response.result.reSender
+
+		var resMail = responseSender.result.reSender
 
 		if (resMail === "SPAM") {
 			await OCAlert.alertWarning(resumeData.spamMsg, {
