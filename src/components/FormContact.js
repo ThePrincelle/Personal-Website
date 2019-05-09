@@ -51,7 +51,7 @@ export default class FormContact extends Component {
 	saveResponse = (response) => {
 		this.setState({
 			sentForm: true,
-			senderRes: response.reSender
+			senderRes: response['reSender']
 		})
 	}
 
