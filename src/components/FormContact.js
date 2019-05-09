@@ -1,9 +1,6 @@
 import React, {
 	Component
 } from 'react';
-import {
-	OCAlert
-} from '@opuscapita/react-alerts';
 
 export default class FormContact extends Component {
 	
@@ -52,23 +49,16 @@ export default class FormContact extends Component {
 		var resMail = responseSender['reSender']
 
 		if (resMail === "SPAM") {
-			OCAlert.alertWarning(this.props.resumeData.spamMsg, {
-				timeOut: 3000
-			});
+			alert(this.props.resumeData.spamMsg)
 
 		} else if (resMail === "ERROR") {
-			OCAlert.alertError(this.props.resumeData.errorMsg, {
-				timeOut: 3000
-			});
+			alert(this.props.resumeData.errorMsg)
 
 		} else if (resMail === "SUCCESS") {
-			OCAlert.alertSuccess(this.props.resumeData.successMsg, {
-				timeOut: 3000
-			});
+			alert(this.props.resumeData.successMsg)
+			
 		} else {
-			OCAlert.alertError(this.props.resumeData.errorMsg, {
-				timeOut: 3000
-			});
+			alert(this.props.resumeData.errorMsg)
 		}
 
 		this.cleanState()

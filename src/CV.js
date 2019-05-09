@@ -9,8 +9,6 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-import { OCAlertsProvider } from '@opuscapita/react-alerts';
-
 class CV extends Component {
 	
 	constructor(props) {
@@ -64,9 +62,7 @@ class CV extends Component {
 		let elements = this.props.elements;
 
     return (
-      <div className="App">
-		<OCAlertsProvider />
-			
+      <div className="App">	
 		<Header resumeData={resumeData} elements={elements}/>
         <About resumeData={resumeData} elements={elements}/>
 		<Resume resumeData={resumeData} elements={elements} />
