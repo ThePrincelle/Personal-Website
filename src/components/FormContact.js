@@ -51,8 +51,8 @@ export default class FormContact extends Component {
 	};
 
 	saveResponse = (response) => {
-		var json = JSON.parse(response);
-		var res = json.result.reSender;
+
+		var res = response.result.reSender;
 
 		this.setState({
 			sentForm: true,
