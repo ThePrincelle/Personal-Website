@@ -145,7 +145,7 @@
 
    /* hide menu panel */
    #nav-wrap ul#nav {
-		width: auto;
+		width: 30vh;
       height: auto;
 		display: none;
       clear: both;
@@ -158,7 +158,7 @@
 
    /* display menu panels */
 	#nav-wrap:target > ul#nav	{
-		width: 30vh !important;
+		width: 30vh;
 	   display: block;
       padding: 30px 20px 48px 20px;
       background: #1f2024;
@@ -348,7 +348,7 @@
 
    /* mobile navigation
    -------------------------------------------------------------------- */
-   #nav-wrap ul#nav { width: auto; float: none; }
+   #nav-wrap ul#nav { margin: 0px !important; width: 100% !important; }
 
    /* header styles
    -------------------------------------------------------------------- */

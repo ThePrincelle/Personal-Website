@@ -1,0 +1,4 @@
+docker build -t cv_princelle ./
+
+docker run -d -it -p 2345:3000 -v /usr/src/app/node_modules -v ${PWD}:/usr/src/app --name cv_princelle --restart always cv_princelle
+
