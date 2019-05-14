@@ -71,7 +71,7 @@ export default class FormContact extends Component {
 		let resumeData = this.props.resumeData;
 			
 		fetch(mailAPI, fetchData)
-			.then(function (response) { console.log(response.text()); return response.json(); })
+			.then(function (response) { console.log(response.clone().text()); return response.clone().json(); })
 			.then(function (data) {
 				var resMail = data.reSender
 
