@@ -41,8 +41,8 @@ export default class FormContact extends Component {
 			this.recaptcha.execute();
 			this.sendForm()
 		} else {
-			this.recaptcha.reset();
 			alert(resumeData.emptyInputs)
+			this.recaptcha.reset();
 		}
 	}
 
