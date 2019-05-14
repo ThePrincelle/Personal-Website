@@ -48,6 +48,7 @@ export default class FormContact extends Component {
 	sendForm = () => {
 
 		this.recaptcha.execute();
+		this.onResolved();
 
 		let mailAPI = 'https://contact.princelle.org/php/email.php';
 
