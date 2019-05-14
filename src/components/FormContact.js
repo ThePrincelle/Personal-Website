@@ -141,7 +141,7 @@ export default class FormContact extends Component {
 							locale = {
 								resumeData.locCaptcha
 							}
-							onResolved={() => console.log('Human detected.')} 
+							//onResolved={() => console.log('Human detected.')} 
 						/>
 	
 						<input className="btn" style={{ width: "100%" }} onClick={(e) => this.handleFormSubmit(e)} type="submit" name="submit" value={resumeData.btnSend} />
