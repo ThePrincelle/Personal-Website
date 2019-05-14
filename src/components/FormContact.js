@@ -71,7 +71,7 @@ export default class FormContact extends Component {
 		let resumeData = this.props.resumeData;
 			
 		fetch(mailAPI, fetchData)
-			.then(function (response) { return response.json(); })
+			.then(function (response) { console.log(response.text()); return response.json(); })
 			.then(function (data) {
 				var resMail = data.reSender
 
@@ -90,7 +90,7 @@ export default class FormContact extends Component {
 			});
 		
 			this.cleanState();
-	};
+	}
 
 	cleanState = () => {
 		this.setState({
