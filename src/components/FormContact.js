@@ -38,7 +38,6 @@ export default class FormContact extends Component {
 		let resumeData = this.props.resumeData;
 		
 		if (this.validateInputs()) {
-			this.recaptcha.execute();
 			this.sendForm()
 		} else {
 			alert(resumeData.emptyInputs)
@@ -47,6 +46,9 @@ export default class FormContact extends Component {
 	}
 
 	sendForm = () => {
+
+		this.recaptcha.execute();
+
 		let mailAPI = 'https://contact.princelle.org/php/email.php';
 
 		var data = {
