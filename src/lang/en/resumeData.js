@@ -586,7 +586,7 @@ let resumeData = {
 	"cvPDF_Msg": "Resume in PDF",
 	"cvPDF_File": "/Resume - Maxime Princelle.pdf",
 	"errorMsg": "Sorry but an error occurred while sending your message. Please try again.",
-	"spamMsg": "Sorry but the verification service did not confirm your message. Please try again. ",
+	"spamMsg": "Sorry but the verification service did not validate your message. Please try again.",
 	"successMsg": "Your message has been sent successfully."
   }
   
