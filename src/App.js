@@ -12,8 +12,6 @@ import CV from './CV';
 import Loading from './components/Loading';
 import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom";
 
-
-
 function fr() {
   return (<CV resumeData={resumeData_fr} elements={elements_fr}/>);
 }

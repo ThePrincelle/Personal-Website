@@ -1,3 +1,8 @@
+.grecaptcha-badge {
+	visibility: collapse !important;
+	display: none !important;
+}
+
 .loader-container {
 	height: 100vh;
 }

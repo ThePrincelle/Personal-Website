@@ -1,31 +1,60 @@
 import React, {
 	Component
 } from 'react';
+import Recaptcha from 'react-google-invisible-recaptcha';
 
 export default class FormContact extends Component {
 	
 	constructor(props) {
-	  super(props)
-	
-	  this.state = {
-		  name: "",
-		  email: "",
-		  subject: "",
-		  message: "",
-		  senderRes: []
-	  }
+		super(props)
+
+		this.state = {
+			name: "",
+			email: "",
+			subject: "",
+			message: "",
+			senderRes: [],
+			captchaToken: ""
+		}
+	}
+
+	onResolved = () => {
+		console.log('El Famoso Captcha Token : ' + this.recaptcha.getResponse());
+		this.setState({
+			captchaToken: this.recaptcha.getResponse()
+		})
+	}
+
+	validateInputs = () => {
+		if (this.state.name === "" || this.state.email === "" || this.state.subject === "" || this.state.message === "") {
+			return false;
+		}
+		return true;
 	}
 
 	handleFormSubmit = (e) => {
 		e.preventDefault();
 
+		let resumeData = this.props.resumeData;
+		
+		if (this.validateInputs()) {
+			this.recaptcha.execute();
+			this.sendForm()
+		} else {
+			this.recaptcha.reset();
+			alert(resumeData.emptyInputs)
+		}
+	}
+
+	sendForm = () => {
 		let mailAPI = 'https://contact.princelle.org/php/email.php';
 
 		var data = {
 			name: this.state.name,
 			email: this.state.email,
 			subject: this.state.subject,
-			message: this.state.message
+			message: this.state.message,
+			captchaToken: this.state.captchaToken
 		};
 
 		var fd = new FormData();
@@ -60,7 +89,7 @@ export default class FormContact extends Component {
 				}
 			});
 		
-		this.cleanState();
+			this.cleanState();
 	};
 
 	cleanState = () => {
@@ -69,7 +98,8 @@ export default class FormContact extends Component {
 			email: "",
 			subject: "",
 			message: "",
-			senderRes: []
+			senderRes: [],
+			captchaToken: ""
 		})
 	}
 	
@@ -102,6 +132,16 @@ export default class FormContact extends Component {
 						<label style={{ color: "#FFF", fontSize: ".9rem" }} htmlFor="contact-message">{resumeData.formMsgLabel}</label>
 						<textarea style={{ width: "100%", marginBottom: "1.2rem" }} required name="message" placeholder={resumeData.formMsgPlaceholder} id="contact-message" onChange={e => this.setState({ message: e.target.value })} value={this.state.message} type="text"></textarea>
 
+						<Recaptcha
+							ref={ ref => this.recaptcha = ref }
+							sitekey="6LcW_50UAAAAAIkoYhnzArKuIacxIz492g-mUzPn"
+							badge="bottomleft"
+							locale = {
+								resumeData.locCaptcha
+							}
+							onResolved={() => console.log('Human detected.')} 
+						/>
+	
 						<input className="btn" style={{ width: "100%" }} onClick={(e) => this.handleFormSubmit(e)} type="submit" name="submit" value={resumeData.btnSend} />
 					</form>
 				</div>
