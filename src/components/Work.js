@@ -42,7 +42,7 @@ export default  class Resume extends Component {
 									}
 									)
 							  }
-						<a href={item.link} target="_blank" rel="noopener noreferrer" >En savoir plus...</a>
+						<a href={item.link} target="_blank" rel="noopener noreferrer">{resumeData.learnmore}</a>
                        </div>
                     </div>
                   )
