@@ -71,6 +71,7 @@ let resumeData = {
 		"Vous trouverez ici, les différentes formations que j'ai suivi.",
 		"L'un de mes objectifs étant d'apprendre, je pense qu'il est important de bien se former et de se préparer un maximum avant d'intégrer la vie active."
 	],
+	"learnmore": "En savoir plus...",
     "education":[
 		{
 			"name": "Collège Louis Arbogast",

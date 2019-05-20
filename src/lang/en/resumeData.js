@@ -71,6 +71,7 @@ let resumeData = {
 		"Here you will find the different schools I've done.",
 		"One of my goals is to learn, I think it is important to be well trained and prepare yourself before entering the workforce."
 	],
+	"learnmore": "Learn more...",
     "education":[
 		{
 			"name": "Junior High - Louis Arbogast",
