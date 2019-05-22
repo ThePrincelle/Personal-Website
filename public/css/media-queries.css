@@ -352,19 +352,19 @@
 
    /* header styles
    -------------------------------------------------------------------- */
-   header .banner { padding-top: 24px; }
-   header .banner-text h1 {
+   #home .banner { padding-top: 24px; }
+   #home .banner-text h1 {
       font: 40px/1.1em 'opensans-bold', sans-serif;      
       margin: 0 auto 24px auto;
    }
-   header .banner-text h3 {
+   #home .banner-text h3 {
       font: 14px/1.9em 'librebaskerville-regular', sans-serif;
       width: 90%;
    }
   
-   /* header social links */
-   header .social { font-size: 20px;}
-   header .social li { margin: 0 6px; }
+   /* #home social links */
+   #home .social { font-size: 20px;}
+   #home .social li { margin: 0 6px; }
 
    /* footer
    ------------------------------------------------------------------------ */
