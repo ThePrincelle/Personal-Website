@@ -2,34 +2,38 @@ let elements = {
 	"titles": [
 		{
 			"id": "#home",
+			"page": "/home",
 			"name": "Home",
 		},
 		{
-			"id": "#about",
-			"name": "Who am I ?",
+			"name": "Who am I ?"
 		},
 		{
 			"id": "#resume",
+			"page": "/resume",
 			"name": "Resume",
 		}, 
 		{
-			"id": "#work",
-			"name": "Works",
+			"name": "Works"
 		},
 		{
 			"id": "#skills",
+			"page": "/skills",
 			"name": "Skills",
 		},
 		{
 			"id": "#languages",
+			"page": "/languages",
 			"name": "Languages",
 		},
 		{
 			"id": "#projects",
+			"page": "/projects",
 			"name": "Projects",
 		},
 		{
 			"id": "#contact",
+			"page": "/contact",
 			"name": "Contact",
 		}
 	]

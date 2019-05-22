@@ -1,42 +1,32 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-//FR
-import resumeData_fr from './lang/fr/resumeData';
-import elements_fr from './lang/fr/elements';
+import { CV_Holder_fr } from './CV_fr';
+import { CV_Holder_en } from './CV_en';
 
-//EN
-import resumeData_en from './lang/en/resumeData';
-import elements_en from './lang/en/elements';
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 
-import CV from './CV';
-import Loading from './components/Loading';
-import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom";
+class App extends Component {
 
-function fr() {
-  return (<CV resumeData={resumeData_fr} elements={elements_fr}/>);
-}
+	render() {
 
-function en() {
-  return (<CV resumeData={resumeData_en} elements={elements_en}/>);
-}
-
-function App() {
-	return (
-    	<Router>
-      <div>
-        <Loading/>
-		<Switch>
-			<Route path="/" exact component={fr} />
-			<Route path="/fr/" component={fr} />
-			<Route path="/en/" component={en} />
-			<Route path="/contact/" component={() => { window.location = 'https://contact.princelle.org'; return null; }} />
-			<Route path="/contact.php/" component={() => { window.location = 'https://contact.princelle.org'; return null; }} />
-			<Route path="/contact.html/" component={() => { window.location = 'https://contact.princelle.org'; return null; }} />
-			<Redirect to="/" />
-		</Switch>
-      </div>
-	  </Router>
-  );
+		return (
+			<Router>
+			<div>
+				<Switch>
+					<Route exact path="/" component={() => { window.location = '/fr'; return null; }} />	
+					<Route path="/fr" component={CV_Holder_fr} />
+					<Route path="/en" component={CV_Holder_en} />
+					
+					<Route path="/contact/" component={() => { window.location = 'https://contact.princelle.org'; return null; }} />
+					<Route path="/contact.php/" component={() => { window.location = 'https://contact.princelle.org'; return null; }} />
+					<Route path="/contact.html/" component={() => { window.location = 'https://contact.princelle.org'; return null; }} />
+					
+					<Route exact path="/*" component={() => <Redirect to="/fr"/>} />
+				</Switch>
+			</div>
+			</Router>
+			);
+		}
 }
 
 export default App;

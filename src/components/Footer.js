@@ -11,7 +11,7 @@ export default class Footer extends Component {
               resumeData.socialLinks && resumeData.socialLinks.map((item)=>{
                 return(
                   <li key={item.url}>
-                    <a href={item.url}>
+                    <a href={item.url} target="_blank" rel="noopener noreferrer">
                     <i className={item.className} />
                     </a>
                   </li>
@@ -30,7 +30,7 @@ export default class Footer extends Component {
             </div>
         </div>
 				
-        <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
+        <div id="go-top" style={{ display: "none" }}><a className="smoothscroll" title="Back to Top" href="#nav-bar"><i className="icon-up-open" /></a></div>
       </div>
     </footer>
     );

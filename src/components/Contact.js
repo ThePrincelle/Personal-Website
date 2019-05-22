@@ -5,6 +5,7 @@ export default class Contact extends Component {
   render() {
 	  let resumeData = this.props.resumeData;
 	  let elements = this.props.elements;
+	  
     return (
       <section id="contact">
           <div className="row section-head">

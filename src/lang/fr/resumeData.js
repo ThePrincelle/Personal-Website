@@ -1,5 +1,6 @@
 let resumeData = {
 	"imagebaseurl": "https://princelle.org",
+	"lang": "fr",
 	"changeLang": "Changer de langue ?",
 	"langs": [
 		["/fr", "🇫🇷 Français"],
@@ -79,7 +80,7 @@ let resumeData = {
 			"locLink": "https://goo.gl/maps/QFgEU6aUsiZpVL6H9",
 			"date": "2010 - 2014",
 			"desc": [ 
-				"Durant ces quatre années, je me suis investi dans la vie associative et contribué à plusieurs évènements(Concert de fin d 'année, Journée Portes Ouvertes,...).",
+				"Durant ces quatre années, je me suis investi dans la vie associative et contribué à plusieurs évènements (Concert de fin d 'année, Journée Portes Ouvertes,...).",
 				"Dans le même temps, j'ai préparé au mieux mon entrée au lycée et j'ai obtenu mon brevet.",
 			],
 		"link": "http://www.education.gouv.fr/annuaire/67-bas-rhin/mutzig/college/college-louis-arbogast.html"

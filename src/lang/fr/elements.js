@@ -2,35 +2,39 @@ let elements = {
 	"titles": [
 		{
 			"id": "#home",
-			"name": "Accueil",
+			"page": "/home",
+			"name": "Accueil"
 		},
 		{
-			"id": "#about",
-			"name": "Qui suis-je ?",
+			"name": "Qui suis-je ?"
 		},
 		{
 			"id": "#resume",
-			"name": "Formations",
+			"page": "/resume",
+			"name": "Formations"
 		}, 
 		{
-			"id": "#work",
-			"name": "Expériences",
+			"name": "Expériences"
 		},
 		{
 			"id": "#skills",
-			"name": "Compétences",
+			"page": "/skills",
+			"name": "Compétences"
 		},
 		{
 			"id": "#languages",
-			"name": "Langages",
+			"page": "/languages",
+			"name": "Langages"
 		},
 		{
 			"id": "#projects",
-			"name": "Projets",
+			"page": "/projects",
+			"name": "Projets"
 		},
 		{
 			"id": "#contact",
-			"name": "Contact",
+			"page": "/contact",
+			"name": "Contact"
 		}
 	]
   }
