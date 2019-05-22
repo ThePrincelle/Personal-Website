@@ -13,15 +13,15 @@ class App extends Component {
 			<Router>
 			<div>
 				<Switch>
-					<Route exact path="/" component={() => { window.location = '/fr'; return null; }} />	
+					<Route exact path="/" component={() => <Redirect to="/fr"/>} />	
 					<Route path="/fr" component={CV_Holder_fr} />
 					<Route path="/en" component={CV_Holder_en} />
 					
 					<Route path="/contact/" component={() => { window.location = 'https://contact.princelle.org'; return null; }} />
 					<Route path="/contact.php/" component={() => { window.location = 'https://contact.princelle.org'; return null; }} />
 					<Route path="/contact.html/" component={() => { window.location = 'https://contact.princelle.org'; return null; }} />
-					
-					<Route exact path="/*" component={() => <Redirect to="/fr"/>} />
+						
+					<Route path={"/*"} component={() => <Redirect to="/fr"/>} />
 				</Switch>
 			</div>
 			</Router>

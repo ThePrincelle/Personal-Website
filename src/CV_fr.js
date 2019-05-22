@@ -32,7 +32,7 @@ export const CV_Holder_fr = ({ match }) => {
 				<Route path={`${match.url}/skills`} component={Skills_section} />
 				<Route path={`${match.url}/contact`} component={Contact_section} />
 
-				<Route exact path={`${match.url}/*`} component={() => <Redirect to="/fr"/>} />
+				<Route path={`${match.url}/*`} component={() => <Redirect to="/fr"/>} />
 			</Switch>
 
 			<Footer resumeData={resumeData_fr} elements={elements_fr} />
