@@ -45,6 +45,7 @@ const Home_section = ({ match }) => (
 		<Header resumeData={resumeData_fr} elements={elements_fr} visibleHeader={true} HomeColor={"#F06000"} ContactColor={"#FFF"} ProjectsColor={"#FFF"} LanguagesColor={"#FFF"} SkillsColor={"#FFF"} ResumeColor={"#FFF"} />
 		<About resumeData={resumeData_fr} elements={elements_fr} />
 		<Lang resumeData={resumeData_fr} curr_page={""} />
+		{document.title = ("Maxime Princelle")}
 	</div>
 )
 
@@ -53,6 +54,7 @@ const Contact_section = ({ match }) => (
 		<Header resumeData={resumeData_fr} elements={elements_fr} visibleHeader={false} HomeColor={"#FFF"} ContactColor={"#F06000"} ProjectsColor={"#FFF"} LanguagesColor={"#FFF"} SkillsColor={"#FFF"} ResumeColor={"#FFF"} />
 		<Contact resumeData={resumeData_fr} elements={elements_fr} />
 		<Lang resumeData={resumeData_fr} curr_page={"contact"} />
+		{document.title = ("Maxime Princelle - " + elements_fr.titles[7].name)}
 	</div>
 )
 
@@ -61,6 +63,7 @@ const Projects_section = ({ match }) => (
 		<Header resumeData={resumeData_fr} elements={elements_fr} visibleHeader={false} colorNavBar={"#333"} HomeColor={"#FFF"} ContactColor={"#FFF"} ProjectsColor={"#F06000"} LanguagesColor={"#FFF"} SkillsColor={"#FFF"} ResumeColor={"#FFF"} />
 		<Projects resumeData={resumeData_fr} elements={elements_fr} />
 		<Lang resumeData={resumeData_fr} curr_page={"projects"} />
+		{document.title = ("Maxime Princelle - " + elements_fr.titles[6].name)}
 	</div>
 )
 
@@ -69,6 +72,7 @@ const Languages_section = ({ match }) => (
 		<Header resumeData={resumeData_fr} elements={elements_fr} visibleHeader={false} colorNavBar={"#333"} HomeColor={"#FFF"} ContactColor={"#FFF"} ProjectsColor={"#FFF"} LanguagesColor={"#F06000"} SkillsColor={"#FFF"} ResumeColor={"#FFF"} />
 		<Languages resumeData={resumeData_fr} elements={elements_fr} />
 		<Lang resumeData={resumeData_fr} curr_page={"languages"} />
+		{document.title = ("Maxime Princelle - " + elements_fr.titles[5].name)}
 	</div>
 )
 
@@ -77,6 +81,7 @@ const Skills_section = ({ match }) => (
 		<Header resumeData={resumeData_fr} elements={elements_fr} visibleHeader={false} colorNavBar={"#333"} HomeColor={"#FFF"} ContactColor={"#FFF"} ProjectsColor={"#FFF"} LanguagesColor={"#FFF"} SkillsColor={"#F06000"} ResumeColor={"#FFF"} />
 		<Skills resumeData={resumeData_fr} elements={elements_fr} />
 		<Lang resumeData={resumeData_fr} curr_page={"skills"} />
+		{document.title = ("Maxime Princelle - " + elements_fr.titles[4].name)}
 	</div>
 )
 
@@ -86,5 +91,6 @@ const Resume_section = ({ match }) => (
 		<Resume resumeData={resumeData_fr} elements={elements_fr} />
 		<Work resumeData={resumeData_fr} elements={elements_fr} />
 		<Lang resumeData={resumeData_fr} curr_page={"resume"} />
+		{document.title = ("Maxime Princelle - " + elements_fr.titles[2].name + " & " + elements_fr.titles[3].name)}
 	</div>
 )
