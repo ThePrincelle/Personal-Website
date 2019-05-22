@@ -20,23 +20,23 @@ export default class Header extends Component {
 						<a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 					<a className="mobile-btn" href="#nav-hide" title="Hide navigation">Hide navigation</a>
 						<ul id="nav" className="nav">
-							<li style={{ color: HomeColor }}>
-								<a href={"/" + lang}>{elements.titles[0].name}</a>
+							<li>
+								<a style={{ color: HomeColor }} href={"/" + lang}>{elements.titles[0].name}</a>
 							</li>
-							<li style={{ color: ResumeColor }}>
-								<a href={"/" + lang + "/resume"}>{elements.titles[2].name + " & " + elements.titles[3].name}</a>
+							<li>
+								<a style={{ color: ResumeColor }} href={"/" + lang + "/resume"}>{elements.titles[2].name + " & " + elements.titles[3].name}</a>
 							</li>
-							<li style={{ color: SkillsColor }}>
-								<a href={"/" + lang + "/skills"}>{elements.titles[4].name}</a>
+							<li>
+								<a style={{ color: SkillsColor }} href={"/" + lang + "/skills"}>{elements.titles[4].name}</a>
 							</li>
-							<li style={{ color: LanguagesColor }}>
-								<a href={"/" + lang + "/languages"}>{elements.titles[5].name}</a>
+							<li>
+								<a style={{ color: LanguagesColor }} href={"/" + lang + "/languages"}>{elements.titles[5].name}</a>
 							</li>
-							<li style={{ color: ProjectsColor }}>
-								<a href={"/" + lang + "/projects"}>{elements.titles[6].name}</a>
+							<li>
+								<a style={{ color: ProjectsColor }} href={"/" + lang + "/projects"}>{elements.titles[6].name}</a>
 							</li>
-							<li style={{ color: ContactColor }}>
-								<a href={"/" + lang + "/contact"}>{elements.titles[7].name}</a>
+							<li>
+								<a style={{ color: ContactColor }} href={"/" + lang + "/contact"}>{elements.titles[7].name}</a>
 							</li>
 						</ul>
 					</nav>)
