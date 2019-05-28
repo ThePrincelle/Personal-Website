@@ -14,6 +14,7 @@ export default class Header extends Component {
 	  let LanguagesColor = this.props.LanguagesColor;
 	  let ProjectsColor = this.props.ProjectsColor;
 	  let ContactColor = this.props.ContactColor;
+	  let AwardsColor = this.props.AwardsColor;
 
 	  function menu() {
 			return (<nav id="nav-wrap" style={{ backgroundColor: colorNavBar }}>
@@ -36,7 +37,10 @@ export default class Header extends Component {
 								<a style={{ color: ProjectsColor }} href={"/" + lang + "/projects"}>{elements.titles[6].name}</a>
 							</li>
 							<li>
-								<a style={{ color: ContactColor }} href={"/" + lang + "/contact"}>{elements.titles[7].name}</a>
+								<a style={{ color: AwardsColor }} href={"/" + lang + "/awards"}>{elements.titles[7].name}</a>
+							</li>
+							<li>
+								<a style={{ color: ContactColor }} href={"/" + lang + "/contact"}>{elements.titles[8].name}</a>
 							</li>
 						</ul>
 					</nav>)

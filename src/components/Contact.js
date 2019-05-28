@@ -10,7 +10,7 @@ export default class Contact extends Component {
       <section id="contact">
           <div className="row section-head">
             <div className="ten columns">
-					<h1>{elements.titles[7].name}</h1>
+					<h1>{elements.titles[8].name}</h1>
 					<h2 style={{color:"#FFF" }}>{resumeData.contactDesc}</h2>
             </div>
           </div>
