@@ -119,7 +119,7 @@ let resumeData = {
 			"date": "2018 (2 mois)",
 			"desc": [ 
 				"Mes premiers pas dans le monde de l'entreprise. Ici j'étais chargé de faire quelques missions, basés principalement autour de l'informatique industrielle.",
-				"J'ai eu l'occasion de me former sur lePowerShell, le PHP ou encore le SQL...",
+				"J'ai eu l'occasion de me former sur le PowerShell, le PHP ou encore le SQL...",
 			],
 		"link": "https://www.solu-tech.fr/"
       }
@@ -136,6 +136,60 @@ let resumeData = {
 				"J'apprends l'anglais au cours de mes études depuis le CM1.",
 				"Je m'améliore quotidiennement en voyageant et en regardant toutes les séries TV que je suis en anglais.",
 				"J'ai aussi obtenu le TOEIC avec 870 points sur 990."
+			]
+		},
+		{
+			"name": "Git",
+			"icon": "/images/skills/git.png",
+			"linkText": "Lien vers le site",
+			"link": "https://git-scm.com/",
+			"type": "Logiciels de gestion de version",
+			"text": [
+				"Il permet de simplifier au maximum le travail en équipe et d'éviter de s'occuper de la gestion de code."
+			]
+		},
+		{
+			"name": "Visual Studio Code",
+			"icon": "/images/skills/vscode.png",
+			"linkText": "Lien vers le site",
+			"link": "https://code.visualstudio.com/",
+			"type": "",
+			"text": [
+				"Cet éditeur de code à l'avantage d'être personnalisable et très léger.",
+				"De plus il est compatible avec la plupart des langages.",
+			]
+		},
+		{
+			"name": "Linux",
+			"icon": "/images/skills/linux.png",
+			"linkText": "En savoir plus...",
+			"link": "https://fr.wikipedia.org/wiki/Linux",
+			"type": "Système d'exploitation",
+			"text": [
+				"Je l'utilise principalement pour la gestion de l'environnement domotique à mon domicile.",
+				"Plusieurs serveurs se chargent de la gestion des appareils, d'autres des fichiers et du multimédia, etc..."
+			]
+		},
+		{
+			"name": "Docker",
+			"icon": "/images/skills/docker.png",
+			"linkText": "Lien vers le site",
+			"link": "https://www.docker.com",
+			"type": "Conteneurs Logiciels",
+			"text": [
+				"Je place aujourd'hui l'intégralité de mes applications dans des conteneurs Docker.",
+				"Ainsi, je peux gérer chacune d'entre-elles individuellement tout en sécurisant un maximum leur accès."
+			]
+		},
+		{
+			"name": "Android Studio",
+			"icon": "/images/skills/android_studio.png",
+			"linkText": "Lien vers le site",
+			"link": "https://developer.android.com/studio/",
+			"type": "",
+			"text": [
+				"Ce logiciel me permet de créer des applications Android et simuler un environnement dans la foulée.",
+				"Il a l'avantage d'intégrer les outils Git et ADB."
 			]
 		},
 		{
@@ -161,49 +215,6 @@ let resumeData = {
 			]
 		},
 		{
-			"name": "Git",
-			"icon": "/images/skills/git.png",
-			"linkText": "Lien vers le site",
-			"link": "https://git-scm.com/",
-			"type": "Logiciels de gestion de version",
-			"text": [
-				"Il permet de simplifier au maximum le travail en équipe et d'éviter de s'occuper de la gestion de code."
-			]
-		},
-		{
-			"name": "Visual Studio Code",
-			"icon": "/images/skills/vscode.png",
-			"linkText": "Lien vers le site",
-			"link": "https://code.visualstudio.com/",
-			"type": "",
-			"text": [
-				"Cet éditeur de code à l'avantage d'être personnalisable et très léger.",
-				"De plus il est compatible avec la plupart des langages.",
-			]
-		},
-		{
-			"name": "Android Studio",
-			"icon": "/images/skills/android_studio.png",
-			"linkText": "Lien vers le site",
-			"link": "https://developer.android.com/studio/",
-			"type": "",
-			"text": [
-				"Ce logiciel me permet de créer des applications Android et simuler un environnement dans la foulée.",
-				"Il a l'avantage d'intégrer les outils Git et ADB."
-			]
-		},
-		{
-			"name": "Linux",
-			"icon": "/images/skills/linux.png",
-			"linkText": "En savoir plus...",
-			"link": "https://fr.wikipedia.org/wiki/Linux",
-			"type": "Système d'exploitation",
-			"text": [
-				"Je l'utilise principalement pour la gestion de l'environnement domotique à mon domicile.",
-				"Plusieurs serveurs se chargent de la gestion des appareils, d'autres des fichiers et du multimédia, etc..."
-			]
-		},
-		{
 			"name": "Final Cut Pro",
 			"icon": "/images/skills/finalcut.png",
 			"linkText": "Lien vers le site",
@@ -213,7 +224,7 @@ let resumeData = {
 				"Ce logiciel n'est qu'uniquement disponible sur Mac.",
 				"Je l'utilise dès que j'ai une vidéo à monter que ce soit pour un projet ou un devoir à rendre."
 			]
-		},
+		}
 	],
 	"langagesDesc": "Voici les plateformes et différents langages et frameworks que j'utilise.",
 	"langages": [{
@@ -242,6 +253,13 @@ let resumeData = {
 			"icon": "/images/langages/react.png",
 			"desc": "Framework Web",
 			"link": "https://fr.wikipedia.org/wiki/React_(JavaScript)",
+			"linkTitle": "Wikipedia"
+		},
+		{
+			"name": "Laravel",
+			"icon": "/images/langages/laravel.png",
+			"desc": "Framework Web",
+			"link": "https://fr.wikipedia.org/wiki/Laravel",
 			"linkTitle": "Wikipedia"
 		},
 		{
@@ -298,13 +316,6 @@ let resumeData = {
 			"icon": "/images/langages/c.png",
 			"desc": "",
 			"link": "https://fr.wikipedia.org/wiki/C_(langage)",
-			"linkTitle": "Wikipedia"
-		},
-		{
-			"name": "Docker",
-			"icon": "/images/langages/docker.png",
-			"desc": "Conteneurs logiciels",
-			"link": "https://fr.wikipedia.org/wiki/Docker_(logiciel)",
 			"linkTitle": "Wikipedia"
 		},
 		{
@@ -562,6 +573,24 @@ let resumeData = {
     		]
     	}
 	],
+	"awardsDesc": [
+		"Vous trouverez ici, les différentes récompenses que j'ai reçu lors des différents concours auquel j'ai participé."
+	],
+	"awards": [{
+		"event": "24h des IUT",
+		"name": "1ère place - Épreuve 'Intelligence Artificielle'",
+		"loc": "Université Le Havre, France",
+		"locLink": "https://goo.gl/maps/2BMVp4VK8sLuySDz9",
+		"date": "Édition 2019",
+		"desc": [
+			"L'objectif était de construire un programme d'IA pour résoudre un problème donné.",
+			"Afin de réaliser un programme performant, nous avons choisi Python comme language.",
+			"Le principe était de réaliser une connexion en réseau à un serveur afin de pouvoir jouer contre ce dernier.",
+			"Le but était de réaliser le programme le plus performant mais aussi avec la meilleure stratégie possible tout en respectant les règles données."
+		],
+		"linkDescAwards": "En apprendre plus sur l'évènement...",
+		"link": "https://di.iut.univ-lehavre.fr/24hinfo/index.php"
+	}],
 	"contactDesc": "Vous souhaitez me poser une question ou autre ?",
 	"contactWhere": "Où me trouver ?",
 	"adress": [

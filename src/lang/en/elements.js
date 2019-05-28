@@ -32,6 +32,11 @@ let elements = {
 			"name": "Projects",
 		},
 		{
+			"id": "#awards",
+			"page": "/awards",
+			"name": "Awards",
+		},
+		{
 			"id": "#contact",
 			"page": "/contact",
 			"name": "Contact",

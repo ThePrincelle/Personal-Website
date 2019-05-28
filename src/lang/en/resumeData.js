@@ -138,6 +138,60 @@ let resumeData = {
 			]
 		},
 		{
+			"name": "Git",
+			"icon": "/images/skills/git.png",
+			"linkText": "Link to the website",
+			"link": "https://git-scm.com/",
+			"type": "Version Management Software",
+			"text": [
+				"It makes it possible to simplify teamwork as much as possible and to avoid dealing with code management."
+			]
+		},
+		{
+			"name": "Visual Studio Code",
+			"icon": "/images/skills/vscode.png",
+			"linkText": "Link to the website",
+			"link": "https://code.visualstudio.com/",
+			"type": "",
+			"text": [
+				"This code editor has the advantage of being very customizable.",
+				"Also it is compatible with most languages.",
+			]
+		},
+		{
+			"name": "Linux",
+			"icon": "/images/skills/linux.png",
+			"linkText": "Learn more...",
+			"link": "https://wikipedia.org/wiki/Linux",
+			"type": "Operating system",
+			"text": [
+				"I use it mainly for managing the home automation environment at my home.",
+				"Several servers are responsible for managing devices, others for files and multimedia, etc."
+			]
+		},
+		{
+			"name": "Docker",
+			"icon": "/images/skills/docker.png",
+			"linkText": "Link to the website",
+			"link": "https://www.docker.com",
+			"type": "Container Platform",
+			"text": [
+				"I'm placing today all of my applications in Docker containers.",
+				"I can manage each of them individually while securing maximum their access."
+			]
+		},
+		{
+			"name": "Android Studio",
+			"icon": "/images/skills/android_studio.png",
+			"linkText": "Link to the website",
+			"link": "https://developer.android.com/studio/",
+			"type": "",
+			"text": [
+				"This software allows me to create Android applications and simulate an environment in stride.",
+				"It has the advantage of integrating Git and ADB tools."
+			]
+		},
+		{
 			"name": "Office Suite",
 			"icon": "/images/skills/office.png",
 			"linkText": "Link to the website",
@@ -160,49 +214,6 @@ let resumeData = {
 			]
 		},
 		{
-			"name": "Git",
-			"icon": "/images/skills/git.png",
-			"linkText": "Link to the website",
-			"link": "https://git-scm.com/",
-			"type": "Version Management Software",
-			"text": [
-				"It makes it possible to simplify teamwork as much as possible and to avoid dealing with code management."
-			]
-		},
-		{
-			"name": "Visual Studio Code",
-			"icon": "/images/skills/vscode.png",
-			"linkText": "Link to the website",
-			"link": "https://code.visualstudio.com/",
-			"type": "",
-			"text": [
-				"This code editor has the advantage of being very customizable.",
-				"Also it is compatible with most languages.",
-			]
-		},
-		{
-			"name": "Android Studio",
-			"icon": "/images/skills/android_studio.png",
-			"linkText": "Link to the website",
-			"link": "https://developer.android.com/studio/",
-			"type": "",
-			"text": [
-				"This software allows me to create Android applications and simulate an environment in stride.",
-				"It has the advantage of integrating Git and ADB tools."
-			]
-		},
-		{
-			"name": "Linux",
-			"icon": "/images/skills/linux.png",
-			"linkText": "Learn more...",
-			"link": "https://fr.wikipedia.org/wiki/Linux",
-			"type": "Operating system",
-			"text": [
-				"I use it mainly for managing the home automation environment at my home.",
-				"Several servers are responsible for managing devices, others for files and multimedia, etc."
-			]
-		},
-		{
 			"name": "Final Cut Pro",
 			"icon": "/images/skills/finalcut.png",
 			"linkText": "Link to the website",
@@ -212,133 +223,133 @@ let resumeData = {
 				"This software is only available on Mac.",
 				"I use it as soon as I have a video to edit whether for a project or a homework assignment."
 			]
-		},
+		}
 	],
 	"langagesDesc": "Here are the platforms and different languages and frameworks that I use.",
 	"langages": [{
 			"name": "HTML",
 			"icon": "/images/langages/html.png",
 			"desc": "",
-			"link": "https://fr.wikipedia.org/wiki/Hypertext_Markup_Language",
+			"link": "https://wikipedia.org/wiki/Hypertext_Markup_Language",
 			"linkTitle": "Wikipedia"
 		},
 		{
 			"name": "CSS",
 			"icon": "/images/langages/css.png",
 			"desc": "",
-			"link": "https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade",
+			"link": "https://wikipedia.org/wiki/Feuilles_de_style_en_cascade",
 			"linkTitle": "Wikipedia"
 		},
 		{
 			"name": "JavaScript",
 			"icon": "/images/langages/js.png",
 			"desc": "",
-			"link": "https://fr.wikipedia.org/wiki/JavaScript",
+			"link": "https://wikipedia.org/wiki/JavaScript",
 			"linkTitle": "Wikipedia"
 		},
 		{
 			"name": "React",
 			"icon": "/images/langages/react.png",
 			"desc": "Web Framework",
-			"link": "https://fr.wikipedia.org/wiki/React_(JavaScript)",
+			"link": "https://wikipedia.org/wiki/React_(JavaScript)",
+			"linkTitle": "Wikipedia"
+		},
+		{
+			"name": "Laravel",
+			"icon": "/images/langages/react.png",
+			"desc": "Web Framework",
+			"link": "https://wikipedia.org/wiki/Laravel",
 			"linkTitle": "Wikipedia"
 		},
 		{
 			"name": "Java",
 			"icon": "/images/langages/java.png",
 			"desc": "",
-			"link": "https://fr.wikipedia.org/wiki/Java_(langage)",
+			"link": "https://wikipedia.org/wiki/Java_(langage)",
 			"linkTitle": "Wikipedia"
 		},
 		{
 			"name": "PHP",
 			"icon": "/images/langages/php.png",
 			"desc": "",
-			"link": "https://fr.wikipedia.org/wiki/PHP",
+			"link": "https://wikipedia.org/wiki/PHP",
 			"linkTitle": "Wikipedia"
 		},
 		{
 			"name": "Python",
 			"icon": "/images/langages/python.png",
 			"desc": "",
-			"link": "https://fr.wikipedia.org/wiki/Python_(langage)",
+			"link": "https://wikipedia.org/wiki/Python_(langage)",
 			"linkTitle": "Wikipedia"
 		},
 		{
 			"name": "C#",
 			"icon": "/images/langages/csharp.png",
 			"desc": "",
-			"link": "https://fr.wikipedia.org/wiki/C_sharp",
+			"link": "https://wikipedia.org/wiki/C_sharp",
 			"linkTitle": "Wikipedia"
 		},
 		{
 			"name": "SQL",
 			"icon": "/images/langages/sql.png",
 			"desc": "Databases",
-			"link": "https://fr.wikipedia.org/wiki/Structured_Query_Language",
+			"link": "https://wikipedia.org/wiki/Structured_Query_Language",
 			"linkTitle": "Wikipedia"
 		},
 		{
 			"name": "BASH",
 			"icon": "/images/langages/bash.png",
 			"desc": "Shell Script",
-			"link": "https://fr.wikipedia.org/wiki/Bourne-Again_shell",
+			"link": "https://wikipedia.org/wiki/Bourne-Again_shell",
 			"linkTitle": "Wikipedia"
 		},
 		{
 			"name": "SAS",
 			"icon": "/images/langages/sas.png",
 			"desc": "Statistics",
-			"link": "https://fr.wikipedia.org/wiki/SAS_Institute",
+			"link": "https://wikipedia.org/wiki/SAS_Institute",
 			"linkTitle": "Wikipedia"
 		},
 		{
 			"name": "C",
 			"icon": "/images/langages/c.png",
 			"desc": "",
-			"link": "https://fr.wikipedia.org/wiki/C_(langage)",
-			"linkTitle": "Wikipedia"
-		},
-		{
-			"name": "Docker",
-			"icon": "/images/langages/docker.png",
-			"desc": "Software containers",
-			"link": "https://fr.wikipedia.org/wiki/Docker_(logiciel)",
+			"link": "https://wikipedia.org/wiki/C_(langage)",
 			"linkTitle": "Wikipedia"
 		},
 		{
 			"name": "Android",
 			"icon": "/images/langages/android.png",
 			"desc": "Mobile OS",
-			"link": "https://fr.wikipedia.org/wiki/Android",
+			"link": "https://wikipedia.org/wiki/Android",
 			"linkTitle": "Wikipedia"
 		},
 		{
 			"name": "iOS",
 			"icon": "/images/langages/ios.png",
 			"desc": "Mobile OS",
-			"link": "https://fr.wikipedia.org/wiki/iOS",
+			"link": "https://wikipedia.org/wiki/iOS",
 			"linkTitle": "Wikipedia"
 		},
 		{
 			"name": "macOS",
 			"icon": "/images/langages/mac.png",
 			"desc": "Desktop OS",
-			"link": "https://fr.wikipedia.org/wiki/Mac_OS",
+			"link": "https://wikipedia.org/wiki/Mac_OS",
 			"linkTitle": "Wikipedia"
 		},
 		{
 			"name": "Linux",
 			"icon": "/images/langages/linux.png",
 			"desc": "Desktop OS",
-			"link": "https://fr.wikipedia.org/wiki/Linux",
+			"link": "https://wikipedia.org/wiki/Linux",
 			"linkTitle": "Wikipedia"
 		},
 		{
 			"name": "Windows",
 			"icon": "/images/langages/windows.png",
 			"desc": "Desktop OS",
-			"link": "https://fr.wikipedia.org/wiki/Microsoft_Windows",
+			"link": "https://wikipedia.org/wiki/Microsoft_Windows",
 			"linkTitle": "Wikipedia"
 		}		
 	],
@@ -561,6 +572,24 @@ let resumeData = {
     		]
     	}
 	],
+	"awardsDesc": [
+		"Here you will find the awards that I received in the competitions in which I participated."
+	],
+	"awards": [{
+		"event": "'24h des IUT'",
+		"name": "1st place - 'Artificial Intelligence' event",
+		"loc": "University Le Havre, France",
+		"locLink": "https://goo.gl/maps/2BMVp4VK8sLuySDz9",
+		"date": "2019 Edition",
+		"desc": [
+			"The goal was to build an AI program to solve a given problem.",
+			"In order to realize a powerful program, we chose the Python language.",
+			"The idea was to create a network connection to a server in order to play against him.",
+			"The goal was to realize the most powerful program but also with the best possible strategy while respecting the given rules."
+		],
+		"linkDescAwards": "Learn more about the event...",
+		"link": "https://di.iut.univ-lehavre.fr/24hinfo/index.php"
+	}],
 	"contactDesc": "Do you want to ask me a question or something?",
 	"contactWhere": "Where to find me?",
 	"adress": [
