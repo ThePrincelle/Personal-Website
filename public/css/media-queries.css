@@ -238,6 +238,17 @@
       
    .bars { width: 100%; }
 
+   /* Work Section
+   --------------------------------------------------------------------- */
+   #work .header-col {
+      padding-top: 0;
+      margin-bottom: 48px;
+      text-align: center;
+   }
+   #work h1 { letter-spacing: 3px; }
+   #work .main-col { padding-right: 30px; }
+   #work h3, #work .info { text-align: center; }
+
 
    /* Call To Action Section
    /* ----------------------------------------------------------------- */

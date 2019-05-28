@@ -15,7 +15,7 @@ export default  class Resume extends Component {
 
 				<div className="nine columns">
 					
-				<p>
+				<p style={{paddingTop: "1.2rem"}}>
                {resumeData.langagesDesc}
 					</p>
 

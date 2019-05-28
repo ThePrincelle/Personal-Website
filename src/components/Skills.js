@@ -15,7 +15,7 @@ export default  class Resume extends Component {
 
             <div className="nine columns main-col">
 
-               <p>
+               <p style={{paddingTop: "1.2rem", paddingBottom: "1rem"}}>
                {resumeData.skillsDescription}
 					</p>
 					

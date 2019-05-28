@@ -5,9 +5,9 @@ export default  class Awards extends Component {
 	  let elements = this.props.elements;
 
     return (
-      <section id="work" className="resume" style={{paddingBottom: ".8rem"}}>
+      <section id="awards" className="resume" style={{paddingBottom: ".8rem"}}>
 			
-        <div className="row work">
+        <div className="row award">
             <div className="three columns header-col">
                <h1><span>{elements.titles[7].name}</span></h1>
             </div>
@@ -17,7 +17,7 @@ export default  class Awards extends Component {
 					{
 						resumeData.awardsDesc && resumeData.awardsDesc.map((item, index) => {
 							return (
-								<p key={index} style={{ marginTop: "0.2rem", marginBottom: "0.2rem", textAlign: "justify" }}>{item}</p>
+								<p key={index} style={{ marginTop: "1.2rem", marginBottom: "0.2rem", textAlign: "justify" }}>{item}</p>
 								)
 							}
 						)

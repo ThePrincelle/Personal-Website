@@ -13,11 +13,11 @@ export default  class Resume extends Component {
             </div>
 
             <div className="nine columns main-col">
-              					<div style={{ paddingBottom: "3rem"}}>
+              					<div>
 					{
 						resumeData.workDesc && resumeData.workDesc.map((item, index) => {
 							return (
-								<p key={index} style={{ marginTop: "0.2rem", marginBottom: "0.2rem", textAlign: "justify" }}>{item}</p>
+								<p key={index} style={{ marginTop: "1.2rem", marginBottom: "0.2rem", textAlign: "justify" }}>{item}</p>
 								)
 							}
 						)
