@@ -121,7 +121,19 @@ let resumeData = {
 				"I had the opportunity to learn about PowerShell, PHP or SQL ...",
 			],
 		"link": "https://www.solu-tech.fr/"
-      }
+	  },
+	  {
+	  	"name": "Solu-Tech",
+	  	"loc": "Rosheim, France",
+	  	"locLink": "https://goo.gl/maps/jejsTAkaHi52s8rg9",
+	  	"date": "2019 (4 months)",
+	  	"desc": [
+	  		"On the occasion of my internship during my DUT, I decided to go back to Solu-Tech.",
+	  		"My mission was to improve the intranet site to manage the hours and expenses of employees.",
+	  		"In order to meet this need, I decided to take over the site from scratch to be able to develop an API in NodeJS and a web client in React."
+	  	],
+	  	"link": "https://www.solu-tech.fr/"
+	  }
     ],
     "skillsDescription": "Here is a list of my skills and different software that I own and use, during my studies or the realization of personal projects.",
     "skills":[

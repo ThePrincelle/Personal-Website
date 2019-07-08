@@ -122,7 +122,19 @@ let resumeData = {
 				"J'ai eu l'occasion de me former sur le PowerShell, le PHP ou encore le SQL...",
 			],
 		"link": "https://www.solu-tech.fr/"
-      }
+	  },
+	  {
+	  	"name": "Solu-Tech",
+	  	"loc": "Rosheim, France",
+	  	"locLink": "https://goo.gl/maps/jejsTAkaHi52s8rg9",
+	  	"date": "2019 (4 mois)",
+	  	"desc": [
+			"A l'occasion de mon stage lors de mon DUT, j'ai décidé de retourner chez Solu-Tech.",
+			"Ma mission était d'améliorer le site intranet permettant de gérer les heures et les frais des employés.",
+			"Afin de répondre à ce besoin, j'ai décidé de reprendre le site à zéro pour pouvoir développer une API en NodeJS ainsi qu'un client web en React."
+	  	],
+	  	"link": "https://www.solu-tech.fr/"
+	  }
     ],
     "skillsDescription": "Voici une liste de mes compétences et différents logiciels que je possède et utilise, au cours de mes études ou de la réalisation de projets personnels.",
     "skills":[
