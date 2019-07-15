@@ -5,10 +5,11 @@ let resumeData = {
 	"langs": [
 		["/fr", "🇫🇷 Français"],
 		["/en", "🇺🇸 English"],
+		["/en", "🇺🇸 English"],
 	],
 	"welcome": "Bienvenue !",
     "name": "Je suis Maxime Princelle.",
-	"roleDescription": "Étudiant en informatique 💻",
+	"roleDescription": "Étudiant en Informatique 💻",
     "socialLinks":[
         {
           "name":"facebook",
