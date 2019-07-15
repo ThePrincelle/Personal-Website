@@ -4,8 +4,7 @@ let resumeData = {
 	"changeLang": "Changer de langue ?",
 	"langs": [
 		["/fr", "🇫🇷 Français"],
-		["/en", "🇺🇸 English"],
-		["/en", "🇺🇸 English"],
+		["/en", "🇺🇸 English"]
 	],
 	"welcome": "Bienvenue !",
     "name": "Je suis Maxime Princelle.",
