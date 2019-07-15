@@ -31,9 +31,9 @@ let resumeData = {
         	"className": "fab fa-linkedin"
 		},
 		{
-			"name": "git",
-			"url": "https://git.princelle.org/princelle",
-			"className": "fab fa-git"
+			"name": "github",
+			"url": "https://github.com/ThePrinceMax",
+			"className": "fab fa-github"
 		},
 		{
         	"name": "gitlab",
