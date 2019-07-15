@@ -378,7 +378,7 @@ let resumeData = {
     		"desc": "Jeu éducatif",
     		"link": "https://plantae.princelle.org",
     		"linkText": "Lien vers le projet",
-    		"git": "https://git.princelle.org/princelle/T3_Plantae",
+    		"git": "https://github.com/ThePrinceMax/Plantae",
     		"gitText": "Lien vers le Git",
     		"imgurl": "/images/projects/t3.png",
     		"tags": [
@@ -400,7 +400,7 @@ let resumeData = {
     		"desc": "Jeu éducatif (Prototype)",
     		"link": "https://accuracyrobots.princelle.org",
     		"linkText": "Lien vers le projet",
-    		"git": "https://git.princelle.org/princelle/Projet_T4",
+    		"git": "https://github.com/ThePrinceMax/Accuracy-Robots",
     		"gitText": "Lien vers le Git",
     		"imgurl": "/images/projects/t4.png",
     		"tags": [
@@ -480,25 +480,6 @@ let resumeData = {
     			"J'ai donc décidé de déployer le mien, basé sur LimeSurvey, j'y ai aussi apporté des modifications, notamment dans le traitement des réponses mais aussi dans le design des interfaces."
     		]
     	}, {
-    		"name": "Git Princelle",
-    		"date": "2019",
-    		"desc": "Serveur Git",
-    		"link": "https://git.princelle.org",
-    		"linkText": "Lien vers le projet",
-    		"git": "",
-    		"gitText": "",
-    		"imgurl": "/images/projects/git.png",
-    		"tags": [
-				["Git", ""],
-				["Gitea", "https://gitea.io/"],
-				["Docker", "https://www.docker.com/"],
-    		],
-    		"text": [
-    			"Jusqu'à présent, l'intégralité de mes dépots Git étaient stockés à l'Université de Strasbourg.",
-				"Basé sur le logiciel opensource Gitea, il me permet d'héberger tous mes projets sans aucune restriction.",
-				"Grâce à ce projet, j'ai également appris Docker. Un logiciel permettant de placer des logiciels dans des conteneurs."
-    		]
-    	}, {
     		"name": "DB Princelle",
     		"date": "2018",
     		"desc": "Base de données",
@@ -521,7 +502,7 @@ let resumeData = {
     		"desc": "Projet - Création d'entreprise",
     		"link": "https://homeprince.princelle.org",
     		"linkText": "Lien vers le site",
-    		"git": "https://git.princelle.org/princelle/HomePrince_Website",
+    		"git": "https://github.com/ThePrinceMax/HomePrince-Website",
     		"gitText": "Lien vers le Git",
     		"imgurl": "/images/projects/homeprince.png",
     		"tags": [
@@ -541,8 +522,8 @@ let resumeData = {
     		"desc": "CV en ligne",
     		"link": "https://princelle.org",
     		"linkText": "Lien vers le projet",
-    		"git": "",
-    		"gitText": "",
+    		"git": "https://github.com/ThePrinceMax/Personal-Website",
+    		"gitText": "Lien vers le Git",
     		"imgurl": "/images/projects/portfolio.png",
     		"tags": [
     			["JS", ""],
@@ -554,39 +535,6 @@ let resumeData = {
     		"text": [
     			"Vous êtes dessus.",
     			"Récemment mis à jour, ce site présente qui je suis ainsi que les différents projets que j'ai réalisé."
-    		]
-    	}, {
-    		"name": "Business Intelligence",
-    		"date": "2019",
-    		"desc": "Informatique décisionnelle",
-    		"link": "",
-    		"linkText": "",
-    		"git": "https://git.princelle.org/princelle/G4b_Business_Intelligence",
-    		"gitText": "Lien vers le Git",
-    		"imgurl": "",
-    		"tags": [
-				["Java", ""],
-				["Weka", "https://www.cs.waikato.ac.nz/ml/weka/"],
-    		],
-    		"text": [
-    			"Il s'agit d'une application réalisée dans le cadre du module G4b lors du DUT.",
-    			"L'idée était de créer un modèle de données, et en fonction de ce que choisi l'utilisateur à partir d'exemples générés aléatoirement, générer un arbre de décisions correspondant au mieux à ce qui a été sélectionné."
-    		]
-    	}, {
-    		"name": "MetaGame",
-    		"date": "2018",
-    		"desc": "Jeu & Histoire",
-    		"link": "",
-    		"linkText": "",
-    		"git": "https://git.princelle.org/princelle/A31_Projet",
-    		"gitText": "Lien vers le Git",
-    		"imgurl": "",
-    		"tags": [
-    			["Java", ""]
-    		],
-    		"text": [
-    			"Il s'agit d'une application réalisée dans le cadre du module A31 lors du DUT.",
-    			"L'idée était de découvrir Java et les différentes méthodes de programmation et de traitement de données."
     		]
     	}
 	],

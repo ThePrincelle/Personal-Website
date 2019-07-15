@@ -31,7 +31,7 @@ let resumeData = {
         	"className": "fab fa-linkedin"
 		},
 		{
-			"name": "github",
+			"name": "git",
 			"url": "https://github.com/ThePrinceMax",
 			"className": "fab fa-github"
 		},
@@ -377,7 +377,7 @@ let resumeData = {
     		"desc": "Educational game",
     		"link": "https://plantae.princelle.org",
     		"linkText": "Link to the project",
-    		"git": "https://git.princelle.org/princelle/T3_Plantae",
+    		"git": "https://github.com/ThePrinceMax/Plantae",
     		"gitText": "Link to Git repo",
     		"imgurl": "/images/projects/t3.png",
     		"tags": [
@@ -399,7 +399,7 @@ let resumeData = {
     		"desc": "Educational game (Prototype)",
     		"link": "https://accuracyrobots.princelle.org",
     		"linkText": "Link to the project",
-    		"git": "https://git.princelle.org/princelle/Projet_T4",
+    		"git": "https://github.com/ThePrinceMax/Accuracy-Robots",
     		"gitText": "Link to Git repo",
     		"imgurl": "/images/projects/t4.png",
     		"tags": [
@@ -479,25 +479,6 @@ let resumeData = {
     			"So I decided to deploy mine, based on LimeSurvey (also open source), I also made changes, especially in the processing of responses but also in the design of interfaces."
     		]
     	}, {
-    		"name": "Git Princelle",
-    		"date": "2019",
-    		"desc": "Git server",
-    		"link": "https://git.princelle.org",
-    		"linkText": "Link to the project",
-    		"git": "",
-    		"gitText": "",
-    		"imgurl": "/images/projects/git.png",
-    		"tags": [
-				["Git", ""],
-				["Gitea", "https://gitea.io/"],
-				["Docker", "https://www.docker.com/"],
-    		],
-    		"text": [
-    			"Until now, all of my Git repositories have been stored at the University of Strasbourg.",
-				"Based on the Gitea open source software, it allows me to host all my projects without any restrictions.",
-				"Through this project, I also learned Docker. A software for placing softwares in containers."
-    		]
-    	}, {
     		"name": "DB Princelle",
     		"date": "2018",
     		"desc": "Databases",
@@ -520,7 +501,7 @@ let resumeData = {
     		"desc": "Project - Business Creation",
     		"link": "https://homeprince.princelle.org",
     		"linkText": "Link to the website",
-    		"git": "https://git.princelle.org/princelle/HomePrince_Website",
+    		"git": "https://github.com/ThePrinceMax/HomePrince-Website",
     		"gitText": "Link to Git repo",
     		"imgurl": "/images/projects/homeprince.png",
     		"tags": [
@@ -540,8 +521,8 @@ let resumeData = {
     		"desc": "Online Resume",
     		"link": "https://princelle.org",
     		"linkText": "Link to the project",
-    		"git": "",
-    		"gitText": "",
+    		"git": "https://github.com/ThePrinceMax/Personal-Website",
+    		"gitText": "Link to Git repo",
     		"imgurl": "/images/projects/portfolio.png",
     		"tags": [
     			["JS", ""],
@@ -553,39 +534,6 @@ let resumeData = {
     		"text": [
     			"You are on it.",
     			"Recently updated, this website presents who I am and the different projects I have done."
-    		]
-    	}, {
-    		"name": "Business Intelligence",
-    		"date": "2019",
-    		"desc": "Business Intelligence",
-    		"link": "",
-    		"linkText": "",
-    		"git": "https://git.princelle.org/princelle/G4b_Business_Intelligence",
-    		"gitText": "Link to Git repo",
-    		"imgurl": "",
-    		"tags": [
-				["Java", ""],
-				["Weka", "https://www.cs.waikato.ac.nz/ml/weka/"],
-    		],
-    		"text": [
-    			"This is an application made as part of the G4b module during my computer science degree.",
-    			"The idea was to create a data model, and depending on what the user chose from randomly generated samples, generate a decision tree that best matched what was selected."
-    		]
-    	}, {
-    		"name": "MetaGame",
-    		"date": "2018",
-    		"desc": "Story Game",
-    		"link": "",
-    		"linkText": "",
-    		"git": "https://git.princelle.org/princelle/A31_Projet",
-    		"gitText": "Link to Git repo",
-    		"imgurl": "",
-    		"tags": [
-    			["Java", ""]
-    		],
-    		"text": [
-    			"This is an application made as part of the A31 module during my computer science degree.",
-    			"The idea was to discover Java and the different methods of programming and data processing."
     		]
     	}
 	],
