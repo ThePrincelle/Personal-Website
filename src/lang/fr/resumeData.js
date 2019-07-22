@@ -8,7 +8,7 @@ let resumeData = {
 	],
 	"welcome": "Bienvenue !",
     "name": "Je suis Maxime Princelle.",
-	"roleDescription": "Étudiant en Informatique 💻",
+	"roleDescription": ["Développeur", "Étudiant en Informatique"],
     "socialLinks":[
         {
           "name":"facebook",
