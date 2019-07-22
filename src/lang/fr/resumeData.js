@@ -1,5 +1,5 @@
 let resumeData = {
-	"imagebaseurl": "https://princelle.org",
+	"imagebaseurl": "https://princelle.org/fr",
 	"lang": "fr",
 	"changeLang": "Changer de langue ?",
 	"langs": [

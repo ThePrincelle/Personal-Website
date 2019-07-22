@@ -1,12 +1,12 @@
 let resumeData = {
-	"imagebaseurl": "https://princelle.org",
+	"imagebaseurl": "https://princelle.org/en",
 	"lang": "en",
-	"welcome": "Welcome !",
 	"changeLang": "Change Language?",
 	"langs": [
 		["/fr", "🇫🇷 Français"],
 		["/en", "🇺🇸 English"],
 	],
+	"welcome": "Welcome !",
     "name": "I am Maxime Princelle.",
 	"roleDescription": ["Developer", "Student in Computer Science"],
     "socialLinks":[
