@@ -35,11 +35,11 @@ let resumeData = {
 			"url": "https://github.com/ThePrinceMax",
 			"className": "fab fa-github"
 		},
-		{
+		/*{
         	"name": "gitlab",
         	"url": "https://git.unistra.fr/princelle",
         	"className": "fab fa-gitlab"
-		},
+		},*/
 		{
         	"name": "spotify",
         	"url": "https://open.spotify.com/user/ge9z5kvkf2mh34lkex1a403hj?si=YtacyhRST3qMCmu-7LVJqg",
