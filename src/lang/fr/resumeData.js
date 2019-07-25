@@ -11,19 +11,24 @@ let resumeData = {
 	"roleDescription": ["Développeur", "Étudiant en Informatique"],
     "socialLinks":[
         {
-          "name":"facebook",
-          "url":"https://www.facebook.com/ThePrinceMaxime",
-          "className":"fab fa-facebook-f"
+			"name":"facebook",
+			"url":"https://www.facebook.com/ThePrinceMaxime",
+			"className":"fab fa-facebook-f"
         },
         {
-          "name":"twitter",
-          "url":"https://twitter.com/ThePrinceMax_",
-          "className":"fab fa-twitter"
+			"name":"twitter",
+			"url":"https://twitter.com/ThePrinceMax_",
+			"className":"fab fa-twitter"
         },
+		{
+			"name": "snapchat",
+			"url": "https://www.snapchat.com/add/princellemaxime",
+			"className": "fab fa-snapchat"
+		},
         {
-          "name":"instagram",
-          "url":"https://www.instagram.com/theprincemax/",
-          "className":"fab fa-instagram"
+			"name":"instagram",
+			"url":"https://www.instagram.com/theprincemax/",
+			"className":"fab fa-instagram"
 		},
 		{
         	"name": "linkedin",
