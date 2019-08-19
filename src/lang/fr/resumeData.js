@@ -8,7 +8,11 @@ let resumeData = {
 	"changeLang": "Changer de langue ?",
 	"welcome": "Bienvenue !",
     "name": "Je suis Maxime Princelle.",
-	"roleDescription": ["Développeur", "Étudiant en Informatique"],
+	"roleDescription": [
+		"Développeur",
+		"Étudiant en Informatique",
+		"Chercheur de Solutions"
+	],
     "socialLinks":[
         {
 			"name":"facebook",
