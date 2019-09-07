@@ -56,7 +56,7 @@ let resumeData = {
         }
       ],
 	"aboutme": [
-		"I am a person mainly interested in the field of new technologies, more specifically around the house.",
+		"Mainly interested in the field of new technologies, web, AI, Smart Houses.",
 		"On my personal time, I developed a complete home automation system and I had the opportunity to perfect myself on different systems.",
 		"Although spending most of my time on a computer, I also practice other activities such as piano and singing."
 	],
