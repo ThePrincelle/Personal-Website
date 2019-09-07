@@ -56,7 +56,7 @@ let resumeData = {
         }
       ],
 	"aboutme": [
-		"Principalement intéressée par le domaine des nouvelles technologies, du web, de l'intelligence artificielle et des maisons intelligentes.",
+		"Je suis principalement intéressé par le domaine des nouvelles technologies, du web, de l'intelligence artificielle et des maisons intelligentes.",
 		"Sur mon temps personnel, j'ai mis au point un système complet de domotique et j'ai eu par ce biais l'occasion de me perfectionner sur différents systèmes.",
 		"Bien que passant la majorité de mon temps sur un ordinateur, je pratique également d'autres activités tels que le piano et le chant."
 	],
