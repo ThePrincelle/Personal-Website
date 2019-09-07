@@ -1,18 +1,13 @@
-version: '3.5'
+version: '2'
 
 services:
-
-  cv_princelle:
-    container_name: cv_princelle
-    build:
-      context: .
-      dockerfile: Dockerfile
+  cv_princelle: 
+    image: nginx:latest
+    container_name: production_nginx
     volumes:
-      - '.:/usr/src/app'
-      - '/usr/src/app/node_modules'
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./build:/var/html/www/
     ports:
-      - '2345:3000'
-    environment:
-      - NODE_ENV=development
+      - 2345:80
     restart_policy:
-        condition: always
+        condition: unless-stopped
