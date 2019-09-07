@@ -3,7 +3,7 @@ version: '2'
 services:
   cv_princelle: 
     image: nginx:latest
-    container_name: production_nginx
+    container_name: cv_princelle
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf
       - ./build:/var/html/www/
