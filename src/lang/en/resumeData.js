@@ -465,6 +465,25 @@ let resumeData = {
 				"Based on the open source software NextCloud, I modified the latter to open this service to several people to allow the editing of documents in real time."
     		]
     	}, {
+    		"name": "Blog Princelle",
+			"date": "2019",
+			"desc": "Blog",
+    		"link": "https://blog.princelle.org",
+    		"linkText": "Link to the project",
+    		"git": "",
+    		"gitText": "",
+    		"imgurl": "/images/projects/blog.png",
+    		"tags": [
+    			["HTML", ""],
+    			["CSS", ""],
+    			["JS", ""],
+				["WordPress", "https://wordpress.org/"]
+    		],
+    		"text": [
+				"I created it for my Bachelor's degree Co-Op. It allows me to directly write posts wherever I want to.",
+				"I'm using WordPress because I didn't have a lot of time to build a website and a mobile app."
+    		]
+    	}, {
     		"name": "Home",
     		"date": "2018",
     		"desc": "Home Automation Software",

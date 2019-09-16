@@ -465,6 +465,26 @@ let resumeData = {
 				"Basé sur le logiciel open source NextCloud, j'ai modifié ce dernier afin d'ouvrir ce service à plusieurs personnes pour permettre l'édition de documents en temps réel."
     		]
     	}, {
+    		"name": "Blog Princelle",
+			"date": "2019",
+			"desc": "Blog Personnel",
+    		"link": "https://blog.princelle.org",
+    		"linkText": "Lien vers le projet",
+    		"git": "",
+    		"gitText": "",
+    		"imgurl": "/images/projects/blog.png",
+    		"tags": [
+    			["HTML", ""],
+    			["CSS", ""],
+    			["JS", ""],
+				["WordPress", "https://fr.wordpress.org/"]
+    		],
+    		"text": [
+				"J'ai créé ce blog principalement pour reporter comment se déroule mon alternance pour ma licence professionnelle.",
+				"Grâce à ce blog, je peux écrire n'importe où, n'importe quand, sur n'importe lequel de mes appareils.",
+				"J'utilise WordPress. Principalement parce que je n'ai pas encore le temps de créer un site et une application mobile."
+    		]
+    	}, {
     		"name": "Home",
     		"date": "2018",
     		"desc": "Logiciel de gestion domotique",
