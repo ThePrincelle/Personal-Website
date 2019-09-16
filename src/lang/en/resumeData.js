@@ -13,7 +13,12 @@ let resumeData = {
 		"Student in Computer Science",
 		"Solution Finder"
 	],
-    "socialLinks":[
+	"socialLinks": [
+		{
+			"name":"blog",
+			"url":"https://blog.princelle.org",
+			"className":"fas fa-blog"
+        },
         {
 			"name":"facebook",
 			"url":"https://www.facebook.com/ThePrinceMaxime",
@@ -93,33 +98,41 @@ let resumeData = {
 			"loc": "Mutzig, France",
 			"locLink": "https://goo.gl/maps/QFgEU6aUsiZpVL6H9",
 			"date": "2010 - 2014",
-			"desc": [ 
+			"desc": [
 				"During these four years, I invested myself in the associative life and contributed to several events (Concert of end of the year, Open Day, etc)."
 			],
 			"link": "http://www.education.gouv.fr/annuaire/67-bas-rhin/mutzig/college/college-louis-arbogast.html"
-      },
-      {
+		}, {
 			"name": "High School - Louis Marchal",
-		    "loc": "Molsheim, France",
+			"loc": "Molsheim, France",
 			"locLink": "https://goo.gl/maps/hsTS1XKXLcGLAUTr6",
 			"date": "2014 - 2017",
-			"desc": [ 
+			"desc": [
 				"I attended STI2D training (Science and Technology of Industry and Sustainable Development) specialty INS (Information System and Digital).",
 				"I participated in the life of the school through the association \"Maison des Lycéens\" but also being a delegate and member of the CVL (Council of Student Life).",
 				"I got my bachelor's degree with honors \"Very Good\"."
 			],
 			"link": "http://www.lycee-marchal.com/"
-		},
-	  {
-	  	"name": "University of Strasbourg - BTEC Higher National Diploma in Computer Science",
-		"loc": "Illkirch, France",
-		"locLink": "https://goo.gl/maps/CJP6MMdss9kCzqgH7",
-	  	"date": "2017 - Today",
-	  	"desc": [
-	  		"I learn different programming languages as well as algorithmic and systems operation but also project management while preparing for the world of business."
-	  	],
-	  	"link": "http://iutrs.unistra.fr/"
-	  }
+		}, {
+			"name": "University of Strasbourg - BTEC Higher National Diploma in Computer Science",
+			"loc": "Illkirch, France",
+			"locLink": "https://goo.gl/maps/CJP6MMdss9kCzqgH7",
+			"date": "2017 - 2019",
+			"desc": [
+				"I learn different programming languages as well as algorithmic and systems operation but also project management while preparing for the world of business."
+			],
+			"link": "http://iutrs.unistra.fr/"
+		}, {
+			"name": "University of Strasbourg - Bachelor's degree Co-Op",
+			"loc": "Illkirch, France",
+			"locLink": "https://goo.gl/maps/CJP6MMdss9kCzqgH7",
+			"date": "2019 - Today",
+			"desc": [
+				"Bachelor's degree Co-Op : Design and Development of Distributed Applications.",
+				"I learn the operation and configuration of servers and more in -depth the development of websites and Android mobile apps."
+			],
+			"link": "http://iutrs.unistra.fr/"
+		}
     ],
     "workDesc": [
 		"Here you will find the different professional experiences I have acquired."
@@ -130,24 +143,32 @@ let resumeData = {
 			"loc": "Rosheim, France",
 			"locLink": "https://goo.gl/maps/jejsTAkaHi52s8rg9",
 			"date": "2018 (2 months)",
-			"desc": [ 
+			"desc": [
 				"My first steps in the world of business. Here I was in charge of doing some missions, based mainly on industrial computing.",
 				"I had the opportunity to learn about PowerShell, PHP or SQL ...",
 			],
-		"link": "https://www.solu-tech.fr/"
-	  },
-	  {
-	  	"name": "Solu-Tech",
-	  	"loc": "Rosheim, France",
-	  	"locLink": "https://goo.gl/maps/jejsTAkaHi52s8rg9",
-	  	"date": "2019 (4 months)",
-	  	"desc": [
-	  		"On the occasion of my internship during my DUT, I decided to go back to Solu-Tech.",
-	  		"My mission was to improve the intranet site to manage the hours and expenses of employees.",
-	  		"In order to meet this need, I decided to take over the site from scratch to be able to develop an API in NodeJS and a web client in React."
-	  	],
-	  	"link": "https://www.solu-tech.fr/"
-	  }
+			"link": "https://www.solu-tech.fr/"
+		}, {
+			"name": "Solu-Tech",
+			"loc": "Rosheim, France",
+			"locLink": "https://goo.gl/maps/jejsTAkaHi52s8rg9",
+			"date": "2019 (4 months)",
+			"desc": [
+				"On the occasion of my internship during my DUT, I decided to go back to Solu-Tech.",
+				"My mission was to improve the intranet site to manage the hours and expenses of employees.",
+				"In order to meet this need, I decided to take over the site from scratch to be able to develop an API in NodeJS and a web client in React."
+			],
+			"link": "https://www.solu-tech.fr/"
+		}, {
+			"name": "Ubertone",
+			"loc": "Schiltigheim, France",
+			"locLink": "https://goo.gl/maps/5RPbdKcjJXddsSmQA",
+			"date": "2019 - Today",
+			"desc": [
+				"On the occasion of my Co-Op, I decided to go for the business start-up type."
+			],
+			"link": "http://ubertone.com/"
+		}
     ],
     "skillsDescription": "Here is a list of my skills and different software that I own and use, during my studies or the realization of personal projects.",
     "skills":[

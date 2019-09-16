@@ -14,6 +14,11 @@ let resumeData = {
 		"Chercheur de Solutions"
 	],
     "socialLinks":[
+		{
+			"name":"blog",
+			"url":"https://blog.princelle.org",
+			"className":"fas fa-blog"
+        },
         {
 			"name":"facebook",
 			"url":"https://www.facebook.com/ThePrinceMaxime",
@@ -93,34 +98,41 @@ let resumeData = {
 			"loc": "Mutzig, France",
 			"locLink": "https://goo.gl/maps/QFgEU6aUsiZpVL6H9",
 			"date": "2010 - 2014",
-			"desc": [ 
+			"desc": [
 				"Durant ces quatre années, je me suis investi dans la vie associative et contribué à plusieurs évènements (Concert de fin d 'année, Journée Portes Ouvertes,...).",
 				"Dans le même temps, j'ai préparé au mieux mon entrée au lycée et j'ai obtenu mon brevet.",
 			],
-		"link": "http://www.education.gouv.fr/annuaire/67-bas-rhin/mutzig/college/college-louis-arbogast.html"
-      },
-      {
+			"link": "http://www.education.gouv.fr/annuaire/67-bas-rhin/mutzig/college/college-louis-arbogast.html"
+		}, {
 			"name": "Lycée Louis Marchal",
-		    "loc": "Molsheim, France",
+			"loc": "Molsheim, France",
 			"locLink": "https://goo.gl/maps/hsTS1XKXLcGLAUTr6",
 			"date": "2014 - 2017",
-			"desc": [ 
+			"desc": [
 				"J'y ai suivi la formation STI2D (Sciences et Technologies de l'Industrie et du Développement Durable) spécialité SIN (Système d'Information et Numérique).",
 				"J'ai participé à la vie du lycée à travers l'association \"Maison des Lycéens\" mais également en étant délégué et membre du CVL (Conseil de la Vie Lycéenne).",
 				"J'ai obtenu mon baccalauréat avec mention \"Très bien\"."
 			],
 			"link": "http://www.lycee-marchal.com/"
-		},
-	  {
-	  	"name": "IUT Robert Schuman - DUT Informatique",
-		"loc": "Illkirch, France",
-		"locLink": "https://goo.gl/maps/CJP6MMdss9kCzqgH7",
-	  	"date": "2017 - Aujourd'hui",
-	  	"desc": [
-	  		"J'y apprends différents langages de programmation ainsi que l'algorithmique et le fonctionnement des systèmes mais aussi la gestion de projets tout en se préparant au monde de l'entreprise."
-	  	],
-	  	"link": "http://iutrs.unistra.fr/"
-	  }
+		}, {
+			"name": "IUT Robert Schuman - DUT Informatique",
+			"loc": "Illkirch, France",
+			"locLink": "https://goo.gl/maps/CJP6MMdss9kCzqgH7",
+			"date": "2017 - 2019",
+			"desc": [
+				"J'y apprends différents langages de programmation ainsi que l'algorithmique et le fonctionnement des systèmes mais aussi la gestion de projets tout en se préparant au monde de l'entreprise."
+			],
+			"link": "http://iutrs.unistra.fr/"
+		}, {
+			"name": "IUT Robert Schuman - Licence Pro CDAD",
+			"loc": "Illkirch, France",
+			"locLink": "https://goo.gl/maps/CJP6MMdss9kCzqgH7",
+			"date": "2019 - Aujourd'hui",
+			"desc": [
+				"Licence Professionnelle : Conception et Développement d'Applications Distribuées. Voilà le titre de la formation en alternance que je suis. J'y apprends le fonctionnement et la configuration de serveurs ainsi que le développement plus en profondeur de site web et d'applications mobiles Android."
+			],
+			"link": "http://iutrs.unistra.fr/"
+		}
     ],
     "workDesc": [
 		"Vous trouverez ici, les différentes expériences professionnelles que j'ai acquises."
@@ -131,24 +143,32 @@ let resumeData = {
 			"loc": "Rosheim, France",
 			"locLink": "https://goo.gl/maps/jejsTAkaHi52s8rg9",
 			"date": "2018 (2 mois)",
-			"desc": [ 
+			"desc": [
 				"Mes premiers pas dans le monde de l'entreprise. Ici j'étais chargé de faire quelques missions, basés principalement autour de l'informatique industrielle.",
 				"J'ai eu l'occasion de me former sur le PowerShell, le PHP ou encore le SQL...",
 			],
-		"link": "https://www.solu-tech.fr/"
-	  },
-	  {
-	  	"name": "Solu-Tech",
-	  	"loc": "Rosheim, France",
-	  	"locLink": "https://goo.gl/maps/jejsTAkaHi52s8rg9",
-	  	"date": "2019 (4 mois)",
-	  	"desc": [
-			"A l'occasion de mon stage lors de mon DUT, j'ai décidé de retourner chez Solu-Tech.",
-			"Ma mission était d'améliorer le site intranet permettant de gérer les heures et les frais des employés.",
-			"Afin de répondre à ce besoin, j'ai décidé de reprendre le site à zéro pour pouvoir développer une API en NodeJS ainsi qu'un client web en React."
-	  	],
-	  	"link": "https://www.solu-tech.fr/"
-	  }
+			"link": "https://www.solu-tech.fr/"
+		}, {
+			"name": "Solu-Tech",
+			"loc": "Rosheim, France",
+			"locLink": "https://goo.gl/maps/jejsTAkaHi52s8rg9",
+			"date": "2019 (4 mois)",
+			"desc": [
+				"A l'occasion de mon stage lors de mon DUT, j'ai décidé de retourner chez Solu-Tech.",
+				"Ma mission était d'améliorer le site intranet permettant de gérer les heures et les frais des employés.",
+				"Afin de répondre à ce besoin, j'ai décidé de reprendre le site à zéro pour pouvoir développer une API en NodeJS ainsi qu'un client web en React."
+			],
+			"link": "https://www.solu-tech.fr/"
+		}, {
+			"name": "Ubertone",
+			"loc": "Schiltigheim, France",
+			"locLink": "https://goo.gl/maps/5RPbdKcjJXddsSmQA",
+			"date": "2019 - Aujourd'hui",
+			"desc": [
+				"A l'occasion de mon alternance lors de ma licence professionnelle, j'ai décidé de viser une entreprise du type start-up."
+			],
+			"link": "http://ubertone.com/"
+		}
     ],
     "skillsDescription": "Voici une liste de mes compétences et différents logiciels que je possède et utilise, au cours de mes études ou de la réalisation de projets personnels.",
     "skills":[
