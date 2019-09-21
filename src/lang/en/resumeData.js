@@ -303,7 +303,7 @@ let resumeData = {
 		},
 		{
 			"name": "Laravel",
-			"icon": "/images/langages/react.png",
+			"icon": "/images/langages/laravel.png",
 			"desc": "Web Framework",
 			"link": "https://wikipedia.org/wiki/Laravel",
 			"linkTitle": "Wikipedia"
