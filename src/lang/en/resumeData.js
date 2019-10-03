@@ -213,7 +213,8 @@ var resumeData = {
 			"type": "Productivity Software",
 			"text": [
 				"This tools allows a team to create task boards with several columns and move the tasks between them.",
-				"Typically columns include task statuses: To Do, In Progress, Done.",
+				"Typically columns include task statuses:",
+				"To Do, In Progress, Done."
 			]
 		},
 		{
