@@ -1,4 +1,4 @@
-let resumeData = {
+var resumeData = {
 	"imagebaseurl": "https://princelle.org/fr",
 	"lang": "fr",
 	"langs": [
@@ -7,42 +7,42 @@ let resumeData = {
 	],
 	"changeLang": "Changer de langue ?",
 	"welcome": "Bienvenue !",
-    "name": "Je suis Maxime Princelle.",
+	"name": "Je suis Maxime Princelle.",
 	"roleDescription": [
 		"Développeur",
 		"Étudiant en Informatique",
 		"Chercheur de Solutions"
 	],
-    "socialLinks":[
+	"socialLinks": [
 		{
-			"name":"blog",
-			"url":"https://blog.princelle.org",
-			"className":"fas fa-blog"
-        },
-        {
-			"name":"facebook",
-			"url":"https://www.facebook.com/ThePrinceMaxime",
-			"className":"fab fa-facebook-f"
-        },
-        {
-			"name":"twitter",
-			"url":"https://twitter.com/ThePrinceMax_",
-			"className":"fab fa-twitter"
-        },
+			"name": "blog",
+			"url": "https://blog.princelle.org",
+			"className": "fas fa-blog"
+		},
+		{
+			"name": "facebook",
+			"url": "https://www.facebook.com/ThePrinceMaxime",
+			"className": "fab fa-facebook-f"
+		},
+		{
+			"name": "twitter",
+			"url": "https://twitter.com/ThePrinceMax_",
+			"className": "fab fa-twitter"
+		},
 		{
 			"name": "snapchat",
 			"url": "https://www.snapchat.com/add/princellemaxime",
 			"className": "fab fa-snapchat"
 		},
-        {
-			"name":"instagram",
-			"url":"https://www.instagram.com/theprincemax/",
-			"className":"fab fa-instagram"
+		{
+			"name": "instagram",
+			"url": "https://www.instagram.com/theprincemax/",
+			"className": "fab fa-instagram"
 		},
 		{
-        	"name": "linkedin",
-        	"url": "https://fr.linkedin.com/in/maxime-princelle-08ba82157",
-        	"className": "fab fa-linkedin"
+			"name": "linkedin",
+			"url": "https://fr.linkedin.com/in/maxime-princelle-08ba82157",
+			"className": "fab fa-linkedin"
 		},
 		{
 			"name": "github",
@@ -55,11 +55,11 @@ let resumeData = {
 			"className": "fab fa-gitlab"
 		},*/
 		{
-        	"name": "spotify",
-        	"url": "https://open.spotify.com/user/ge9z5kvkf2mh34lkex1a403hj?si=YtacyhRST3qMCmu-7LVJqg",
-        	"className": "fab fa-spotify"
-        }
-      ],
+			"name": "spotify",
+			"url": "https://open.spotify.com/user/ge9z5kvkf2mh34lkex1a403hj?si=YtacyhRST3qMCmu-7LVJqg",
+			"className": "fab fa-spotify"
+		}
+	],
 	"aboutme": [
 		"Je suis principalement intéressé par le domaine des nouvelles technologies, du web, de l'intelligence artificielle et des maisons intelligentes.",
 		"Sur mon temps personnel, j'ai mis au point un système complet de domotique et j'ai eu par ce biais l'occasion de me perfectionner sur différents systèmes.",
@@ -92,7 +92,7 @@ let resumeData = {
 		"L'un de mes objectifs étant d'apprendre, je pense qu'il est important de bien se former et de se préparer un maximum avant d'intégrer la vie active."
 	],
 	"learnmore": "En savoir plus...",
-    "education":[
+	"education": [
 		{
 			"name": "Collège Louis Arbogast",
 			"loc": "Mutzig, France",
@@ -133,11 +133,11 @@ let resumeData = {
 			],
 			"link": "http://iutrs.unistra.fr/"
 		}
-    ],
-    "workDesc": [
+	],
+	"workDesc": [
 		"Vous trouverez ici, les différentes expériences professionnelles que j'ai acquises."
 	],
-    "work":[
+	"work": [
 		{
 			"name": "Solu-Tech",
 			"loc": "Rosheim, France",
@@ -169,9 +169,9 @@ let resumeData = {
 			],
 			"link": "http://ubertone.com/"
 		}
-    ],
-    "skillsDescription": "Voici une liste de mes compétences et différents logiciels que je possède et utilise, au cours de mes études ou de la réalisation de projets personnels.",
-    "skills":[
+	],
+	"skillsDescription": "Voici une liste de mes compétences et différents logiciels que je possède et utilise, au cours de mes études ou de la réalisation de projets personnels.",
+	"skills": [
 		{
 			"name": "Anglais",
 			"icon": "/images/skills/english.png",
@@ -285,318 +285,318 @@ let resumeData = {
 	],
 	"langagesDesc": "Voici les plateformes et différents langages et frameworks que j'utilise.",
 	"langages": [{
-			"name": "HTML",
-			"icon": "/images/langages/html.png",
-			"desc": "",
-			"link": "https://fr.wikipedia.org/wiki/Hypertext_Markup_Language",
-			"linkTitle": "Wikipedia"
-		},
-		{
-			"name": "CSS",
-			"icon": "/images/langages/css.png",
-			"desc": "",
-			"link": "https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade",
-			"linkTitle": "Wikipedia"
-		},
-		{
-			"name": "JavaScript",
-			"icon": "/images/langages/js.png",
-			"desc": "",
-			"link": "https://fr.wikipedia.org/wiki/JavaScript",
-			"linkTitle": "Wikipedia"
-		},
-		{
-			"name": "React",
-			"icon": "/images/langages/react.png",
-			"desc": "Framework Web",
-			"link": "https://fr.wikipedia.org/wiki/React_(JavaScript)",
-			"linkTitle": "Wikipedia"
-		},
-		{
-			"name": "Laravel",
-			"icon": "/images/langages/laravel.png",
-			"desc": "Framework Web",
-			"link": "https://fr.wikipedia.org/wiki/Laravel",
-			"linkTitle": "Wikipedia"
-		},
-		{
-			"name": "Java",
-			"icon": "/images/langages/java.png",
-			"desc": "",
-			"link": "https://fr.wikipedia.org/wiki/Java_(langage)",
-			"linkTitle": "Wikipedia"
-		},
-		{
-			"name": "PHP",
-			"icon": "/images/langages/php.png",
-			"desc": "",
-			"link": "https://fr.wikipedia.org/wiki/PHP",
-			"linkTitle": "Wikipedia"
-		},
-		{
-			"name": "Python",
-			"icon": "/images/langages/python.png",
-			"desc": "",
-			"link": "https://fr.wikipedia.org/wiki/Python_(langage)",
-			"linkTitle": "Wikipedia"
-		},
-		{
-			"name": "C#",
-			"icon": "/images/langages/csharp.png",
-			"desc": "",
-			"link": "https://fr.wikipedia.org/wiki/C_sharp",
-			"linkTitle": "Wikipedia"
-		},
-		{
-			"name": "SQL",
-			"icon": "/images/langages/sql.png",
-			"desc": "Bases de données",
-			"link": "https://fr.wikipedia.org/wiki/Structured_Query_Language",
-			"linkTitle": "Wikipedia"
-		},
-		{
-			"name": "BASH",
-			"icon": "/images/langages/bash.png",
-			"desc": "Shell Script",
-			"link": "https://fr.wikipedia.org/wiki/Bourne-Again_shell",
-			"linkTitle": "Wikipedia"
-		},
-		{
-			"name": "SAS",
-			"icon": "/images/langages/sas.png",
-			"desc": "Bases de données décisionnelles",
-			"link": "https://fr.wikipedia.org/wiki/SAS_Institute",
-			"linkTitle": "Wikipedia"
-		},
-		{
-			"name": "C",
-			"icon": "/images/langages/c.png",
-			"desc": "",
-			"link": "https://fr.wikipedia.org/wiki/C_(langage)",
-			"linkTitle": "Wikipedia"
-		},
-		{
-			"name": "Android",
-			"icon": "/images/langages/android.png",
-			"desc": "OS Mobile",
-			"link": "https://fr.wikipedia.org/wiki/Android",
-			"linkTitle": "Wikipedia"
-		},
-		{
-			"name": "iOS",
-			"icon": "/images/langages/ios.png",
-			"desc": "OS Mobile",
-			"link": "https://fr.wikipedia.org/wiki/iOS",
-			"linkTitle": "Wikipedia"
-		},
-		{
-			"name": "macOS",
-			"icon": "/images/langages/mac.png",
-			"desc": "OS Desktop",
-			"link": "https://fr.wikipedia.org/wiki/Mac_OS",
-			"linkTitle": "Wikipedia"
-		},
-		{
-			"name": "Linux",
-			"icon": "/images/langages/linux.png",
-			"desc": "OS Desktop",
-			"link": "https://fr.wikipedia.org/wiki/Linux",
-			"linkTitle": "Wikipedia"
-		},
-		{
-			"name": "Windows",
-			"icon": "/images/langages/windows.png",
-			"desc": "OS Desktop",
-			"link": "https://fr.wikipedia.org/wiki/Microsoft_Windows",
-			"linkTitle": "Wikipedia"
-		}		
+		"name": "HTML",
+		"icon": "/images/langages/html.png",
+		"desc": "",
+		"link": "https://fr.wikipedia.org/wiki/Hypertext_Markup_Language",
+		"linkTitle": "Wikipedia"
+	},
+	{
+		"name": "CSS",
+		"icon": "/images/langages/css.png",
+		"desc": "",
+		"link": "https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade",
+		"linkTitle": "Wikipedia"
+	},
+	{
+		"name": "JavaScript",
+		"icon": "/images/langages/js.png",
+		"desc": "",
+		"link": "https://fr.wikipedia.org/wiki/JavaScript",
+		"linkTitle": "Wikipedia"
+	},
+	{
+		"name": "React",
+		"icon": "/images/langages/react.png",
+		"desc": "Framework Web",
+		"link": "https://fr.wikipedia.org/wiki/React_(JavaScript)",
+		"linkTitle": "Wikipedia"
+	},
+	{
+		"name": "Laravel",
+		"icon": "/images/langages/laravel.png",
+		"desc": "Framework Web",
+		"link": "https://fr.wikipedia.org/wiki/Laravel",
+		"linkTitle": "Wikipedia"
+	},
+	{
+		"name": "Java",
+		"icon": "/images/langages/java.png",
+		"desc": "",
+		"link": "https://fr.wikipedia.org/wiki/Java_(langage)",
+		"linkTitle": "Wikipedia"
+	},
+	{
+		"name": "PHP",
+		"icon": "/images/langages/php.png",
+		"desc": "",
+		"link": "https://fr.wikipedia.org/wiki/PHP",
+		"linkTitle": "Wikipedia"
+	},
+	{
+		"name": "Python",
+		"icon": "/images/langages/python.png",
+		"desc": "",
+		"link": "https://fr.wikipedia.org/wiki/Python_(langage)",
+		"linkTitle": "Wikipedia"
+	},
+	{
+		"name": "C#",
+		"icon": "/images/langages/csharp.png",
+		"desc": "",
+		"link": "https://fr.wikipedia.org/wiki/C_sharp",
+		"linkTitle": "Wikipedia"
+	},
+	{
+		"name": "SQL",
+		"icon": "/images/langages/sql.png",
+		"desc": "Bases de données",
+		"link": "https://fr.wikipedia.org/wiki/Structured_Query_Language",
+		"linkTitle": "Wikipedia"
+	},
+	{
+		"name": "BASH",
+		"icon": "/images/langages/bash.png",
+		"desc": "Shell Script",
+		"link": "https://fr.wikipedia.org/wiki/Bourne-Again_shell",
+		"linkTitle": "Wikipedia"
+	},
+	{
+		"name": "SAS",
+		"icon": "/images/langages/sas.png",
+		"desc": "Bases de données décisionnelles",
+		"link": "https://fr.wikipedia.org/wiki/SAS_Institute",
+		"linkTitle": "Wikipedia"
+	},
+	{
+		"name": "C",
+		"icon": "/images/langages/c.png",
+		"desc": "",
+		"link": "https://fr.wikipedia.org/wiki/C_(langage)",
+		"linkTitle": "Wikipedia"
+	},
+	{
+		"name": "Android",
+		"icon": "/images/langages/android.png",
+		"desc": "OS Mobile",
+		"link": "https://fr.wikipedia.org/wiki/Android",
+		"linkTitle": "Wikipedia"
+	},
+	{
+		"name": "iOS",
+		"icon": "/images/langages/ios.png",
+		"desc": "OS Mobile",
+		"link": "https://fr.wikipedia.org/wiki/iOS",
+		"linkTitle": "Wikipedia"
+	},
+	{
+		"name": "macOS",
+		"icon": "/images/langages/mac.png",
+		"desc": "OS Desktop",
+		"link": "https://fr.wikipedia.org/wiki/Mac_OS",
+		"linkTitle": "Wikipedia"
+	},
+	{
+		"name": "Linux",
+		"icon": "/images/langages/linux.png",
+		"desc": "OS Desktop",
+		"link": "https://fr.wikipedia.org/wiki/Linux",
+		"linkTitle": "Wikipedia"
+	},
+	{
+		"name": "Windows",
+		"icon": "/images/langages/windows.png",
+		"desc": "OS Desktop",
+		"link": "https://fr.wikipedia.org/wiki/Microsoft_Windows",
+		"linkTitle": "Wikipedia"
+	}
 	],
 	"projectTitle": "Voici quelques-uns de mes projets",
-    "projects": [{
-    		"name": "Plantae",
-    		"date": "2018",
-    		"desc": "Jeu éducatif",
-    		"link": "https://plantae.princelle.org",
-    		"linkText": "Lien vers le projet",
-    		"git": "https://github.com/ThePrinceMax/Plantae",
-    		"gitText": "Lien vers le Git",
-    		"imgurl": "/images/projects/t3.png",
-    		"tags": [
-    			["HTML", ""],
-    			["CSS", ""],
-				["JS", ""],
-				["PHP", ""],
-				["Ratchet", "http://socketo.me"],
-				["Bootstrap", "https://getbootstrap.com"]
-    		],
-			"text": [
-				"Ce projet a été réalisé dans le cadre du module T3 lors de mon DUT Informatique.",
-				"Le sujet principal étant la botanique, le jeu consiste à tenir sa fleur en vie le plus longtemps possible.",
-				"Le jeu se joue donc à deux, soit contre l'ordinateur, soit contre un adversaire en ligne."
-			]
-    	}, {
-    		"name": "Accuracy Robots",
-    		"date": "2019",
-    		"desc": "Jeu éducatif (Prototype)",
-    		"link": "https://accuracyrobots.princelle.org",
-    		"linkText": "Lien vers le projet",
-    		"git": "https://github.com/ThePrinceMax/Accuracy-Robots",
-    		"gitText": "Lien vers le Git",
-    		"imgurl": "/images/projects/t4.png",
-    		"tags": [
-    			["JS", ""],
-    			["HTML", ""],
-    			["CSS", ""],
-    			["React", "https://reactjs.org"],
-    			["React Bootstrap", "https://react-bootstrap.github.io"]
-    		],
-    		"text": [
-    			"Ce projet a été réalisé dans le cadre du module T4 lors de mon DUT Informatique.",
-				"Le jeu se déroule en tour par tour. Le but est de garder son robot à un certain niveau d'intégrité afin qu'il n'explose pas.",
-				"Le principe de ce jeu suit les lois d'Asimov."
+	"projects": [{
+		"name": "Plantae",
+		"date": "2018",
+		"desc": "Jeu éducatif",
+		"link": "https://plantae.princelle.org",
+		"linkText": "Lien vers le projet",
+		"git": "https://github.com/ThePrinceMax/Plantae",
+		"gitText": "Lien vers le Git",
+		"imgurl": "/images/projects/t3.png",
+		"tags": [
+			["HTML", ""],
+			["CSS", ""],
+			["JS", ""],
+			["PHP", ""],
+			["Ratchet", "http://socketo.me"],
+			["Bootstrap", "https://getbootstrap.com"]
+		],
+		"text": [
+			"Ce projet a été réalisé dans le cadre du module T3 lors de mon DUT Informatique.",
+			"Le sujet principal étant la botanique, le jeu consiste à tenir sa fleur en vie le plus longtemps possible.",
+			"Le jeu se joue donc à deux, soit contre l'ordinateur, soit contre un adversaire en ligne."
+		]
+	}, {
+		"name": "Accuracy Robots",
+		"date": "2019",
+		"desc": "Jeu éducatif (Prototype)",
+		"link": "https://accuracyrobots.princelle.org",
+		"linkText": "Lien vers le projet",
+		"git": "https://github.com/ThePrinceMax/Accuracy-Robots",
+		"gitText": "Lien vers le Git",
+		"imgurl": "/images/projects/t4.png",
+		"tags": [
+			["JS", ""],
+			["HTML", ""],
+			["CSS", ""],
+			["React", "https://reactjs.org"],
+			["React Bootstrap", "https://react-bootstrap.github.io"]
+		],
+		"text": [
+			"Ce projet a été réalisé dans le cadre du module T4 lors de mon DUT Informatique.",
+			"Le jeu se déroule en tour par tour. Le but est de garder son robot à un certain niveau d'intégrité afin qu'il n'explose pas.",
+			"Le principe de ce jeu suit les lois d'Asimov."
 
-    		]
-    	}, {
-    		"name": "Cloud Princelle",
-			"date": "2019",
-			"desc": "Stockage en ligne",
-    		"link": "https://cloud.princelle.org",
-    		"linkText": "Lien vers le projet",
-    		"git": "",
-    		"gitText": "",
-    		"imgurl": "/images/projects/cloud.png",
-    		"tags": [
-    			["HTML", ""],
-    			["CSS", ""],
-    			["JS", ""],
-				["PHP", ""]
-    		],
-    		"text": [
-				"Après avoir cherché pendant longtemps une solution de stockage en ligne, j'ai décidé de créer mon propre service cloud.",
-				"Basé sur le logiciel open source NextCloud, j'ai modifié ce dernier afin d'ouvrir ce service à plusieurs personnes pour permettre l'édition de documents en temps réel."
-    		]
-    	}, {
-    		"name": "Blog Princelle",
-			"date": "2019",
-			"desc": "Blog Personnel",
-    		"link": "https://blog.princelle.org",
-    		"linkText": "Lien vers le projet",
-    		"git": "",
-    		"gitText": "",
-    		"imgurl": "/images/projects/blog.png",
-    		"tags": [
-    			["HTML", ""],
-    			["CSS", ""],
-    			["JS", ""],
-				["WordPress", "https://fr.wordpress.org/"]
-    		],
-    		"text": [
-				"J'ai créé ce blog principalement pour reporter comment se déroule mon alternance pour ma licence professionnelle.",
-				"Grâce à ce blog, je peux écrire n'importe où, n'importe quand, sur n'importe lequel de mes appareils.",
-				"J'utilise WordPress. Principalement parce que je n'ai pas encore le temps de créer un site et une application mobile."
-    		]
-    	}, {
-    		"name": "Home",
-    		"date": "2018",
-    		"desc": "Logiciel de gestion domotique",
-    		"link": "https://home.princelle.org",
-    		"linkText": "Lien vers le projet",
-    		"git": "",
-    		"gitText": "",
-    		"imgurl": "/images/projects/home.png",
-    		"tags": [
-    			["HTML", ""],
-    			["JS", ""],
-				["CSS", ""],
-				["PHP", ""],
-				["Modernizr", "https://modernizr.com"],
-				["Bootstrap", "https://getbootstrap.com"],
-				["jQuery", "https://jquery.com/"],
-				["AngularJS", "https://angular.io/"]
-    		],
-    		"text": [
-    			"Basé le logiciel open source Jeedom, ce système me permet de créer une interface entre les appareils de mon domicile et les différents clients (mobiles, tablettes, assistants vocaux).",
-				"Ce système, permet également les interactions et automatisations autour des appareils, que ce soit pour le chauffage, le multimédia, les luminaires,...",
-				"J'ai également développé un système d'interaction unique pour tout les types de clients connectés au système, que ce soit SMS ou via la voix avec Google Assistant."
-    		]
-    	}, {
-    		"name": "Form Princelle",
-    		"date": "2019",
-    		"desc": "Formulaires/Questionnaires en ligne",
-    		"link": "https://form.princelle.org",
-    		"linkText": "Lien vers le projet",
-    		"git": "",
-    		"gitText": "",
-    		"imgurl": "/images/projects/form.png",
-    		"tags": [
-    			["PHP", ""],
-    			["HTML", ""],
-    			["JS", ""],
-    			["CSS", ""],
-    			["Bootstrap", "https://getbootstrap.com"]
-    		],
-    		"text": [
-    			"J'ai longtemps cherché un service me permettant de faire des questionnaires en ligne, mais je n'ai jamais trouvé ce que je voulais.",
-    			"J'ai donc décidé de déployer le mien, basé sur LimeSurvey, j'y ai aussi apporté des modifications, notamment dans le traitement des réponses mais aussi dans le design des interfaces."
-    		]
-    	}, {
-    		"name": "DB Princelle",
-    		"date": "2018",
-    		"desc": "Base de données",
-    		"link": "https://db.princelle.org",
-    		"linkText": "Lien vers le projet",
-    		"git": "",
-    		"gitText": "",
-    		"imgurl": "/images/projects/db.png",
-    		"tags": [
-    			["MySQL", ""],
-    			["phpMyAdmin", "https://www.phpmyadmin.net/"]
-    		],
-    		"text": [
-    			"Afin de pouvoir héberger toutes mes applications sans problème, j'ai également mis en place une base de données.",
-    			"Cette dernière n'est accessible qu'en local sur mon serveur, et peut-être gérée à l'aide de phpMyAdmin."
-    		]
-    	}, {
-    		"name": "HomePrince",
-    		"date": "2019",
-    		"desc": "Projet - Création d'entreprise",
-    		"link": "https://homeprince.princelle.org",
-    		"linkText": "Lien vers le site",
-    		"git": "https://github.com/ThePrinceMax/HomePrince-Website",
-    		"gitText": "Lien vers le Git",
-    		"imgurl": "/images/projects/homeprince.png",
-    		"tags": [
-				["HTML", ""],
-    			["CSS", ""],
-    			["JS", ""],
-    			["PHP", ""],
-    			["Bootstrap", "https://getbootstrap.com"]
-    		],
-    		"text": [
-    			"Il s'agit d'une application réalisée dans le cadre du module E4a lors du DUT.",
-    			"L'idée était de créer une entreprise de notre choix et de mettre au point un business plan."
-    		]
-    	}, {
-    		"name": "Portfolio",
-    		"date": "2019",
-    		"desc": "CV en ligne",
-    		"link": "https://princelle.org",
-    		"linkText": "Lien vers le projet",
-    		"git": "https://github.com/ThePrinceMax/Personal-Website",
-    		"gitText": "Lien vers le Git",
-    		"imgurl": "/images/projects/portfolio.png",
-    		"tags": [
-    			["JS", ""],
-    			["HTML", ""],
-    			["CSS", ""],
-    			["React", "https://reactjs.org"],
-    			["Modernizr", "https://modernizr.com"]
-    		],
-    		"text": [
-    			"Vous êtes dessus.",
-    			"Récemment mis à jour, ce site présente qui je suis ainsi que les différents projets que j'ai réalisé."
-    		]
-    	}
+		]
+	}, {
+		"name": "Cloud Princelle",
+		"date": "2019",
+		"desc": "Stockage en ligne",
+		"link": "https://cloud.princelle.org",
+		"linkText": "Lien vers le projet",
+		"git": "",
+		"gitText": "",
+		"imgurl": "/images/projects/cloud.png",
+		"tags": [
+			["HTML", ""],
+			["CSS", ""],
+			["JS", ""],
+			["PHP", ""]
+		],
+		"text": [
+			"Après avoir cherché pendant longtemps une solution de stockage en ligne, j'ai décidé de créer mon propre service cloud.",
+			"Basé sur le logiciel open source NextCloud, j'ai modifié ce dernier afin d'ouvrir ce service à plusieurs personnes pour permettre l'édition de documents en temps réel."
+		]
+	}, {
+		"name": "Blog Princelle",
+		"date": "2019",
+		"desc": "Blog Personnel",
+		"link": "https://blog.princelle.org",
+		"linkText": "Lien vers le projet",
+		"git": "",
+		"gitText": "",
+		"imgurl": "/images/projects/blog.png",
+		"tags": [
+			["HTML", ""],
+			["CSS", ""],
+			["JS", ""],
+			["WordPress", "https://fr.wordpress.org/"]
+		],
+		"text": [
+			"J'ai créé ce blog principalement pour reporter comment se déroule mon alternance pour ma licence professionnelle.",
+			"Grâce à ce blog, je peux écrire n'importe où, n'importe quand, sur n'importe lequel de mes appareils.",
+			"J'utilise WordPress. Principalement parce que je n'ai pas encore le temps de créer un site et une application mobile."
+		]
+	}, {
+		"name": "Home",
+		"date": "2018",
+		"desc": "Logiciel de gestion domotique",
+		"link": "https://home.princelle.org",
+		"linkText": "Lien vers le projet",
+		"git": "",
+		"gitText": "",
+		"imgurl": "/images/projects/home.png",
+		"tags": [
+			["HTML", ""],
+			["JS", ""],
+			["CSS", ""],
+			["PHP", ""],
+			["Modernizr", "https://modernizr.com"],
+			["Bootstrap", "https://getbootstrap.com"],
+			["jQuery", "https://jquery.com/"],
+			["AngularJS", "https://angular.io/"]
+		],
+		"text": [
+			"Basé le logiciel open source Jeedom, ce système me permet de créer une interface entre les appareils de mon domicile et les différents clients (mobiles, tablettes, assistants vocaux).",
+			"Ce système, permet également les interactions et automatisations autour des appareils, que ce soit pour le chauffage, le multimédia, les luminaires,...",
+			"J'ai également développé un système d'interaction unique pour tout les types de clients connectés au système, que ce soit SMS ou via la voix avec Google Assistant."
+		]
+	}, {
+		"name": "Form Princelle",
+		"date": "2019",
+		"desc": "Formulaires/Questionnaires en ligne",
+		"link": "https://form.princelle.org",
+		"linkText": "Lien vers le projet",
+		"git": "",
+		"gitText": "",
+		"imgurl": "/images/projects/form.png",
+		"tags": [
+			["PHP", ""],
+			["HTML", ""],
+			["JS", ""],
+			["CSS", ""],
+			["Bootstrap", "https://getbootstrap.com"]
+		],
+		"text": [
+			"J'ai longtemps cherché un service me permettant de faire des questionnaires en ligne, mais je n'ai jamais trouvé ce que je voulais.",
+			"J'ai donc décidé de déployer le mien, basé sur LimeSurvey, j'y ai aussi apporté des modifications, notamment dans le traitement des réponses mais aussi dans le design des interfaces."
+		]
+	}, {
+		"name": "DB Princelle",
+		"date": "2018",
+		"desc": "Base de données",
+		"link": "https://db.princelle.org",
+		"linkText": "Lien vers le projet",
+		"git": "",
+		"gitText": "",
+		"imgurl": "/images/projects/db.png",
+		"tags": [
+			["MySQL", ""],
+			["phpMyAdmin", "https://www.phpmyadmin.net/"]
+		],
+		"text": [
+			"Afin de pouvoir héberger toutes mes applications sans problème, j'ai également mis en place une base de données.",
+			"Cette dernière n'est accessible qu'en local sur mon serveur, et peut-être gérée à l'aide de phpMyAdmin."
+		]
+	}, {
+		"name": "HomePrince",
+		"date": "2019",
+		"desc": "Projet - Création d'entreprise",
+		"link": "https://homeprince.princelle.org",
+		"linkText": "Lien vers le site",
+		"git": "https://github.com/ThePrinceMax/HomePrince-Website",
+		"gitText": "Lien vers le Git",
+		"imgurl": "/images/projects/homeprince.png",
+		"tags": [
+			["HTML", ""],
+			["CSS", ""],
+			["JS", ""],
+			["PHP", ""],
+			["Bootstrap", "https://getbootstrap.com"]
+		],
+		"text": [
+			"Il s'agit d'une application réalisée dans le cadre du module E4a lors du DUT.",
+			"L'idée était de créer une entreprise de notre choix et de mettre au point un business plan."
+		]
+	}, {
+		"name": "Portfolio",
+		"date": "2019",
+		"desc": "CV en ligne",
+		"link": "https://princelle.org",
+		"linkText": "Lien vers le projet",
+		"git": "https://github.com/ThePrinceMax/Personal-Website",
+		"gitText": "Lien vers le Git",
+		"imgurl": "/images/projects/portfolio.png",
+		"tags": [
+			["JS", ""],
+			["HTML", ""],
+			["CSS", ""],
+			["React", "https://reactjs.org"],
+			["Modernizr", "https://modernizr.com"]
+		],
+		"text": [
+			"Vous êtes dessus.",
+			"Récemment mis à jour, ce site présente qui je suis ainsi que les différents projets que j'ai réalisé."
+		]
+	}
 	],
 	"awardsDesc": [
 		"Vous trouverez ici, les différentes récompenses que j'ai reçu lors des différents concours auquel j'ai participé."
@@ -645,6 +645,6 @@ let resumeData = {
 	"errorMsg": "Navré mais une erreur s'est produite lors de l'envoi de votre message. Nous vous invitons à réessayer.",
 	"spamMsg": "Navré mais le service de vérification n'a pas validé votre message. Nous vous invitons à réessayer.",
 	"successMsg": "Votre message a été envoyé avec succès."
-  }
+};
   
-  export default resumeData
+export default resumeData;
