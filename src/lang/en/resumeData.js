@@ -206,6 +206,17 @@ let resumeData = {
 			]
 		},
 		{
+			"name": "Trello",
+			"icon": "/images/skills/trello.png",
+			"linkText": "Link to the website",
+			"link": "https://trello.com/home",
+			"type": "Productivity Software",
+			"text": [
+				"This tools allows a team to create task boards with several columns and move the tasks between them.",
+				"Typically columns include task statuses: To Do, In Progress, Done.",
+			]
+		},
+		{
 			"name": "Linux",
 			"icon": "/images/skills/linux.png",
 			"linkText": "Learn more...",

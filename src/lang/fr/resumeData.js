@@ -206,6 +206,17 @@ let resumeData = {
 			]
 		},
 		{
+			"name": "Trello",
+			"icon": "/images/skills/trello.png",
+			"linkText": "Lien vers le site",
+			"link": "https://trello.com/home",
+			"type": "Logiciel de productivité",
+			"text": [
+				"Cet outil permet à une équipe de créer des tableaux de tâches comportant plusieurs colonnes et de déplacer les tâches entre elles.",
+				"Généralement, les colonnes incluent les statuts de tâches: À faire, En cours, Terminé.",
+			]
+		},
+		{
 			"name": "Linux",
 			"icon": "/images/skills/linux.png",
 			"linkText": "En savoir plus...",
