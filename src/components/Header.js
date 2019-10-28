@@ -52,7 +52,7 @@ export default class Header extends Component {
 
 	  var imgBack = 'https://source.unsplash.com/random/2500x1500/?' + imgTopics;
 	  //console.log(imgBack)
-	  var background = 'linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url(' + imgBack + ') no-repeat top center'
+	  var background = 'linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4) ), url(' + imgBack + ') no-repeat top center'
 
     return (
 		<React.Fragment>
