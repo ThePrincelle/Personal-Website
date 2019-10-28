@@ -18,6 +18,8 @@ export default class Header extends Component {
 	  let ContactColor = this.props.ContactColor;
 	  let AwardsColor = this.props.AwardsColor;
 
+	  let imgTopics = this.props.elements.backgrounds.join("+");
+
 	  function menu() {
 			return (<nav id="nav-wrap" style={{ backgroundColor: colorNavBar }}>
 						<a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
@@ -48,12 +50,16 @@ export default class Header extends Component {
 					</nav>)
 	  }
 
+	  var imgBack = 'https://source.unsplash.com/random/2500x1500/?' + imgTopics;
+	  //console.log(imgBack)
+	  var background = 'linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url(' + imgBack + ') no-repeat top center'
+
     return (
 		<React.Fragment>
       
 		{visibleHeader &&
 				
-			<header id="home">
+			<header id="home" style={{ background: background }}>
          
 				{menu()}
 				

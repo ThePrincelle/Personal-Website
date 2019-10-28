@@ -1,4 +1,8 @@
 let elements = {
+	"backgrounds": [
+		"landscape",
+		"night"
+	],
 	"titles": [
 		{
 			"id": "#home",
