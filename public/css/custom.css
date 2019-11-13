@@ -17,6 +17,7 @@ body {
 
 .loader-container {
 	height: 100vh;
+	z-index: 100005 !important;
 }
 
 .loader-content {
