@@ -1,4 +1,4 @@
 #maximizeChat,
 #popoutChat {
-    z-index: 98;
+    z-index: 95 !important;
 }
