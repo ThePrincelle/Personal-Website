@@ -8,6 +8,13 @@ body {
 	display: none !important;
 }
 
+#maximizeChat,
+#popoutChat,
+#minimizeChatMinifiedBtn, 
+#tawkchat-minified-wrapper {
+	z-index: 98;
+}
+
 .loader-container {
 	height: 100vh;
 }
