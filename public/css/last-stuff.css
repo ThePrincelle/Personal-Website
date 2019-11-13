@@ -1,4 +1,5 @@
 #maximizeChat,
-#popoutChat {
+#popoutChat,
+#tawkchat-minified-wrapper {
     z-index: 95 !important;
 }
