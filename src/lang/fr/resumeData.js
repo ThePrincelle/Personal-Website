@@ -11,7 +11,7 @@ var resumeData = {
 	"roleDescription": [
 		"Développeur",
 		"Étudiant en Informatique",
-		"Chercheur de Solutions"
+		//"Chercheur de Solutions"
 	],
 	"socialLinks": [
 		{
@@ -540,7 +540,7 @@ var resumeData = {
 			"J'ai longtemps cherché un service me permettant de faire des questionnaires en ligne, mais je n'ai jamais trouvé ce que je voulais.",
 			"J'ai donc décidé de déployer le mien, basé sur LimeSurvey, j'y ai aussi apporté des modifications, notamment dans le traitement des réponses mais aussi dans le design des interfaces."
 		]
-	}, {
+	},/* {
 		"name": "DB Princelle",
 		"date": "2018",
 		"desc": "Base de données",
@@ -557,7 +557,7 @@ var resumeData = {
 			"Afin de pouvoir héberger toutes mes applications sans problème, j'ai également mis en place une base de données.",
 			"Cette dernière n'est accessible qu'en local sur mon serveur, et peut-être gérée à l'aide de phpMyAdmin."
 		]
-	}, {
+	},*/ {
 		"name": "HomePrince",
 		"date": "2019",
 		"desc": "Projet - Création d'entreprise",

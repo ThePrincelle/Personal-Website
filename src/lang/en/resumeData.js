@@ -11,7 +11,7 @@ var resumeData = {
 	"roleDescription": [
 		"Developer",
 		"Student in Computer Science",
-		"Solution Finder"
+		//"Solution Finder"
 	],
 	"socialLinks": [
 		{
@@ -539,7 +539,7 @@ var resumeData = {
 			"I have long searched for a service that allows me to do surveys online, but I never found what I wanted.",
 			"So I decided to deploy mine, based on LimeSurvey (also open source), I also made changes, especially in the processing of responses but also in the design of interfaces."
 		]
-	}, {
+	},/* {
 		"name": "DB Princelle",
 		"date": "2018",
 		"desc": "Databases",
@@ -556,7 +556,7 @@ var resumeData = {
 			"In order to host all my applications without problems, I also set up a database.",
 			"The latter is only accessible locally on my server, and can be managed using phpMyAdmin."
 		]
-	}, {
+	},*/ {
 		"name": "HomePrince",
 		"date": "2019",
 		"desc": "Project - Business Creation",
