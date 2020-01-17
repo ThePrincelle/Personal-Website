@@ -42,29 +42,22 @@
 	<script src="%PUBLIC_URL%/js/modernizr.js"></script>
 
 	<!-- Analytics Princelle -->
-	<script type="text/javascript">
-		var _paq = window._paq || [];
-		_paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-		_paq.push(["setDomains", ["*.princelle.org"]]);
-		_paq.push(['trackPageView']);
-		_paq.push(['enableLinkTracking']);
-		(function () {
-			var u = "https://analytics.princelle.org/";
-			_paq.push(['setTrackerUrl', u + 'matomo.php']);
-			_paq.push(['setSiteId', '1']);
-			var d = document,
-				g = d.createElement('script'),
-				s = d.getElementsByTagName('script')[0];
-			g.type = 'text/javascript';
-			g.async = true;
-			g.defer = true;
-			g.src = u + 'matomo.js';
-			s.parentNode.insertBefore(g, s);
-		})();
-	</script>
-	<noscript>
-		<p><img src="https://analytics.princelle.org/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p>
-	</noscript>
+	  <script type="text/javascript">
+		  var _paq = window._paq || [];
+		  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+		  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+		  _paq.push(["setCookieDomain", "*.princelle.org"]);
+		  _paq.push(['trackPageView']);
+		  _paq.push(['enableLinkTracking']);
+		  (function() {
+			  var u="//analytics.princelle.org/";
+			  _paq.push(['setTrackerUrl', u+'matomo.php']);
+			  _paq.push(['setSiteId', '1']);
+			  var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			  g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+		  })();
+	  </script>
+	  <noscript><p><img src="//analytics.princelle.org/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
 
 	<script src="%PUBLIC_URL%/js/jquery-1.10.2.min.js"></script>
 	<script>
