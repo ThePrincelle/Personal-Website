@@ -114,7 +114,7 @@ var resumeData = {
 			],
 			"link": "http://www.lycee-marchal.com/"
 		}, {
-			"name": "University of Strasbourg - BTEC Higher National Diploma in Computer Science",
+			"name": "University of Strasbourg - Associate's Degree in Computer Science",
 			"loc": "Illkirch, France",
 			"locLink": "https://goo.gl/maps/CJP6MMdss9kCzqgH7",
 			"date": "2017 - 2019",
