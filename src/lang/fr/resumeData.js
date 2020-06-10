@@ -46,7 +46,7 @@ var resumeData = {
 		},
 		{
 			"name": "git",
-			"url": "https://github.com/ThePrinceMax",
+			"url": "https://github.com/ThePrincelle",
 			"className": "fab fa-github"
 		},
 		{
