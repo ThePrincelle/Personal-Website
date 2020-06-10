@@ -21,22 +21,22 @@ var resumeData = {
 		},
 		{
 			"name": "facebook",
-			"url": "https://www.facebook.com/ThePrinceMaxime",
+			"url": "https://www.facebook.com/ThePrincelle",
 			"className": "fab fa-facebook-f"
 		},
 		{
 			"name": "twitter",
-			"url": "https://twitter.com/ThePrinceMax_",
+			"url": "https://twitter.com/ThePrincelle",
 			"className": "fab fa-twitter"
 		},
-		{
+		/* {
 			"name": "snapchat",
 			"url": "https://www.snapchat.com/add/princellemaxime",
 			"className": "fab fa-snapchat"
-		},
+		}, */
 		{
 			"name": "instagram",
-			"url": "https://www.instagram.com/theprincemax/",
+			"url": "https://www.instagram.com/theprincelle/",
 			"className": "fab fa-instagram"
 		},
 		{
@@ -49,11 +49,11 @@ var resumeData = {
 			"url": "https://github.com/ThePrinceMax",
 			"className": "fab fa-github"
 		},
-		/*{
+		{
         	"name": "gitlab",
         	"url": "https://git.unistra.fr/princelle",
         	"className": "fab fa-gitlab"
-		},*/
+		},
 		{
 			"name": "spotify",
 			"url": "https://open.spotify.com/user/ge9z5kvkf2mh34lkex1a403hj?si=YtacyhRST3qMCmu-7LVJqg",
