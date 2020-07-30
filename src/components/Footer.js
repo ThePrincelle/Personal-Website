@@ -24,7 +24,7 @@ export default class Footer extends Component {
                     <div className="row">
                         <div className="col-full cl-copyright">
                             <span style={{ color: "#D3D3D3"}}>
-                                Copyright &copy; {new Date().getFullYear()} | Maxime Princelle
+                                Copyright &copy; {new Date().getFullYear()} | Maxime Princelle 🏳️‍🌈
                             </span>
                         </div>
                     </div>
