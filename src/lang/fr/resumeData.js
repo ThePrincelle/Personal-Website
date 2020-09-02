@@ -163,7 +163,7 @@ var resumeData = {
 			"name": "Ubertone",
 			"loc": "Schiltigheim, France",
 			"locLink": "https://goo.gl/maps/5RPbdKcjJXddsSmQA",
-			"date": "2019 - Aujourd'hui",
+			"date": "2019 - 2020",
 			"desc": [
 				"A l'occasion de mon alternance lors de ma licence professionnelle, j'ai décidé de viser une entreprise du type start-up."
 			],

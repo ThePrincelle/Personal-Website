@@ -163,7 +163,7 @@ var resumeData = {
 			"name": "Ubertone",
 			"loc": "Schiltigheim, France",
 			"locLink": "https://goo.gl/maps/5RPbdKcjJXddsSmQA",
-			"date": "2019 - Today",
+			"date": "2019 - 2020",
 			"desc": [
 				"On the occasion of my Co-Op, I decided to go for the business start-up type."
 			],
