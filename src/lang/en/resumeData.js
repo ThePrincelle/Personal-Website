@@ -126,7 +126,7 @@ var resumeData = {
 			"name": "University of Strasbourg - Bachelor's degree Co-Op",
 			"loc": "Illkirch, France",
 			"locLink": "https://goo.gl/maps/CJP6MMdss9kCzqgH7",
-			"date": "2019 - Today",
+			"date": "2019 - 2020",
 			"desc": [
 				"Bachelor's degree Co-Op : Design and Development of Distributed Applications.",
 				"I learn the operation and configuration of servers and more in -depth the development of websites and Android mobile apps."

@@ -127,7 +127,7 @@ var resumeData = {
 			"name": "IUT Robert Schuman - Licence Pro CDAD",
 			"loc": "Illkirch, France",
 			"locLink": "https://goo.gl/maps/CJP6MMdss9kCzqgH7",
-			"date": "2019 - Aujourd'hui",
+			"date": "2019 - 2020",
 			"desc": [
 				"Licence Professionnelle : Conception et Développement d'Applications Distribuées. Voilà le titre de la formation en alternance que je suis. J'y apprends le fonctionnement et la configuration de serveurs ainsi que le développement plus en profondeur de site web et d'applications mobiles Android."
 			],
