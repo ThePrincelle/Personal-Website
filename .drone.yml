@@ -1,0 +1,87 @@
+kind: pipeline
+type: docker
+name: deploy prod
+
+concurrency:
+  limit: 1
+
+steps:
+- name: notify build start
+  image: plugins/webhook
+  settings:
+    urls: https://api.pushover.net/1/messages.json
+    content_type: application/json
+    template: |
+      {
+        "token": "a3arkn5phqihc15auh7ikayxr5yiub",
+        "user": "ubb25dk7snjn9hri5137moi3q5k53a",
+        "message": "Démarrage du build pour 'princelle.org'."
+      }
+
+- name: install
+  image: node
+  commands:
+  - npm install
+
+- name: build
+  image: node
+  commands:
+  - npm run build
+
+- name: notify build done
+  image: plugins/webhook
+  settings:
+    urls: https://api.pushover.net/1/messages.json
+    content_type: application/json
+    template: |
+      {
+        "token": "a3arkn5phqihc15auh7ikayxr5yiub",
+        "user": "ubb25dk7snjn9hri5137moi3q5k53a",
+        "message": "Mise en production de 'princelle.org'."
+      }
+
+- name: cleaning prod
+  image: appleboy/drone-ssh
+  settings:
+    host: 464i8.ftp.infomaniak.com
+    username: 464i8_ci
+    port: 22
+    key:
+      from_secret: SSH_KEY
+    script:
+      - echo "Cleaning Folder..."
+      - cd
+      - cd sites/portfolio
+      - rm -rf ./*
+      - echo "Folder cleaned"
+      - exit
+
+- name: deploy prod
+  image: drillster/drone-rsync
+  settings:
+    hosts: [ "464i8.ftp.infomaniak.com" ]
+    user: 464i8_ci
+    key:
+      from_secret: SSH_KEY
+    recursive: true
+    source: ./build/
+    target: ~/sites/portfolio
+    script:
+      - echo "Done"
+      - exit
+
+- name: notify deploy done
+  image: plugins/webhook
+  settings:
+    urls: https://api.pushover.net/1/messages.json
+    content_type: application/json
+    template: |
+      {
+        "token": "a3arkn5phqihc15auh7ikayxr5yiub",
+        "user": "ubb25dk7snjn9hri5137moi3q5k53a",
+        "message": "L'application 'princelle.org' a bien été déployée sur l'infrastructure Infomaniak."
+      }
+
+trigger:
+  branch:
+  - master

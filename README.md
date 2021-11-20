@@ -1,5 +1,5 @@
 # Personal-Website
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c6e9abac-ee72-48fa-a10f-4841d039dd15/deploy-status)](https://app.netlify.com/sites/princelle-portfolio/deploys)
+[![Build Status](https://ci.princelle.org/api/badges/ThePrincelle/Personal-Website/status.svg)](https://ci.princelle.org/ThePrincelle/Personal-Website)
 
 My personal website. Not much to add here...
 
