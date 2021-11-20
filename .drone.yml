@@ -19,12 +19,12 @@ steps:
       }
 
 - name: install
-  image: node
+  image: node:16
   commands:
   - npm install
 
 - name: build
-  image: node
+  image: node:16
   commands:
   - npm run build
 
