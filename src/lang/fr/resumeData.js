@@ -3,31 +3,33 @@ var resumeData = {
 	"lang": "fr",
 	"langs": [
 		["/fr", "🇫🇷 Français"],
-		["/en", "🇺🇸 English"]
+		["/en", "🇺🇸 English (not updated yet)"]
 	],
 	"changeLang": "Changer de langue ?",
 	"welcome": "Bienvenue !",
 	"name": "Je suis Maxime Princelle.",
 	"roleDescription": [
 		"Développeur",
-		"Étudiant en Informatique",
+		"Ingénieur DevOps",
+		"Administrateur Système",
+		"Étudiant en Informatique"
 		//"Chercheur de Solutions"
 	],
 	"socialLinks": [
-		{
+		/**{
 			"name": "blog",
 			"url": "https://blog.princelle.org",
 			"className": "fas fa-blog"
+		}, */
+		{
+			"name": "twitter",
+			"url": "https://twitter.com/ThePrincelle",
+			"className": "fab fa-twitter"
 		},
 		{
 			"name": "facebook",
 			"url": "https://www.facebook.com/ThePrincelle",
 			"className": "fab fa-facebook-f"
-		},
-		{
-			"name": "twitter",
-			"url": "https://twitter.com/ThePrincelle",
-			"className": "fab fa-twitter"
 		},
 		/* {
 			"name": "snapchat",
@@ -41,7 +43,7 @@ var resumeData = {
 		},
 		{
 			"name": "linkedin",
-			"url": "https://fr.linkedin.com/in/maxime-princelle-08ba82157",
+			"url": "https://fr.linkedin.com/in/maxime-princelle",
 			"className": "fab fa-linkedin"
 		},
 		{
@@ -55,9 +57,9 @@ var resumeData = {
         	"className": "fab fa-gitlab"
 		},
 		{
-			"name": "spotify",
-			"url": "https://open.spotify.com/user/ge9z5kvkf2mh34lkex1a403hj?si=YtacyhRST3qMCmu-7LVJqg",
-			"className": "fab fa-spotify"
+			"name": "applemusic",
+			"url": "https://music.apple.com/profile/ThePrincelle",
+			"className": "fab fa-music"
 		}
 	],
 	"aboutme": [
@@ -69,7 +71,7 @@ var resumeData = {
 		{
 			"name": "Objectifs",
 			"icon": "fas fa-bullseye",
-			"text": "Mon objectif, pour le moment, consiste à apprendre un maximum de chose lors de mes études afin de me préparer le mieux possible pour le monde du travail et la vie active. Chaque stage, chaque job d'été, consiste pour moi en un challenge afin de m'adapter au mieux à la demande et à continuer d'avantage l'approfondissement de mes connaissances."
+			"text": "Mon objectif, pour le moment, consiste à apprendre un maximum de chose lors de mes études afin de me préparer le mieux possible pour le monde du travail et la vie active. Chaque année d'alternance, chaque stage, consiste pour moi en un challenge afin de m'adapter au mieux à la demande et à continuer d'avantage l'approfondissement de mes connaissances."
 		},
 		{
 			"name": "Créativité",
@@ -94,16 +96,39 @@ var resumeData = {
 	"learnmore": "En savoir plus...",
 	"education": [
 		{
-			"name": "Collège Louis Arbogast",
-			"loc": "Mutzig, France",
-			"locLink": "https://goo.gl/maps/QFgEU6aUsiZpVL6H9",
-			"date": "2010 - 2014",
+			"name": "UFR de mathématiques et informatique - Master Informatique SIL",
+			"loc": "Illkirch, France",
+			"locLink": "https://goo.gl/maps/iCC4UxwmpbYTx5L66",
+			"date": "2020 - aujourd'hui",
 			"desc": [
-				"Durant ces quatre années, je me suis investi dans la vie associative et contribué à plusieurs évènements (Concert de fin d 'année, Journée Portes Ouvertes,...).",
-				"Dans le même temps, j'ai préparé au mieux mon entrée au lycée et j'ai obtenu mon brevet.",
+				"Master Informatique : Science et Ingénierie du Logiciel.",
+				"Je suis cette formation en alternance afin d'approfondir mes connaissances sur l'algorithmique distribuée (Erlang), les technologies web (PHP, JavaScript, etc.), et mobiles (React Native, Flutter), et enfin objets (C++), etc.",
+				"En parallèle de la partie 'Informatique', j'ai suivi des cours sur la gestion et conduite de projet, mais également la vie professionnelle (Communication, Droit, Outils de gestion, Qualité, etc.).",
+				"Enfin, j'ai pu réaliser plusieurs projets tels qu'un travail d'étude et de recherche sur le tri d'emails via Machine Learning, ou encore un projet de développement d'une interface en réalité virtuelle pour l'analyse et l'étude de données via le langage R."
 			],
-			"link": "http://www.education.gouv.fr/annuaire/67-bas-rhin/mutzig/college/college-louis-arbogast.html"
-		}, {
+			"link": "https://mathinfo.unistra.fr/formations/master/informatique/science-et-ingenierie-du-logiciel-sil/"
+		},
+		{
+			"name": "IUT Robert Schuman - Licence Pro CDAD",
+			"loc": "Illkirch, France",
+			"locLink": "https://goo.gl/maps/CJP6MMdss9kCzqgH7",
+			"date": "2019 - 2020",
+			"desc": [
+				"Licence Professionnelle : Conception et Développement d'Applications Distribuées. Voilà le titre de la formation en alternance que je suis. J'y apprends le fonctionnement et la configuration de serveurs ainsi que le développement plus en profondeur de site web et d'applications mobiles Android."
+			],
+			"link": "http://iutrs.unistra.fr/"
+		},
+		{
+			"name": "IUT Robert Schuman - DUT Informatique",
+			"loc": "Illkirch, France",
+			"locLink": "https://goo.gl/maps/CJP6MMdss9kCzqgH7",
+			"date": "2017 - 2019",
+			"desc": [
+				"J'y apprends différents langages de programmation ainsi que l'algorithmique et le fonctionnement des systèmes mais aussi la gestion de projets tout en se préparant au monde de l'entreprise."
+			],
+			"link": "http://iutrs.unistra.fr/"
+		},
+		{
 			"name": "Lycée Louis Marchal",
 			"loc": "Molsheim, France",
 			"locLink": "https://goo.gl/maps/hsTS1XKXLcGLAUTr6",
@@ -114,24 +139,17 @@ var resumeData = {
 				"J'ai obtenu mon baccalauréat avec mention \"Très bien\"."
 			],
 			"link": "http://www.lycee-marchal.com/"
-		}, {
-			"name": "IUT Robert Schuman - DUT Informatique",
-			"loc": "Illkirch, France",
-			"locLink": "https://goo.gl/maps/CJP6MMdss9kCzqgH7",
-			"date": "2017 - 2019",
+		},
+		{
+			"name": "Collège Louis Arbogast",
+			"loc": "Mutzig, France",
+			"locLink": "https://goo.gl/maps/QFgEU6aUsiZpVL6H9",
+			"date": "2010 - 2014",
 			"desc": [
-				"J'y apprends différents langages de programmation ainsi que l'algorithmique et le fonctionnement des systèmes mais aussi la gestion de projets tout en se préparant au monde de l'entreprise."
+				"Durant ces quatre années, je me suis investi dans la vie associative et contribué à plusieurs évènements (Concert de fin d 'année, Journée Portes Ouvertes,...).",
+				"Dans le même temps, j'ai préparé au mieux mon entrée au lycée et j'ai obtenu mon brevet.",
 			],
-			"link": "http://iutrs.unistra.fr/"
-		}, {
-			"name": "IUT Robert Schuman - Licence Pro CDAD",
-			"loc": "Illkirch, France",
-			"locLink": "https://goo.gl/maps/CJP6MMdss9kCzqgH7",
-			"date": "2019 - 2020",
-			"desc": [
-				"Licence Professionnelle : Conception et Développement d'Applications Distribuées. Voilà le titre de la formation en alternance que je suis. J'y apprends le fonctionnement et la configuration de serveurs ainsi que le développement plus en profondeur de site web et d'applications mobiles Android."
-			],
-			"link": "http://iutrs.unistra.fr/"
+			"link": "http://www.education.gouv.fr/annuaire/67-bas-rhin/mutzig/college/college-louis-arbogast.html"
 		}
 	],
 	"workDesc": [
@@ -139,16 +157,32 @@ var resumeData = {
 	],
 	"work": [
 		{
-			"name": "Solu-Tech",
-			"loc": "Rosheim, France",
-			"locLink": "https://goo.gl/maps/jejsTAkaHi52s8rg9",
-			"date": "2018 (2 mois)",
+			"name": "Numesia",
+			"loc": "Strasbourg, France",
+			"locLink": "https://goo.gl/maps/5RPbdKcjJXddsSmQA",
+			"date": "2020 - aujourd'hui",
 			"desc": [
-				"Mes premiers pas dans le monde de l'entreprise. Ici j'étais chargé de faire quelques missions, basés principalement autour de l'informatique industrielle.",
-				"J'ai eu l'occasion de me former sur le PowerShell, le PHP ou encore le SQL...",
+				"A l'occasion de mon alternance lors de mon Master SIL, j'ai décidé de continuer dans une entreprise de petite taille.",
+				"J'ai eu l'occasion de travailler sur des technologies du type Kubernetes et d'approfondir mes connaissances sur la conteneurisation d'application avec Docker.",
+				"Dans le même temps j'ai contribué sur les applications de l'entreprise, que ce soit du côté du développement avec des technologies comme Laravel (PHP) et VueJS.",
+				"On m'a également confié des missions sur la partie DevOps et Administration Système. Avec la mise en place d'un nouveau procédé de build d'image Docker permettant ainsi de gagner du temps sur les mises en production.",
+				"Enfin, j'ai mis en place un outil de monitoring basé sur mon logiciel de domotique (Home Assistant) permettant ainsi de réduire les coûts et le nombre d'outils utilisé."
 			],
-			"link": "https://www.solu-tech.fr/"
-		}, {
+			"link": "https://www.numesia.fr/"
+		},
+		{
+			"name": "Ubertone",
+			"loc": "Schiltigheim, France",
+			"locLink": "https://goo.gl/maps/5RPbdKcjJXddsSmQA",
+			"date": "2019 - 2020",
+			"desc": [
+				"A l'occasion de mon alternance lors de ma licence professionnelle, j'ai décidé de viser une entreprise du type start-up.",
+				"J'ai participé à la création d'un 'Cloud' permettant aux clients de réaliser de lancer des analyses à partir des données obtenues d'appareils de mesure Ubertone.",
+				"Ce projet m'a permis d'approfondir mes connaissances sur Python et l'analyse de données, JavaScript, et enfin PostgreSQL et la conception d'une architecture de base de données optimisée."
+			],
+			"link": "https://ubertone.com"
+		},
+		{
 			"name": "Solu-Tech",
 			"loc": "Rosheim, France",
 			"locLink": "https://goo.gl/maps/jejsTAkaHi52s8rg9",
@@ -159,15 +193,17 @@ var resumeData = {
 				"Afin de répondre à ce besoin, j'ai décidé de reprendre le site à zéro pour pouvoir développer une API en NodeJS ainsi qu'un client web en React."
 			],
 			"link": "https://www.solu-tech.fr/"
-		}, {
-			"name": "Ubertone",
-			"loc": "Schiltigheim, France",
-			"locLink": "https://goo.gl/maps/5RPbdKcjJXddsSmQA",
-			"date": "2019 - 2020",
+		}, 
+		{
+			"name": "Solu-Tech",
+			"loc": "Rosheim, France",
+			"locLink": "https://goo.gl/maps/jejsTAkaHi52s8rg9",
+			"date": "2018 (2 mois)",
 			"desc": [
-				"A l'occasion de mon alternance lors de ma licence professionnelle, j'ai décidé de viser une entreprise du type start-up."
+				"Mes premiers pas dans le monde de l'entreprise. Ici j'étais chargé de faire quelques missions, basés principalement autour de l'informatique industrielle.",
+				"J'ai eu l'occasion de me former sur le PowerShell, le PHP ou encore le SQL...",
 			],
-			"link": "http://ubertone.com/"
+			"link": "https://www.solu-tech.fr/"
 		}
 	],
 	"skillsDescription": "Voici une liste de mes compétences et différents logiciels que je possède et utilise, au cours de mes études ou de la réalisation de projets personnels.",
@@ -229,6 +265,17 @@ var resumeData = {
 			]
 		},
 		{
+			"name": "Kubernetes",
+			"icon": "/images/skills/kubernetes.png",
+			"linkText": "Lien vers le site",
+			"link": "https://kubernetes.io",
+			"type": "Orchestration de conteneurs",
+			"text": [
+				"Grâce à mon expérience chez Numesia, j'ai appris à gérer des clusters Kubernetes.",
+				"Cette technologie à l'avantage de faciliter grandement la gestion de nos pics d'utilisateurs et de nos applications."
+			]
+		},
+		{
 			"name": "Docker",
 			"icon": "/images/skills/docker.png",
 			"linkText": "Lien vers le site",
@@ -285,141 +332,142 @@ var resumeData = {
 		}
 	],
 	"langagesDesc": "Voici les plateformes et différents langages et frameworks que j'utilise.",
-	"langages": [{
-		"name": "HTML",
-		"icon": "/images/langages/html.png",
-		"desc": "",
-		"link": "https://fr.wikipedia.org/wiki/Hypertext_Markup_Language",
-		"linkTitle": "Wikipedia"
-	},
-	{
-		"name": "CSS",
-		"icon": "/images/langages/css.png",
-		"desc": "",
-		"link": "https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade",
-		"linkTitle": "Wikipedia"
-	},
-	{
-		"name": "JavaScript",
-		"icon": "/images/langages/js.png",
-		"desc": "",
-		"link": "https://fr.wikipedia.org/wiki/JavaScript",
-		"linkTitle": "Wikipedia"
-	},
-	{
-		"name": "React",
-		"icon": "/images/langages/react.png",
-		"desc": "Framework Web",
-		"link": "https://fr.wikipedia.org/wiki/React_(JavaScript)",
-		"linkTitle": "Wikipedia"
-	},
-	{
-		"name": "Laravel",
-		"icon": "/images/langages/laravel.png",
-		"desc": "Framework Web",
-		"link": "https://fr.wikipedia.org/wiki/Laravel",
-		"linkTitle": "Wikipedia"
-	},
-	{
-		"name": "Java",
-		"icon": "/images/langages/java.png",
-		"desc": "",
-		"link": "https://fr.wikipedia.org/wiki/Java_(langage)",
-		"linkTitle": "Wikipedia"
-	},
-	{
-		"name": "PHP",
-		"icon": "/images/langages/php.png",
-		"desc": "",
-		"link": "https://fr.wikipedia.org/wiki/PHP",
-		"linkTitle": "Wikipedia"
-	},
-	{
-		"name": "Python",
-		"icon": "/images/langages/python.png",
-		"desc": "",
-		"link": "https://fr.wikipedia.org/wiki/Python_(langage)",
-		"linkTitle": "Wikipedia"
-	},
-	{
-		"name": "C#",
-		"icon": "/images/langages/csharp.png",
-		"desc": "",
-		"link": "https://fr.wikipedia.org/wiki/C_sharp",
-		"linkTitle": "Wikipedia"
-	},
-	{
-		"name": "SQL",
-		"icon": "/images/langages/sql.png",
-		"desc": "Bases de données",
-		"link": "https://fr.wikipedia.org/wiki/Structured_Query_Language",
-		"linkTitle": "Wikipedia"
-	},
-	{
-		"name": "BASH",
-		"icon": "/images/langages/bash.png",
-		"desc": "Shell Script",
-		"link": "https://fr.wikipedia.org/wiki/Bourne-Again_shell",
-		"linkTitle": "Wikipedia"
-	},
-	{
-		"name": "SAS",
-		"icon": "/images/langages/sas.png",
-		"desc": "Bases de données décisionnelles",
-		"link": "https://fr.wikipedia.org/wiki/SAS_Institute",
-		"linkTitle": "Wikipedia"
-	},
-	{
-		"name": "C",
-		"icon": "/images/langages/c.png",
-		"desc": "",
-		"link": "https://fr.wikipedia.org/wiki/C_(langage)",
-		"linkTitle": "Wikipedia"
-	},
-	{
-		"name": "Android",
-		"icon": "/images/langages/android.png",
-		"desc": "OS Mobile",
-		"link": "https://fr.wikipedia.org/wiki/Android",
-		"linkTitle": "Wikipedia"
-	},
-	{
-		"name": "iOS",
-		"icon": "/images/langages/ios.png",
-		"desc": "OS Mobile",
-		"link": "https://fr.wikipedia.org/wiki/iOS",
-		"linkTitle": "Wikipedia"
-	},
-	{
-		"name": "macOS",
-		"icon": "/images/langages/mac.png",
-		"desc": "OS Desktop",
-		"link": "https://fr.wikipedia.org/wiki/Mac_OS",
-		"linkTitle": "Wikipedia"
-	},
-	{
-		"name": "Linux",
-		"icon": "/images/langages/linux.png",
-		"desc": "OS Desktop",
-		"link": "https://fr.wikipedia.org/wiki/Linux",
-		"linkTitle": "Wikipedia"
-	},
-	{
-		"name": "Windows",
-		"icon": "/images/langages/windows.png",
-		"desc": "OS Desktop",
-		"link": "https://fr.wikipedia.org/wiki/Microsoft_Windows",
-		"linkTitle": "Wikipedia"
-	}
+	"langages": [
+		{
+			"name": "JavaScript / TypeScript",
+			"icon": "/images/langages/js.png",
+			"desc": "",
+			"link": "https://fr.wikipedia.org/wiki/JavaScript",
+			"linkTitle": "Wikipedia"
+		},
+		{
+			"name": "ReactJS",
+			"icon": "/images/langages/react.png",
+			"desc": "Framework Web",
+			"link": "https://fr.wikipedia.org/wiki/React_(JavaScript)",
+			"linkTitle": "Wikipedia"
+		},
+		{
+			"name": "Laravel",
+			"icon": "/images/langages/laravel.png",
+			"desc": "Framework Web",
+			"link": "https://fr.wikipedia.org/wiki/Laravel",
+			"linkTitle": "Wikipedia"
+		},
+		{
+			"name": "Java",
+			"icon": "/images/langages/java.png",
+			"desc": "",
+			"link": "https://fr.wikipedia.org/wiki/Java_(langage)",
+			"linkTitle": "Wikipedia"
+		},
+		{
+			"name": "PHP",
+			"icon": "/images/langages/php.png",
+			"desc": "",
+			"link": "https://fr.wikipedia.org/wiki/PHP",
+			"linkTitle": "Wikipedia"
+		},
+		{
+			"name": "Python",
+			"icon": "/images/langages/python.png",
+			"desc": "",
+			"link": "https://fr.wikipedia.org/wiki/Python_(langage)",
+			"linkTitle": "Wikipedia"
+		},
+		{
+			"name": "HTML",
+			"icon": "/images/langages/html.png",
+			"desc": "",
+			"link": "https://fr.wikipedia.org/wiki/Hypertext_Markup_Language",
+			"linkTitle": "Wikipedia"
+		},
+		{
+			"name": "CSS",
+			"icon": "/images/langages/css.png",
+			"desc": "",
+			"link": "https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade",
+			"linkTitle": "Wikipedia"
+		},
+		{
+			"name": "C#",
+			"icon": "/images/langages/csharp.png",
+			"desc": "",
+			"link": "https://fr.wikipedia.org/wiki/C_sharp",
+			"linkTitle": "Wikipedia"
+		},
+		{
+			"name": "SQL",
+			"icon": "/images/langages/sql.png",
+			"desc": "Bases de données",
+			"link": "https://fr.wikipedia.org/wiki/Structured_Query_Language",
+			"linkTitle": "Wikipedia"
+		},
+		{
+			"name": "BASH",
+			"icon": "/images/langages/bash.png",
+			"desc": "Shell Script",
+			"link": "https://fr.wikipedia.org/wiki/Bourne-Again_shell",
+			"linkTitle": "Wikipedia"
+		},
+		{
+			"name": "SAS",
+			"icon": "/images/langages/sas.png",
+			"desc": "Bases de données décisionnelles",
+			"link": "https://fr.wikipedia.org/wiki/SAS_Institute",
+			"linkTitle": "Wikipedia"
+		},
+		{
+			"name": "C",
+			"icon": "/images/langages/c.png",
+			"desc": "",
+			"link": "https://fr.wikipedia.org/wiki/C_(langage)",
+			"linkTitle": "Wikipedia"
+		},
+		{
+			"name": "Android",
+			"icon": "/images/langages/android.png",
+			"desc": "OS Mobile",
+			"link": "https://fr.wikipedia.org/wiki/Android",
+			"linkTitle": "Wikipedia"
+		},
+		{
+			"name": "iOS",
+			"icon": "/images/langages/ios.png",
+			"desc": "OS Mobile",
+			"link": "https://fr.wikipedia.org/wiki/iOS",
+			"linkTitle": "Wikipedia"
+		},
+		{
+			"name": "macOS",
+			"icon": "/images/langages/mac.png",
+			"desc": "OS Desktop",
+			"link": "https://fr.wikipedia.org/wiki/Mac_OS",
+			"linkTitle": "Wikipedia"
+		},
+		{
+			"name": "Linux",
+			"icon": "/images/langages/linux.png",
+			"desc": "OS Desktop",
+			"link": "https://fr.wikipedia.org/wiki/Linux",
+			"linkTitle": "Wikipedia"
+		},
+		{
+			"name": "Windows",
+			"icon": "/images/langages/windows.png",
+			"desc": "OS Desktop",
+			"link": "https://fr.wikipedia.org/wiki/Microsoft_Windows",
+			"linkTitle": "Wikipedia"
+		}
 	],
 	"projectTitle": "Voici quelques-uns de mes projets",
 	"projects": [{
 		"name": "Plantae",
 		"date": "2018",
 		"desc": "Jeu éducatif",
-		"link": "https://plantae.princelle.org",
+		"link": "",
 		"linkText": "Lien vers le projet",
-		"git": "https://github.com/ThePrinceMax/Plantae",
+		"git": "https://github.com/ThePrincelle/Plantae",
 		"gitText": "Lien vers le Git",
 		"imgurl": "/images/projects/t3.png",
 		"tags": [
@@ -441,7 +489,7 @@ var resumeData = {
 		"desc": "Jeu éducatif (Prototype)",
 		"link": "https://accuracyrobots.princelle.org",
 		"linkText": "Lien vers le projet",
-		"git": "https://github.com/ThePrinceMax/Accuracy-Robots",
+		"git": "https://github.com/ThePrincelle/Accuracy-Robots",
 		"gitText": "Lien vers le Git",
 		"imgurl": "/images/projects/t4.png",
 		"tags": [
@@ -477,26 +525,6 @@ var resumeData = {
 			"Basé sur le logiciel open source NextCloud, j'ai modifié ce dernier afin d'ouvrir ce service à plusieurs personnes pour permettre l'édition de documents en temps réel."
 		]
 	}, {
-		"name": "Blog Princelle",
-		"date": "2019",
-		"desc": "Blog Personnel",
-		"link": "https://blog.princelle.org",
-		"linkText": "Lien vers le projet",
-		"git": "",
-		"gitText": "",
-		"imgurl": "/images/projects/blog.png",
-		"tags": [
-			["HTML", ""],
-			["CSS", ""],
-			["JS", ""],
-			["WordPress", "https://fr.wordpress.org/"]
-		],
-		"text": [
-			"J'ai créé ce blog principalement pour reporter comment se déroule mon alternance pour ma licence professionnelle.",
-			"Grâce à ce blog, je peux écrire n'importe où, n'importe quand, sur n'importe lequel de mes appareils.",
-			"J'utilise WordPress. Principalement parce que je n'ai pas encore le temps de créer un site et une application mobile."
-		]
-	}, {
 		"name": "Home",
 		"date": "2018",
 		"desc": "Logiciel de gestion domotique",
@@ -506,64 +534,20 @@ var resumeData = {
 		"gitText": "",
 		"imgurl": "/images/projects/home.png",
 		"tags": [
-			["HTML", ""],
-			["JS", ""],
-			["CSS", ""],
-			["PHP", ""],
-			["Modernizr", "https://modernizr.com"],
-			["Bootstrap", "https://getbootstrap.com"],
-			["jQuery", "https://jquery.com/"],
-			["AngularJS", "https://angular.io/"]
+			["Python", ""]
 		],
 		"text": [
-			"Basé le logiciel open source Jeedom, ce système me permet de créer une interface entre les appareils de mon domicile et les différents clients (mobiles, tablettes, assistants vocaux).",
+			"Basé le logiciel open source Home Assistant, ce système me permet de créer une interface entre les appareils de mon domicile et les différents clients (mobiles, tablettes, assistants vocaux).",
 			"Ce système, permet également les interactions et automatisations autour des appareils, que ce soit pour le chauffage, le multimédia, les luminaires,...",
-			"J'ai également développé un système d'interaction unique pour tout les types de clients connectés au système, que ce soit SMS ou via la voix avec Google Assistant."
+			"J'ai également développé un système d'interaction unique pour tout les types de clients connectés au système, que ce soit SMS ou via la voix avec Google Assistant ou encore Siri."
 		]
 	}, {
-		"name": "Form Princelle",
-		"date": "2019",
-		"desc": "Formulaires/Questionnaires en ligne",
-		"link": "https://form.princelle.org",
-		"linkText": "Lien vers le projet",
-		"git": "",
-		"gitText": "",
-		"imgurl": "/images/projects/form.png",
-		"tags": [
-			["PHP", ""],
-			["HTML", ""],
-			["JS", ""],
-			["CSS", ""],
-			["Bootstrap", "https://getbootstrap.com"]
-		],
-		"text": [
-			"J'ai longtemps cherché un service me permettant de faire des questionnaires en ligne, mais je n'ai jamais trouvé ce que je voulais.",
-			"J'ai donc décidé de déployer le mien, basé sur LimeSurvey, j'y ai aussi apporté des modifications, notamment dans le traitement des réponses mais aussi dans le design des interfaces."
-		]
-	},/* {
-		"name": "DB Princelle",
-		"date": "2018",
-		"desc": "Base de données",
-		"link": "https://db.princelle.org",
-		"linkText": "Lien vers le projet",
-		"git": "",
-		"gitText": "",
-		"imgurl": "/images/projects/db.png",
-		"tags": [
-			["MySQL", ""],
-			["phpMyAdmin", "https://www.phpmyadmin.net/"]
-		],
-		"text": [
-			"Afin de pouvoir héberger toutes mes applications sans problème, j'ai également mis en place une base de données.",
-			"Cette dernière n'est accessible qu'en local sur mon serveur, et peut-être gérée à l'aide de phpMyAdmin."
-		]
-	},*/ {
 		"name": "HomePrince",
 		"date": "2019",
 		"desc": "Projet - Création d'entreprise",
 		"link": "https://homeprince.princelle.org",
 		"linkText": "Lien vers le site",
-		"git": "https://github.com/ThePrinceMax/HomePrince-Website",
+		"git": "https://github.com/ThePrincelle/HomePrince-Website",
 		"gitText": "Lien vers le Git",
 		"imgurl": "/images/projects/homeprince.png",
 		"tags": [
@@ -583,7 +567,7 @@ var resumeData = {
 		"desc": "CV en ligne",
 		"link": "https://princelle.org",
 		"linkText": "Lien vers le projet",
-		"git": "https://github.com/ThePrinceMax/Personal-Website",
+		"git": "https://github.com/ThePrincelle/Personal-Website",
 		"gitText": "Lien vers le Git",
 		"imgurl": "/images/projects/portfolio.png",
 		"tags": [
@@ -594,8 +578,9 @@ var resumeData = {
 			["Modernizr", "https://modernizr.com"]
 		],
 		"text": [
+			"Version 2.0. (3.0. en cours de développement, sortie prévue début juin 2022)",
 			"Vous êtes dessus.",
-			"Récemment mis à jour, ce site présente qui je suis ainsi que les différents projets que j'ai réalisé."
+			"Ce site présente qui je suis ainsi que les différents projets que j'ai réalisé."
 		]
 	}
 	],
@@ -647,5 +632,5 @@ var resumeData = {
 	"spamMsg": "Navré mais le service de vérification n'a pas validé votre message. Nous vous invitons à réessayer.",
 	"successMsg": "Votre message a été envoyé avec succès."
 };
-  
+
 export default resumeData;
