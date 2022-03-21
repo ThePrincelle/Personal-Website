@@ -56,11 +56,11 @@ var resumeData = {
         	"url": "https://git.unistra.fr/princelle",
         	"className": "fab fa-gitlab"
 		},
-		{
+		/**{
 			"name": "applemusic",
 			"url": "https://music.apple.com/profile/ThePrincelle",
-			"className": "fab fa-music"
-		}
+			"className": "fas fa-music"
+		}*/
 	],
 	"aboutme": [
 		"Je suis principalement intéressé par le domaine des nouvelles technologies, du web, de l'intelligence artificielle et des maisons intelligentes.",
