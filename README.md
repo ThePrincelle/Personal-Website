@@ -1,7 +1,8 @@
 # Personal-Website
-[![Build Status](https://ci.princelle.org/api/badges/ThePrincelle/Personal-Website/status.svg)](https://ci.princelle.org/ThePrincelle/Personal-Website)
 
 My personal website. Not much to add here...
+
+(Hosted on Cloudflare)
 
 # Get started
 - Install node js on your machine
