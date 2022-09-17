@@ -9,16 +9,18 @@ var resumeData = {
 	"welcome": "Welcome !",
 	"name": "I am Maxime Princelle.",
 	"roleDescription": [
-		"Developer",
-		"Student in Computer Science",
+		"Full-Stack Developer",
+		"SysAdmin",
+		"DevOps Engineer"
+		//"Student in Computer Science",
 		//"Solution Finder"
 	],
 	"socialLinks": [
-		{
+		/*{
 			"name": "blog",
 			"url": "https://blog.princelle.org",
 			"className": "fas fa-blog"
-		},
+		},*/
 		{
 			"name": "facebook",
 			"url": "https://www.facebook.com/ThePrincelle",
@@ -53,12 +55,12 @@ var resumeData = {
         	"name": "gitlab",
         	"url": "https://git.unistra.fr/princelle",
         	"className": "fab fa-gitlab"
-		},
-		{
+		}
+		/*{
 			"name": "spotify",
 			"url": "https://open.spotify.com/user/ge9z5kvkf2mh34lkex1a403hj?si=YtacyhRST3qMCmu-7LVJqg",
 			"className": "fab fa-spotify"
-		}
+		}*/
 	],
 	"aboutme": [
 		"I am mainly interested in the field of new technologies, web, AI, Smart Houses.",

@@ -12,7 +12,7 @@ var resumeData = {
 		"Développeur",
 		"Ingénieur DevOps",
 		"Administrateur Système",
-		"Étudiant en Informatique"
+		//"Étudiant en Informatique"
 		//"Chercheur de Solutions"
 	],
 	"socialLinks": [
